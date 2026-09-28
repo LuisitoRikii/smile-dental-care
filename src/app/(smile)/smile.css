@@ -1,0 +1,493 @@
+/* Smile Dental Care — redesign foundation.
+   Imported ONLY by src/app/(smile)/layout.tsx, so nothing here can leak into
+   /advanced-smile-clinic. Every selector and @keyframes name is prefixed `sm-`. */
+
+.sm-root {
+  /* identity — Smile Dental Care palette */
+  --sm-rose: #8f6e6e;
+  --sm-rose-2: #826c6c;
+  --sm-rose-deep: #6d5252;
+  --sm-rose-soft: #a98a8a;
+  --sm-ink: #151515;
+  --sm-ink-2: #1b1b1b;
+  --sm-body: #575757;
+  --sm-body-2: #5e5e5e;
+  --sm-muted: #8a8a8a;
+  --sm-gray: #f3f3f3;
+  --sm-cream: #f7f4f2;
+  --sm-sand: #efe8e3;
+  --sm-line: #e4e0dd;
+  --sm-white: #ffffff;
+
+  /* treatment borrowed from Advanced Smile Clinic: warm neutrals + strong ink */
+  --sm-accent-ink: #232020;
+
+  font-family: var(--font-body, "Open Sans"), arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--sm-body);
+  background-color: var(--sm-white);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  /* clip (not hidden) so the pre-reveal horizontal offsets cannot create
+     a horizontal scrollbar; `clip` does not make this a scroll container
+     and does not affect position:fixed descendants. */
+  overflow-x: clip;
+}
+
+.sm-root h1,
+.sm-root .sm-h1 {
+  font-family: var(--font-display, "Playfair Display"), Georgia, serif;
+}
+
+.sm-root h2,
+.sm-root h3,
+.sm-root h4,
+.sm-root h5,
+.sm-root .sm-h2,
+.sm-root .sm-h3,
+.sm-root .sm-h4 {
+  font-family: var(--font-head, "Poppins"), ui-sans-serif, sans-serif;
+}
+
+.sm-root img {
+  max-width: 100%;
+}
+
+/* ---------- container ---------- */
+
+.sm-container {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: 40px;
+}
+
+@media (max-width: 991px) {
+  .sm-container {
+    padding-inline: 24px;
+  }
+}
+
+@media (max-width: 479px) {
+  .sm-container {
+    padding-inline: 20px;
+  }
+}
+
+/* ---------- section rhythm ---------- */
+
+.sm-section {
+  padding-block: 104px;
+}
+
+@media (max-width: 991px) {
+  .sm-section {
+    padding-block: 72px;
+  }
+}
+
+@media (max-width: 479px) {
+  .sm-section {
+    padding-block: 56px;
+  }
+}
+
+/* ---------- eyebrow ---------- */
+
+.sm-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  font-family: var(--font-head, "Poppins"), sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--sm-rose);
+}
+
+.sm-eyebrow::before {
+  content: "";
+  width: 34px;
+  height: 1px;
+  background: currentColor;
+  opacity: 0.6;
+}
+
+.sm-eyebrow--center {
+  justify-content: center;
+}
+
+.sm-eyebrow--light {
+  color: #d9bcbc;
+}
+
+/* ---------- buttons (radial-circle hover) ----------
+   Kept inside @layer components so Tailwind utilities (hidden, absolute,
+   w-*, px-*, text-*) can still override them on a per-element basis. */
+
+@layer components {
+  .sm-btn {
+    position: relative;
+    z-index: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 17px 34px;
+    border: 0;
+    border-radius: 40px;
+    overflow: hidden;
+    font-family: var(--font-head, "Poppins"), sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.4;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+    transition:
+      color 0.3s ease,
+      box-shadow 0.3s ease,
+      transform 0.3s ease,
+      border-color 0.3s ease;
+  }
+
+  .sm-btn::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition:
+      width 0.45s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+      height 0.45s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+      bottom 0.45s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+      opacity 0.35s ease;
+  }
+
+  .sm-btn:hover {
+    transform: translateY(-2px);
+  }
+
+  .sm-btn:active {
+    transform: translateY(0);
+  }
+
+  .sm-btn:focus-visible {
+    outline: 2px solid var(--sm-rose);
+    outline-offset: 3px;
+  }
+
+  .sm-btn--light {
+    background: var(--sm-white);
+    color: var(--sm-rose-deep);
+  }
+  .sm-btn--light::before {
+    background: var(--sm-rose);
+  }
+  .sm-btn--light:hover {
+    color: var(--sm-white);
+  }
+
+  .sm-btn--solid {
+    background: var(--sm-rose);
+    color: var(--sm-white);
+    box-shadow: 0 10px 26px -14px rgba(109, 82, 82, 0.9);
+  }
+  .sm-btn--solid::before {
+    background: var(--sm-rose-deep);
+  }
+  .sm-btn--solid:hover {
+    color: var(--sm-white);
+  }
+
+  .sm-btn--dark {
+    background: var(--sm-accent-ink);
+    color: var(--sm-white);
+  }
+  .sm-btn--dark::before {
+    background: var(--sm-rose);
+  }
+  .sm-btn--dark:hover {
+    color: var(--sm-white);
+  }
+
+  .sm-btn--ghost {
+    background: rgba(12, 10, 10, 0.34);
+    color: var(--sm-white);
+    border: 1.5px solid rgba(255, 255, 255, 0.72);
+  }
+  .sm-btn--ghost::before {
+    background: var(--sm-white);
+  }
+  .sm-btn--ghost:hover {
+    color: var(--sm-rose-deep);
+    border-color: var(--sm-white);
+  }
+
+  .sm-btn--outline {
+    background: transparent;
+    color: var(--sm-ink);
+    border: 1.5px solid var(--sm-line);
+  }
+  .sm-btn--outline::before {
+    background: var(--sm-ink);
+  }
+  .sm-btn--outline:hover {
+    color: var(--sm-white);
+    border-color: var(--sm-ink);
+  }
+
+  .sm-btn--sm {
+    padding: 13px 26px;
+    font-size: 13px;
+  }
+
+  .sm-btn--lg {
+    padding: 19px 42px;
+    font-size: 15px;
+  }
+}
+
+/* ---------- link with sliding arrow ---------- */
+
+.sm-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-head, "Poppins"), sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  color: var(--sm-rose);
+}
+
+.sm-link svg,
+.sm-link span {
+  transition: transform 0.3s ease;
+}
+
+.sm-link:hover svg {
+  transform: translateX(6px);
+}
+
+/* ---------- load animations (applied as global classes) ---------- */
+
+@keyframes sm-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes sm-fade-in-left {
+  from {
+    opacity: 0;
+    transform: translate3d(-70px, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes sm-fade-in-right {
+  from {
+    opacity: 0;
+    transform: translate3d(70px, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes sm-fade-in-up {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 46px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes sm-zoom-in {
+  from {
+    opacity: 0;
+    transform: scale(1.08);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes sm-slide-down {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes sm-marquee {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+@keyframes sm-ken-burns {
+  0% {
+    transform: scale(1.04);
+  }
+  100% {
+    transform: scale(1.14);
+  }
+}
+
+.sm-anim {
+  animation-duration: 1s;
+  animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+  animation-fill-mode: both;
+}
+
+.sm-anim-fade {
+  animation-name: sm-fade-in;
+}
+.sm-anim-left {
+  animation-name: sm-fade-in-left;
+}
+.sm-anim-right {
+  animation-name: sm-fade-in-right;
+}
+.sm-anim-up {
+  animation-name: sm-fade-in-up;
+}
+.sm-anim-zoom {
+  animation-name: sm-zoom-in;
+}
+.sm-anim-down {
+  animation-name: sm-slide-down;
+}
+
+.sm-delay-1 {
+  animation-delay: 0.1s;
+}
+.sm-delay-2 {
+  animation-delay: 0.2s;
+}
+.sm-delay-3 {
+  animation-delay: 0.32s;
+}
+.sm-delay-4 {
+  animation-delay: 0.44s;
+}
+.sm-delay-5 {
+  animation-delay: 0.56s;
+}
+
+/* ---------- scroll reveal ---------- */
+
+.sm-reveal {
+  opacity: 0;
+  transition:
+    opacity 0.9s cubic-bezier(0.16, 1, 0.3, 1),
+    transform 0.9s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+
+.sm-reveal[data-reveal="up"] {
+  transform: translate3d(0, 44px, 0);
+}
+.sm-reveal[data-reveal="left"] {
+  transform: translate3d(-56px, 0, 0);
+}
+.sm-reveal[data-reveal="right"] {
+  transform: translate3d(56px, 0, 0);
+}
+.sm-reveal[data-reveal="zoom"] {
+  transform: scale(1.06);
+}
+.sm-reveal[data-reveal="fade"] {
+  transform: none;
+}
+
+.sm-reveal.is-revealed {
+  opacity: 1;
+  transform: none;
+}
+
+/* ---------- marquee ---------- */
+
+.sm-marquee {
+  display: flex;
+  width: max-content;
+  animation: sm-marquee 34s linear infinite;
+}
+
+.sm-marquee:hover {
+  animation-play-state: paused;
+}
+
+/* ---------- shared card shell ---------- */
+
+.sm-card {
+  position: relative;
+  background: var(--sm-white);
+  border: 1px solid var(--sm-line);
+  border-radius: 22px;
+  overflow: hidden;
+  transition:
+    transform 0.45s cubic-bezier(0.16, 1, 0.3, 1),
+    box-shadow 0.45s cubic-bezier(0.16, 1, 0.3, 1),
+    border-color 0.45s ease;
+}
+
+.sm-card:hover {
+  transform: translateY(-8px);
+  border-color: transparent;
+  box-shadow: 0 30px 60px -34px rgba(35, 32, 32, 0.4);
+}
+
+/* ---------- reduced motion ---------- */
+
+@media (prefers-reduced-motion: reduce) {
+  .sm-reveal,
+  .sm-reveal.is-revealed {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+  .sm-anim,
+  .sm-marquee,
+  .sm-card {
+    animation: none !important;
+    transition: none !important;
+  }
+  .sm-card:hover {
+    transform: none;
+  }
+  .sm-btn:hover {
+    transform: none;
+  }
+}

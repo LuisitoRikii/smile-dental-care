@@ -1,21 +1,17 @@
-import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Open_Sans, Playfair_Display } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const openSans = Open_Sans({
   subsets: ["latin"],
+  variable: "--font-body",
+  display: "swap",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const playfair = Playfair_Display({
   subsets: ["latin"],
+  variable: "--font-display",
+  display: "swap",
 });
-
-export const metadata: Metadata = {
-  title: "Website Clone",
-  description: "Pixel-perfect website clone",
-};
 
 export default function RootLayout({
   children,
@@ -23,11 +19,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-    >
-      <body className="min-h-full flex flex-col">{children}</body>
+    <html lang="es-US" className={`${openSans.variable} ${playfair.variable}`}>
+      <body>{children}</body>
     </html>
   );
 }

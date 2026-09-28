@@ -1,0 +1,405 @@
+.finalCtaIntro {
+  box-sizing: border-box;
+  position: relative;
+  z-index: 1;
+  width: calc(100% - 40px);
+  max-width: 1100px;
+  margin: -160px auto 0;
+  padding: 0 40px 240px;
+  background-color: var(--asc-cream);
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 10px;
+}
+
+.finalCtaIntroTitle {
+  margin: 0;
+  font-family: var(--asc-font-display), "Playfair Display", serif;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 68px;
+  color: var(--asc-beige);
+  text-align: center;
+}
+
+.finalCtaIntroSub {
+  margin: 0;
+  font-family: var(--asc-font-head), "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 51px;
+  color: var(--asc-brown-dark);
+  text-align: center;
+}
+
+.finalCtaSection {
+  box-sizing: border-box;
+  width: 100%;
+  margin: -60px 0 0;
+  padding: 0;
+  background-color: var(--asc-brown);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.finalCtaContainer {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.finalCtaTop {
+  box-sizing: border-box;
+  width: 100%;
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 40px;
+}
+
+.finalCtaLogoRow {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.finalCtaLogo {
+  display: block;
+  width: 440px;
+  height: auto;
+  margin-top: -120px;
+  position: relative;
+  z-index: 2;
+  object-fit: fill;
+}
+
+.finalCtaSocials {
+  box-sizing: border-box;
+  width: 100%;
+  height: 43.5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  column-gap: 12px;
+}
+
+.finalCtaSocialLink {
+  display: block;
+  width: 35px;
+  height: 42.5px;
+  cursor: pointer;
+}
+
+.finalCtaSocialLinkYelp {
+  width: 36px;
+  height: 43.5px;
+}
+
+.finalCtaSocialIcon {
+  display: block;
+  width: 35px;
+  height: 40px;
+  color: #ffffff;
+  transition: 0.4s;
+}
+
+.finalCtaSocialIcon:hover {
+  transform: translateY(-5px);
+}
+
+.finalCtaYelpIcon {
+  display: block;
+  width: 36px;
+  height: 40px;
+  margin: 0 0 -4px;
+  overflow: hidden;
+  transition: 0.4s;
+}
+
+.finalCtaYelpIcon:hover {
+  transform: translateY(-5px);
+}
+
+.finalCtaRule {
+  box-sizing: border-box;
+  width: 100%;
+  height: 1px;
+  background-color: transparent;
+  border-bottom: 1px solid #ffffff;
+}
+
+.finalCtaColumns {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1100px;
+  margin-top: -28px;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  column-gap: 40px;
+}
+
+.finalCtaColumn {
+  box-sizing: border-box;
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 40px;
+}
+
+.finalCtaPill {
+  box-sizing: border-box;
+  position: relative;
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  height: 54.594px;
+  padding: 12px 18px;
+  border: 0;
+  border-radius: 40px;
+  overflow: hidden;
+  background-color: #ffffff;
+  font-family: var(--asc-font-head), "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30.6px;
+  letter-spacing: 0.5px;
+  text-transform: none;
+  text-align: center;
+  color: #957661;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+:global(.asc-root) a.finalCtaPill {
+  color: #957661;
+}
+
+.finalCtaPill::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  background: linear-gradient(
+    45deg,
+    rgb(133, 141, 130),
+    rgb(133, 141, 130)
+  );
+  border-radius: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  z-index: -1;
+  transition: 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.finalCtaPill:hover::before {
+  width: 120%;
+  height: 250px;
+  bottom: -125px;
+  opacity: 1;
+}
+
+:global(.asc-root) a.finalCtaPill:hover {
+  color: #ffffff;
+}
+
+.finalCtaServices {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: var(--asc-font-body), "Lato", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 34px;
+  color: #ffffff;
+}
+
+.finalCtaServiceItem {
+  position: relative;
+  list-style: none;
+}
+
+.finalCtaServiceRow {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 34px;
+}
+
+.finalCtaServiceDot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 8px;
+  height: 8px;
+  color: #ffffff;
+}
+
+.finalCtaServiceDot svg {
+  display: block;
+}
+
+.finalCtaServiceTitle {
+  display: inline-block;
+  margin-left: 10px;
+  color: inherit;
+}
+
+.finalCtaInfo {
+  box-sizing: border-box;
+  width: 100%;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 20px;
+}
+
+.finalCtaInfoList {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.finalCtaInfoItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.finalCtaPhoneLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  font-family: var(--asc-font-body), "Lato", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 37.4px;
+  cursor: pointer;
+}
+
+.finalCtaAddressLink {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 26px;
+  font-family: var(--asc-font-body), "Lato", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 37.4px;
+  cursor: pointer;
+}
+
+.finalCtaPhoneIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 22px;
+  height: 37.394px;
+}
+
+.finalCtaAddressIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 21px;
+  height: 47.594px;
+}
+
+.finalCtaPhoneIcon svg,
+.finalCtaAddressIcon svg {
+  display: block;
+}
+
+.finalCtaInfoText {
+  display: block;
+  color: inherit;
+}
+
+@media (max-width: 991px) {
+  .finalCtaIntro {
+    padding-inline: 30px;
+  }
+
+  .finalCtaContainer {
+    padding-inline: 20px;
+  }
+
+  .finalCtaPill {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .finalCtaLogo {
+    width: 70%;
+  }
+
+  .finalCtaColumns {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 40px;
+  }
+
+  .finalCtaColumn {
+    align-items: center;
+    width: 100%;
+  }
+
+  .finalCtaPill {
+    width: 60%;
+  }
+
+  .finalCtaServices {
+    width: auto;
+  }
+}
+
+@media (max-width: 478px) {
+  .finalCtaIntro {
+    padding-inline: 10px;
+  }
+
+  .finalCtaLogo {
+    width: 90%;
+    margin-top: -80px;
+  }
+
+  .finalCtaPill {
+    width: 90%;
+  }
+
+  .finalCtaPillBook {
+    padding-inline: 10px;
+  }
+}

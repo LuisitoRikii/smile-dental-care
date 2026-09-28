@@ -1,0 +1,366 @@
+{
+ "note": "One-call block: #brxe-hvnpwj (logo + headings) + #brxe-isldso (dividers + tel buttons). In the live DOM these two are children of section #brxe-bqoeeh (Why Choose Us), not of #brxe-oxjdlg.",
+ "selector": "#brxe-hvnpwj, #brxe-isldso",
+ "extractedAt": "2026-09-27T14:26:23.943Z",
+ "tree": {
+  "#brxe-hvnpwj": [
+   {
+    "tag": "div",
+    "id": "brxe-hvnpwj",
+    "cls": "brxe-container bricks-lazy-hidden",
+    "rect": {
+     "x": 162.5,
+     "y": 6395.47,
+     "w": 1100,
+     "h": 370.05
+    },
+    "style": {
+     "padding": "60px 20px 0px",
+     "margin": "140px 162.5px 0px",
+     "width": "1100px",
+     "height": "370.047px",
+     "display": "flex",
+     "alignItems": "flex-start",
+     "gap": "40px",
+     "borderTop": "2px solid rgb(98, 84, 78)",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-pnrgkd",
+    "cls": "brxe-block bricks-lazy-hidden",
+    "rect": {
+     "x": 182.5,
+     "y": 6457.47,
+     "w": 409.95,
+     "h": 308.05
+    },
+    "style": {
+     "padding": "40px",
+     "width": "409.953px",
+     "height": "308.047px",
+     "display": "flex",
+     "flexDirection": "column",
+     "justifyContent": "center",
+     "alignItems": "center",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "img",
+    "id": "brxe-wyjiai",
+    "cls": "brxe-image css-filter size-full bricks-lazy-hidden",
+    "rect": {
+     "x": 222.5,
+     "y": 6497.47,
+     "w": 329.95,
+     "h": 228.05
+    },
+    "text": "",
+    "style": {
+     "width": "329.953px",
+     "height": "228.047px",
+     "overflow": "clip",
+     "verticalAlign": "middle",
+     "maxWidth": "100%"
+    },
+    "src": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20667%20461'%3E%3C/svg%3E",
+    "data-src": "https://i0.wp.com/advancedsmileclinic.com/wp-content/uploads/2025/08/Logo-Advance-Smile-Dental-Clinic-01-2.webp?fit=667%2C461&ssl=1",
+    "alt": "Logo Advance Smile Dental Clinic",
+    "img": {
+     "nw": 217,
+     "nh": 150,
+     "cur": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20667%20461'%3E%3C/svg%3E"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-jjdurc",
+    "cls": "brxe-block bricks-lazy-hidden",
+    "rect": {
+     "x": 632.45,
+     "y": 6492.98,
+     "w": 610.05,
+     "h": 237
+    },
+    "style": {
+     "width": "610.047px",
+     "height": "237px",
+     "display": "flex",
+     "flexDirection": "column",
+     "justifyContent": "center",
+     "alignItems": "flex-start",
+     "gap": "20px normal",
+     "maxWidth": "100%",
+     "alignSelf": "center"
+    }
+   },
+   {
+    "tag": "h2",
+    "id": "brxe-xodbss",
+    "cls": "brxe-heading",
+    "rect": {
+     "x": 632.45,
+     "y": 6492.98,
+     "w": 610.05,
+     "h": 168
+    },
+    "text": "Your perfect smile starts with one call",
+    "style": {
+     "fontSize": "60px",
+     "fontWeight": "600",
+     "fontFamily": "\"Playfair Display\"",
+     "lineHeight": "84px",
+     "color": "rgb(118, 97, 72)",
+     "width": "610.047px",
+     "height": "168px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "h2",
+    "id": "brxe-vtdqzm",
+    "cls": "brxe-heading",
+    "rect": {
+     "x": 632.45,
+     "y": 6680.98,
+     "w": 372.23,
+     "h": 49
+    },
+    "text": "Let’s make it happen!",
+    "style": {
+     "fontSize": "35px",
+     "fontFamily": "Poppins",
+     "lineHeight": "49px",
+     "color": "rgb(164, 153, 132)",
+     "width": "372.234px",
+     "height": "49px",
+     "maxWidth": "100%"
+    }
+   }
+  ],
+  "#brxe-isldso": [
+   {
+    "tag": "div",
+    "id": "brxe-isldso",
+    "cls": "brxe-container bricks-lazy-hidden",
+    "rect": {
+     "x": 162.5,
+     "y": 6805.52,
+     "w": 1100,
+     "h": 54.59
+    },
+    "style": {
+     "margin": "40px 162.5px 0px",
+     "width": "1100px",
+     "height": "54.5938px",
+     "display": "flex",
+     "alignItems": "center",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-qpkmop",
+    "cls": "brxe-divider horizontal",
+    "rect": {
+     "x": 162.5,
+     "y": 6831.81,
+     "w": 440,
+     "h": 2
+    },
+    "style": {
+     "fontSize": "30px",
+     "lineHeight": "51px",
+     "width": "440px",
+     "height": "2px",
+     "display": "flex",
+     "alignItems": "center",
+     "gap": "30px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "div",
+    "cls": "line",
+    "rect": {
+     "x": 162.5,
+     "y": 6831.81,
+     "w": 440,
+     "h": 2
+    },
+    "text": "",
+    "style": {
+     "fontSize": "30px",
+     "lineHeight": "51px",
+     "width": "440px",
+     "height": "2px",
+     "borderTop": "2px solid rgb(98, 84, 78)",
+     "position": "relative",
+     "top": "0px",
+     "left": "0px",
+     "right": "0px",
+     "bottom": "0px"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-sanddn",
+    "cls": "brxe-block bricks-lazy-hidden",
+    "rect": {
+     "x": 602.5,
+     "y": 6805.52,
+     "w": 605,
+     "h": 54.59
+    },
+    "style": {
+     "padding": "0px 20px",
+     "width": "605px",
+     "height": "54.5938px",
+     "display": "flex",
+     "justifyContent": "center",
+     "alignItems": "flex-start",
+     "gap": "20px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "a",
+    "id": "brxe-nfmpvj",
+    "cls": "brxe-button btn-radial-4 bricks-button",
+    "rect": {
+     "x": 637.73,
+     "y": 6805.52,
+     "w": 235.92,
+     "h": 54.59
+    },
+    "text": "Hialeah (305) 846-7987",
+    "style": {
+     "fontSize": "18px",
+     "fontWeight": "600",
+     "fontFamily": "Lato",
+     "lineHeight": "30.6px",
+     "letterSpacing": "0.5px",
+     "color": "rgb(255, 255, 255)",
+     "backgroundColor": "rgb(164, 153, 132)",
+     "padding": "12px 18px",
+     "width": "235.922px",
+     "height": "54.5938px",
+     "display": "flex",
+     "justifyContent": "center",
+     "alignItems": "center",
+     "gap": "10px",
+     "borderRadius": "40px",
+     "border": "0px none rgb(255, 255, 255)",
+     "borderTop": "0px none rgb(255, 255, 255)",
+     "borderRight": "0px none rgb(255, 255, 255)",
+     "borderBottom": "0px none rgb(255, 255, 255)",
+     "borderLeft": "0px none rgb(255, 255, 255)",
+     "overflow": "hidden",
+     "position": "relative",
+     "top": "0px",
+     "left": "0px",
+     "right": "0px",
+     "bottom": "0px",
+     "zIndex": "99",
+     "transition": "0.3s",
+     "textAlign": "center",
+     "cursor": "pointer",
+     "maxWidth": "100%"
+    },
+    "href": "tel:(305) 846-7987"
+   },
+   {
+    "tag": "a",
+    "id": "brxe-kklsnf",
+    "cls": "brxe-button btn-radial-5 bricks-button",
+    "rect": {
+     "x": 893.66,
+     "y": 6805.52,
+     "w": 278.61,
+     "h": 54.59
+    },
+    "text": "Coral Gables (786) 391-0588",
+    "style": {
+     "fontSize": "18px",
+     "fontWeight": "600",
+     "fontFamily": "Lato",
+     "lineHeight": "30.6px",
+     "letterSpacing": "0.5px",
+     "color": "rgb(255, 255, 255)",
+     "backgroundColor": "rgb(118, 97, 72)",
+     "padding": "12px 18px",
+     "width": "278.609px",
+     "height": "54.5938px",
+     "display": "flex",
+     "justifyContent": "center",
+     "alignItems": "center",
+     "gap": "10px",
+     "borderRadius": "40px",
+     "border": "0px none rgb(255, 255, 255)",
+     "borderTop": "0px none rgb(255, 255, 255)",
+     "borderRight": "0px none rgb(255, 255, 255)",
+     "borderBottom": "0px none rgb(255, 255, 255)",
+     "borderLeft": "0px none rgb(255, 255, 255)",
+     "overflow": "hidden",
+     "position": "relative",
+     "top": "0px",
+     "left": "0px",
+     "right": "0px",
+     "bottom": "0px",
+     "zIndex": "99",
+     "transition": "0.3s",
+     "textAlign": "center",
+     "cursor": "pointer",
+     "maxWidth": "100%"
+    },
+    "href": "tel:786 391 0588"
+   },
+   {
+    "tag": "div",
+    "id": "brxe-mnsjan",
+    "cls": "brxe-divider horizontal",
+    "rect": {
+     "x": 1207.5,
+     "y": 6831.81,
+     "w": 55,
+     "h": 2
+    },
+    "style": {
+     "fontSize": "30px",
+     "lineHeight": "51px",
+     "width": "55px",
+     "height": "2px",
+     "display": "flex",
+     "alignItems": "center",
+     "gap": "30px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "div",
+    "cls": "line",
+    "rect": {
+     "x": 1207.5,
+     "y": 6831.81,
+     "w": 55,
+     "h": 2
+    },
+    "text": "",
+    "style": {
+     "fontSize": "30px",
+     "lineHeight": "51px",
+     "width": "55px",
+     "height": "2px",
+     "borderTop": "2px solid rgb(98, 84, 78)",
+     "position": "relative",
+     "top": "0px",
+     "left": "0px",
+     "right": "0px",
+     "bottom": "0px"
+    }
+   }
+  ]
+ }
+}

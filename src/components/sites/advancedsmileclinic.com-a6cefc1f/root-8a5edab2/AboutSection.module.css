@@ -1,0 +1,343 @@
+.aboutSection {
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 80px;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 40px;
+}
+
+.animDelay {
+  animation-delay: 1.4s;
+}
+
+.aboutIntro {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 40px;
+}
+
+.aboutHead {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 1px;
+}
+
+:global(.asc-root) h2.aboutEyebrow {
+  margin: 0;
+  font-family: var(--asc-font-head), "Poppins", sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 49px;
+  color: var(--asc-tan);
+}
+
+:global(.asc-root) h2.aboutTitle {
+  margin: 0;
+  font-family: var(--asc-font-display), "Playfair Display", serif;
+  font-size: 70px;
+  font-weight: 500;
+  line-height: 98px;
+  color: var(--asc-brown);
+}
+
+.aboutColumns {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  column-gap: 40px;
+}
+
+.aboutColLeft,
+.aboutColRight {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.aboutDivider {
+  box-sizing: border-box;
+  flex: 0 0 1px;
+  width: 1px;
+  height: 200px;
+  border-right: 1px solid var(--asc-brown);
+  align-self: center;
+}
+
+.aboutText {
+  width: 100%;
+  font-family: var(--asc-font-body), "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30.6px;
+  color: var(--asc-text-alt);
+}
+
+.aboutText p {
+  width: 100%;
+  margin: 0;
+}
+
+.aboutCards {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1100px;
+  margin: 60px auto 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.aboutPortrait {
+  flex: 1 1 0;
+  min-width: 0;
+  align-self: stretch;
+  border-radius: 20px;
+  background-image: url("/sites/advancedsmileclinic.com-a6cefc1f/root-8a5edab2/images/about-portrait.webp");
+  background-size: cover;
+  background-position: 50% 0%;
+  background-repeat: repeat;
+}
+
+.aboutPanel {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  width: 50.1378%;
+  padding: 40px;
+  border-radius: 20px;
+  background-color: var(--asc-tan);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  row-gap: 40px;
+}
+
+.aboutGroup {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 10px;
+}
+
+:global(.asc-root) h3.aboutCardTitle {
+  margin: 0;
+  font-family: var(--asc-font-head), "Poppins", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 35px;
+  color: #ffffff;
+}
+
+.aboutCardText {
+  width: 100%;
+  font-family: var(--asc-font-body), "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27.2px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.aboutCardText p {
+  width: 100%;
+  margin: 0;
+}
+
+.aboutBtnRow {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.aboutRuleShort {
+  flex: 0 0 9.5404%;
+  height: 1px;
+  background-color: #ffffff;
+}
+
+.aboutRuleLong {
+  flex: 0 0 47.7149%;
+  height: 1px;
+  background-color: #ffffff;
+}
+
+:global(.asc-root) a.aboutBtn {
+  box-sizing: border-box;
+  position: relative;
+  z-index: 99;
+  overflow: hidden;
+  flex: 0 1 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 40%;
+  padding: 8px 16px;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  background-color: transparent;
+  color: #ffffff;
+  font-family: var(--asc-font-head), "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 27.2px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+
+:global(.asc-root) a.aboutBtn::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  background: linear-gradient(45deg, rgb(118, 97, 72), rgb(118, 97, 72));
+  border-radius: 50%;
+  transform: translateX(-50%);
+  transition: 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  z-index: -1;
+  opacity: 0;
+}
+
+:global(.asc-root) a.aboutBtn:hover::before {
+  width: 120%;
+  height: 250px;
+  bottom: -125px;
+  opacity: 1;
+}
+
+@media (max-width: 991px) {
+  .aboutSection {
+    padding: 0 30px;
+  }
+
+  .aboutColumns {
+    column-gap: 20px;
+  }
+
+  :global(.asc-root) h2.aboutEyebrow {
+    font-size: 30px;
+    line-height: 42px;
+  }
+
+  :global(.asc-root) h2.aboutTitle {
+    font-size: 60px;
+    line-height: 84px;
+  }
+
+  .aboutCards {
+    flex-direction: column;
+  }
+
+  .aboutPortrait {
+    flex: 0 0 auto;
+    width: 50%;
+    height: 500px;
+  }
+
+  .aboutPanel {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .aboutHead {
+    align-items: stretch;
+  }
+
+  :global(.asc-root) h2.aboutEyebrow {
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+  }
+
+  :global(.asc-root) h2.aboutTitle {
+    font-size: 45px;
+    line-height: 63px;
+    text-align: center;
+  }
+
+  .aboutColumns {
+    flex-direction: column;
+  }
+
+  .aboutColLeft {
+    padding-bottom: 40px;
+  }
+
+  .aboutColRight {
+    padding-top: 40px;
+  }
+
+  .aboutColLeft .aboutText {
+    border-bottom: 1px solid var(--asc-brown);
+  }
+
+  .aboutDivider {
+    display: none;
+  }
+
+  .aboutRuleShort,
+  .aboutRuleLong {
+    flex: 0 0 12.5%;
+  }
+
+  :global(.asc-root) a.aboutBtn {
+    width: 60%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 478px) {
+  .aboutSection {
+    padding: 0 20px;
+  }
+
+  :global(.asc-root) h2.aboutEyebrow {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  :global(.asc-root) h2.aboutTitle {
+    font-size: 35px;
+    line-height: 49px;
+  }
+
+  :global(.asc-root) h3.aboutCardTitle {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .aboutPanel {
+    padding: 40px 20px;
+  }
+
+  .aboutPortrait {
+    width: 100%;
+  }
+
+  :global(.asc-root) a.aboutBtn {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,1146 @@
+{
+ "selector": "#brxe-bqoeeh",
+ "extractedAt": "2026-09-27T14:25:09.251Z",
+ "note": "Includes nested one-call block (#brxe-hvnpwj, #brxe-isldso)",
+ "nodes": [
+  {
+   "tag": "section",
+   "id": "brxe-bqoeeh",
+   "cls": "brxe-section",
+   "rect": {
+    "x": 0,
+    "y": 5168.78,
+    "w": 1425,
+    "h": 1791.33
+   },
+   "style": {
+    "backgroundColor": "rgb(246, 244, 242)",
+    "padding": "200px 0px 100px",
+    "height": "1791.33px",
+    "display": "flex",
+    "flexDirection": "column",
+    "alignItems": "center",
+    "minWidth": "0px",
+    "maxWidth": "100%",
+    "minHeight": "0px"
+   }
+  },
+  {
+   "tag": "div",
+   "id": "brxe-nhxjnp",
+   "cls": "brxe-container",
+   "rect": {
+    "x": 0,
+    "y": 5368.78,
+    "w": 1425,
+    "h": 147
+   },
+   "style": {
+    "padding": "0px 0px 0px 40px",
+    "margin": "0px 0px 100px",
+    "height": "147px",
+    "display": "flex",
+    "flexDirection": "column",
+    "alignItems": "flex-start",
+    "maxWidth": "100%"
+   }
+  },
+  {
+   "tag": "h2",
+   "id": "brxe-jdugnq",
+   "cls": "brxe-heading",
+   "rect": {
+    "x": 40,
+    "y": 5368.78,
+    "w": 626.78,
+    "h": 49
+   },
+   "text": "Patient-First Dentistry You Can Trust",
+   "style": {
+    "fontSize": "35px",
+    "fontFamily": "Poppins",
+    "lineHeight": "49px",
+    "color": "rgb(108, 93, 61)",
+    "width": "626.781px",
+    "height": "49px",
+    "maxWidth": "100%",
+    "outline": "rgb(108, 93, 61) none 3px"
+   }
+  },
+  {
+   "tag": "h2",
+   "id": "brxe-fxsmnr",
+   "cls": "brxe-heading",
+   "rect": {
+    "x": 40,
+    "y": 5417.78,
+    "w": 508.77,
+    "h": 98
+   },
+   "text": "Why Choose Us!",
+   "style": {
+    "fontSize": "70px",
+    "fontWeight": "600",
+    "fontFamily": "\"Playfair Display\"",
+    "lineHeight": "98px",
+    "color": "rgb(118, 97, 72)",
+    "width": "508.766px",
+    "height": "98px",
+    "maxWidth": "100%",
+    "outline": "rgb(118, 97, 72) none 3px"
+   }
+  },
+  {
+   "tag": "div",
+   "id": "brxe-qtkukd",
+   "cls": "brxe-container",
+   "rect": {
+    "x": 0,
+    "y": 5615.78,
+    "w": 1425,
+    "h": 639.69
+   },
+   "style": {
+    "height": "639.688px",
+    "display": "flex",
+    "alignItems": "flex-start",
+    "maxWidth": "100%"
+   }
+  },
+  {
+   "tag": "div",
+   "id": "brxe-ijnpve",
+   "cls": "brxe-block bricks-lazy-hidden",
+   "rect": {
+    "x": 0,
+    "y": 5109,
+    "w": 0,
+    "h": 0
+   },
+   "style": {
+    "width": "100%",
+    "height": "auto",
+    "display": "none",
+    "flexDirection": "column",
+    "alignItems": "flex-start",
+    "minWidth": "0px",
+    "maxWidth": "100%",
+    "minHeight": "0px"
+   }
+  },
+  {
+   "tag": "img",
+   "id": "brxe-grdcna",
+   "cls": "brxe-image css-filter size-full bricks-lazy-hidden",
+   "rect": {
+    "x": 0,
+    "y": 5109,
+    "w": 0,
+    "h": 0
+   },
+   "text": "",
+   "style": {
+    "width": "399px",
+    "height": "auto",
+    "display": "inline",
+    "overflow": "clip",
+    "verticalAlign": "middle",
+    "minWidth": "0px",
+    "maxWidth": "100%",
+    "minHeight": "0px"
+   },
+   "src": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20399%20521'%3E%3C/svg%3E",
+   "data-src": "https://i0.wp.com/advancedsmileclinic.com/wp-content/uploads/2025/08/shutterstock_346764275-11-1.webp?fit=399%2C521&ssl=1",
+   "alt": "two sisters smiling showing braces",
+   "img": {
+    "nw": 115,
+    "nh": 150,
+    "cur": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20399%20521'%3E%3C/svg%3E"
+   }
+  },
+  {
+   "tag": "div",
+   "id": "brxe-pxyucc",
+   "cls": "brxe-block",
+   "rect": {
+    "x": 0,
+    "y": 5615.78,
+    "w": 641.25,
+    "h": 639.69
+   },
+   "style": {
+    "width": "641.25px",
+    "height": "639.688px",
+    "display": "flex",
+    "flexDirection": "column",
+    "alignItems": "flex-start",
+    "gap": "4px normal",
+    "maxWidth": "100%"
+   }
+  },
+  {
+   "tag": "div",
+   "id": "brxe-mobzzz",
+   "cls": "brxe-block efectocargarfondo",
+   "rect": {
+    "x": 0,
+    "y": 5615.78,
+    "w": 641.25,
+    "h": 210.56
+   },
+   "style": {
+    "backgroundColor": "rgb(238, 231, 224)",
+    "padding": "40px 140px 40px 40px",
+    "width": "641.25px",
+    "height": "210.562px",
+    "display": "flex",
+    "flexDirection": "column",
+    "alignItems": "flex-start",
+    "gap": "14px normal",
+    "overflow": "hidden",
+    "position": "relative",
+    "top": "0px",
+    "left": "0px",
+    "right": "0px",
+    "bottom": "0px",
+    "zIndex": "0",
+    "maxWidth": "100%"
+   }
+  },
+  {
+   "tag": "h3",
+   "id": "brxe-bisivc",
+   "cls": "brxe-heading",
+   "rect": {
+    "x": 40,
+    "y": 5655.78,
+    "w": 290.25,
+    "h": 35
+   },
+   "text": "We Treat You Like Family",
+   "style": {
+    "fontSize": "25px",
+    "fontWeight": "700",
+    "fontFamily": "\"Playfair Display\"",
+    "lineHeight": "35px",
+    "color": "rgb(98, 84, 78)",
+    "width": "290.25px",
+    "height": "35px",
+    "transition": "color 0.8s ease-in",
+    "textAlign": "left",
+    "maxWidth": "100%",
+    "outline": "rgb(98, 84, 78) none 3px"
+   }
+  },
+  {
+   "tag": "div",
+   "id": "brxe-vbyxjr",
+   "cls": "brxe-text",
+   "rect": {
+    "x": 40,
+    "y": 5704.78,
+    "w": 461.25,
+    "h": 81.56
+   },
+   "style": {
+    "fontSize": "16px",
+    "fontFamily": "Lato",
+    "lineHeight": "27.2px",
+    "color": "rgb(98, 84, 78)",
+    "width": "461.25px",
+    "height": "81.5625px",
+    "textAlign": "left",
+    "maxWidth": "100%",
+    "outline": "rgb(98, 84, 78) none 3px"
+   }
+  },
+  {
+   "tag": "p",
+   "rect": {
+    "x": 40,
+    "y": 5704.78,
+    "w": 461.25,
+    "h": 81.56
+   },
+   "text": "At Advanced Smile, you’re more than just a patient — you’re family. We take pride in building real relationships with the people we care for.",
+   "style": {
+    "fontSize": "16px",
+    "fontFamily": "Lato",
+    "lineHeight": "27.2px",
+    "color": "rgb(98, 84, 78)",
+    "width": "461.25px",
+    "height": "81.5625px",
+    "transition": "color 0.8s ease-in",
+    "textAlign": "left",
+    "minWidth": "0px",
+    "minHeight": "0px",
+    "outline": "rgb(98, 84, 78) none 3px"
+   }
+  },
+  {
+   "tag": "div",
+   "id": "brxe-ybvbgs",
+   "cls": "brxe-block efectocargarfondo",
+   "rect": {
+    "x": 0,
+    "y": 5830.34,
+    "w": 641.25,
+    "h": 210.56
+   },
+   "style": {
+    "backgroundColor": "rgb(238, 231, 224)",
+    "padding": "40px 140px 40px 40px",
+    "width": "641.25px",
+    "height": "210.562px",
+    "display": "flex",
+    "flexDirection": "column",
+    "alignItems": "flex-start",
+    "gap": "14px normal",
+    "overflow": "hidden",
+    "position": "relative",
+    "top": "0px",
+    "left": "0px",
+    "right": "0px",
+    "bottom": "0px",
+    "zIndex": "0",
+    "maxWidth": "100%"
+   }
+  },
+  {
+   "tag": "h3",
+   "id": "brxe-jedxne",
+   "cls": "brxe-heading",
+   "rect": {
+    "x": 40,
+    "y": 5870.34,
+    "w": 369.81,
+    "h": 35
+   },
+   "text": "Family-Owned, Family-Focused",
+   "style": {
+    "fontSize": "25px",
+    "fontWeight": "700",
+    "fontFamily": "\"Playfair Display\"",
+    "lineHeight": "35px",
+    "color": "rgb(98, 84, 78)",
+    "width": "369.812px",
+    "height": "35px",
+    "transition": "color 0.8s ease-in",
+    "textAlign": "left",
+    "maxWidth": "100%",
+    "outline": "rgb(98, 84, 78) none 3px"
+   }
+  },
+  {
+   "tag": "div",
+   "id": "brxe-wlimef",
+   "cls": "brxe-text",
+   "rect": {
+    "x": 40,
+    "y": 5919.34,
+    "w": 461.25,
+    "h": 81.56
+   },
+   "style": {
+    "fontSize": "16px",
+    "fontFamily": "Lato",
+    "lineHeight": "27.2px",
+    "color": "rgb(98, 84, 78)",
+    "width": "461.25px",
+    "height": "81.5625px",
+    "textAlign": "left",
+    "maxWidth": "100%",
+    "outline": "rgb(98, 84, 78) none 3px"
+   }
+  },
+  {
+   "tag": "p",
+   "rect": {
+    "x": 40,
+    "y": 5919.34,
+    "w": 461.25,
+    "h": 81.56
+   },
+   "text": "As a family-owned practice in Coral Gables and Hialeah, we’re here to care for your whole family with general, cosmetic, and emergency dentistry — no appointment needed for urgent visits.",
+   "style": {
+    "fontSize": "16px",
+    "fontFamily": "Lato",
+    "lineHeight": "27.2px",
+    "color": "rgb(98, 84, 78)",
+    "width": "461.25px",
+    "height": "81.5625px",
+    "transition": "color 0.8s ease-in",
+    "textAlign": "left",
+    "minWidth": "0px",
+    "minHeight": "0px",
+    "outline": "rgb(98, 84, 78) none 3px"
+   }
+  },
+  {
+   "tag": "div",
+   "id": "brxe-cnsgjx",
+   "cls": "brxe-block efectocargarfondo",
+   "rect": {
+    "x": 0,
+    "y": 6044.91,
+    "w": 641.25,
+    "h": 210.56
+   },
+   "style": {
+    "backgroundColor": "rgb(238, 231, 224)",
+    "padding": "40px 140px 40px 40px",
+    "width": "641.25px",
+    "height": "210.562px",
+    "display": "flex",
+    "flexDirection": "column",
+    "alignItems": "flex-start",
+    "gap": "14px normal",
+    "overflow": "hidden",
+    "position": "relative",
+    "top": "0px",
+    "left": "0px",
+    "right": "0px",
+    "bottom": "0px",
+    "zIndex": "0",
+    "maxWidth": "100%"
+   }
+  },
+  {
+   "tag": "h3",
+   "id": "brxe-mqzieg",
+   "cls": "brxe-heading",
+   "rect": {
+    "x": 40,
+    "y": 6084.91,
+    "w": 265.75,
+    "h": 35
+   },
+   "text": "Your Smile, Your Needs",
+   "style": {
+    "fontSize": "25px",
+    "fontWeight": "700",
+    "fontFamily": "\"Playfair Display\"",
+    "lineHeight": "35px",
+    "color": "rgb(98, 84, 78)",
+    "width": "265.75px",
+    "height": "35px",
+    "transition": "color 0.8s ease-in",
+    "textAlign": "left",
+    "maxWidth": "100%",
+    "outline": "rgb(98, 84, 78) none 3px"
+   }
+  },
+  {
+   "tag": "div",
+   "id": "brxe-wijvmt",
+   "cls": "brxe-text",
+   "rect": {
+    "x": 40,
+    "y": 6133.91,
+    "w": 461.25,
+    "h": 81.56
+   },
+   "style": {
+    "fontSize": "16px",
+    "fontFamily": "Lato",
+    "lineHeight": "27.2px",
+    "color": "rgb(98, 84, 78)",
+    "width": "461.25px",
+    "height": "81.5625px",
+    "textAlign": "left",
+    "maxWidth": "100%",
+    "outline": "rgb(98, 84, 78) none 3px"
+   }
+  },
+  {
+   "tag": "p",
+   "rect": {
+    "x": 40,
+    "y": 6133.91,
+    "w": 461.25,
+    "h": 81.56
+   },
+   "text": "We’re here to help you achieve your healthiest smile. That starts with listening — really listening — to your goals, concerns, and feedback.",
+   "style": {
+    "fontSize": "16px",
+    "fontFamily": "Lato",
+    "lineHeight": "27.2px",
+    "color": "rgb(98, 84, 78)",
+    "width": "461.25px",
+    "height": "81.5625px",
+    "transition": "color 0.8s ease-in",
+    "textAlign": "left",
+    "minWidth": "0px",
+    "minHeight": "0px",
+    "outline": "rgb(98, 84, 78) none 3px"
+   }
+  },
+  {
+   "tag": "div",
+   "id": "brxe-xqvvfb",
+   "cls": "brxe-block contenedor-medio",
+   "rect": {
+    "x": 641.25,
+    "y": 5615.78,
+    "w": 142.5,
+    "h": 550
+   },
+   "text": "",
+   "style": {
+    "width": "142.5px",
+    "height": "550px",
+    "display": "flex",
+    "flexDirection": "column",
+    "alignItems": "flex-start",
+    "maxWidth": "100%"
+   }
+  },
+  {
+   "tag": "div",
+   "id": "brxe-jnjweu",
+   "cls": "brxe-block",
+   "rect": {
+    "x": 783.75,
+    "y": 5535.78,
+    "w": 641.25,
+    "h": 583.53
+   },
+   "style": {
+    "margin": "-80px 0px 0px",
+    "width": "641.25px",
+    "height": "583.531px",
+    "display": "flex",
+    "flexDirection": "column",
+    "alignItems": "flex-start",
+    "gap": "4px normal",
+    "maxWidth": "100%"
+   }
+  },
+  {
+   "tag": "div",
+   "id": "brxe-wsjbxu",
+   "cls": "brxe-block efectocargarfondo",
+   "rect": {
+    "x": 783.75,
+    "y": 5535.78,
+    "w": 641.25,
+    "h": 183.38
+   },
+   "style": {
+    "backgroundColor": "rgb(238, 231, 224)",
+    "padding": "40px 40px 40px 140px",
+    "width": "641.25px",
+    "height": "183.375px",
+    "display": "flex",
+    "flexDirection": "column",
+    "alignItems": "flex-start",
+    "gap": "14px normal",
+    "overflow": "hidden",
+    "position": "relative",
+    "top": "0px",
+    "left": "0px",
+    "right": "0px",
+    "bottom": "0px",
+    "zIndex": "0",
+    "maxWidth": "100%"
+   }
+  },
+  {
+   "tag": "h3",
+   "id": "brxe-mwlmig",
+   "cls": "brxe-heading",
+   "rect": {
+    "x": 923.75,
+    "y": 5575.78,
+    "w": 431.25,
+    "h": 35
+   },
+   "text": "Everything You Need, All in One Place",
+   "style": {
+    "fontSize": "25px",
+    "fontWeight": "700",
+    "fontFamily": "\"Playfair Display\"",
+    "lineHeight": "35px",
+    "color": "rgb(98, 84, 78)",
+    "width": "431.25px",
+    "height": "35px",
+    "transition": "color 0.8s ease-in",
+    "textAlign": "left",
+    "maxWidth": "100%",
+    "outline": "rgb(98, 84, 78) none 3px"
+   }
+  },
+  {
+   "tag": "div",
+   "id": "brxe-myvebe",
+   "cls": "brxe-text",
+   "rect": {
+    "x": 923.75,
+    "y": 5624.78,
+    "w": 461.25,
+    "h": 54.38
+   },
+   "style": {
+    "fontSize": "16px",
+    "fontFamily": "Lato",
+    "lineHeight": "27.2px",
+    "color": "rgb(98, 84, 78)",
+    "width": "461.25px",
+    "height": "54.375px",
+    "textAlign": "left",
+    "maxWidth": "100%",
+    "outline": "rgb(98, 84, 78) none 3px"
+   }
+  },
+  {
+   "tag": "p",
+   "rect": {
+    "x": 923.75,
+    "y": 5624.78,
+    "w": 461.25,
+    "h": 54.38
+   },
+   "text": "From cleanings and fillings to crowns, whitening, and Invisalign, we offer a full range of services to keep your smile in top shape.",
+   "style": {
+    "fontSize": "16px",
+    "fontFamily": "Lato",
+    "lineHeight": "27.2px",
+    "color": "rgb(98, 84, 78)",
+    "width": "461.25px",
+    "height": "54.375px",
+    "transition": "color 0.8s ease-in",
+    "textAlign": "left",
+    "minWidth": "0px",
+    "minHeight": "0px",
+    "outline": "rgb(98, 84, 78) none 3px"
+   }
+  },
+  {
+   "tag": "div",
+   "id": "brxe-xgzeey",
+   "cls": "brxe-block efectocargarfondo",
+   "rect": {
+    "x": 783.75,
+    "y": 5723.16,
+    "w": 641.25,
+    "h": 245.56
+   },
+   "style": {
+    "backgroundColor": "rgb(238, 231, 224)",
+    "padding": "40px 40px 40px 140px",
+    "width": "641.25px",
+    "height": "245.562px",
+    "display": "flex",
+    "flexDirection": "column",
+    "alignItems": "flex-start",
+    "gap": "14px normal",
+    "overflow": "hidden",
+    "position": "relative",
+    "top": "0px",
+    "left": "0px",
+    "right": "0px",
+    "bottom": "0px",
+    "zIndex": "0",
+    "maxWidth": "100%"
+   }
+  },
+  {
+   "tag": "h3",
+   "id": "brxe-finhyi",
+   "cls": "brxe-heading",
+   "rect": {
+    "x": 923.75,
+    "y": 5763.16,
+    "w": 461.25,
+    "h": 70
+   },
+   "text": "Comfortable, Quality Care — On Your Time",
+   "style": {
+    "fontSize": "25px",
+    "fontWeight": "700",
+    "fontFamily": "\"Playfair Display\"",
+    "lineHeight": "35px",
+    "color": "rgb(98, 84, 78)",
+    "width": "461.25px",
+    "height": "70px",
+    "transition": "color 0.8s ease-in",
+    "textAlign": "left",
+    "maxWidth": "100%",
+    "outline": "rgb(98, 84, 78) none 3px"
+   }
+  },
+  {
+   "tag": "div",
+   "id": "brxe-vmpdux",
+   "cls": "brxe-text",
+   "rect": {
+    "x": 923.75,
+    "y": 5847.16,
+    "w": 461.25,
+    "h": 81.56
+   },
+   "style": {
+    "fontSize": "16px",
+    "fontFamily": "Lato",
+    "lineHeight": "27.2px",
+    "color": "rgb(98, 84, 78)",
+    "width": "461.25px",
+    "height": "81.5625px",
+    "textAlign": "left",
+    "maxWidth": "100%",
+    "outline": "rgb(98, 84, 78) none 3px"
+   }
+  },
+  {
+   "tag": "p",
+   "rect": {
+    "x": 923.75,
+    "y": 5847.16,
+    "w": 461.25,
+    "h": 81.56
+   },
+   "text": "We’re committed to providing high-quality, efficient care in a welcoming environment, with flexible hours that work around your schedule.",
+   "style": {
+    "fontSize": "16px",
+    "fontFamily": "Lato",
+    "lineHeight": "27.2px",
+    "color": "rgb(98, 84, 78)",
+    "width": "461.25px",
+    "height": "81.5625px",
+    "transition": "color 0.8s ease-in",
+    "textAlign": "left",
+    "minWidth": "0px",
+    "minHeight": "0px",
+    "outline": "rgb(98, 84, 78) none 3px"
+   }
+  },
+  {
+   "tag": "div",
+   "id": "brxe-dapmua",
+   "cls": "brxe-block",
+   "rect": {
+    "x": 783.75,
+    "y": 5972.72,
+    "w": 641.25,
+    "h": 146.59
+   },
+   "style": {
+    "padding": "80px 0px 0px",
+    "width": "641.25px",
+    "height": "146.594px",
+    "display": "flex",
+    "flexDirection": "column",
+    "justifyContent": "center",
+    "alignItems": "center",
+    "maxWidth": "100%",
+    "alignSelf": "center"
+   }
+  },
+  {
+   "tag": "a",
+   "id": "brxe-hdkyrh",
+   "cls": "brxe-button btn-radial-4 bricks-button",
+   "rect": {
+    "x": 1012.16,
+    "y": 6052.72,
+    "w": 184.44,
+    "h": 66.59
+   },
+   "text": "BOOK ONLINE",
+   "style": {
+    "fontSize": "18px",
+    "fontWeight": "600",
+    "fontFamily": "Lato",
+    "lineHeight": "30.6px",
+    "letterSpacing": "0.5px",
+    "color": "rgb(255, 255, 255)",
+    "backgroundColor": "rgb(133, 141, 130)",
+    "padding": "18px 28px",
+    "width": "184.438px",
+    "height": "66.5938px",
+    "display": "flex",
+    "justifyContent": "center",
+    "alignItems": "center",
+    "gap": "10px",
+    "borderRadius": "40px",
+    "border": "0px none rgb(255, 255, 255)",
+    "borderTop": "0px none rgb(255, 255, 255)",
+    "borderRight": "0px none rgb(255, 255, 255)",
+    "borderBottom": "0px none rgb(255, 255, 255)",
+    "borderLeft": "0px none rgb(255, 255, 255)",
+    "overflow": "hidden",
+    "position": "relative",
+    "top": "0px",
+    "left": "0px",
+    "right": "0px",
+    "bottom": "0px",
+    "zIndex": "99",
+    "transition": "0.3s",
+    "textAlign": "center",
+    "cursor": "pointer",
+    "maxWidth": "100%",
+    "outline": "rgb(255, 255, 255) none 3px"
+   },
+   "href": "https://advancedsmileclinic.com/contact-us/"
+  },
+  {
+   "tag": "div",
+   "id": "brxe-hvnpwj",
+   "cls": "brxe-container bricks-lazy-hidden",
+   "rect": {
+    "x": 162.5,
+    "y": 6395.47,
+    "w": 1100,
+    "h": 370.05
+   },
+   "style": {
+    "padding": "60px 20px 0px",
+    "margin": "140px 162.5px 0px",
+    "width": "1100px",
+    "height": "370.047px",
+    "display": "flex",
+    "alignItems": "flex-start",
+    "gap": "40px",
+    "borderTop": "2px solid rgb(98, 84, 78)",
+    "maxWidth": "100%"
+   }
+  },
+  {
+   "tag": "div",
+   "id": "brxe-pnrgkd",
+   "cls": "brxe-block bricks-lazy-hidden",
+   "rect": {
+    "x": 182.5,
+    "y": 6457.47,
+    "w": 409.95,
+    "h": 308.05
+   },
+   "style": {
+    "padding": "40px",
+    "width": "409.953px",
+    "height": "308.047px",
+    "display": "flex",
+    "flexDirection": "column",
+    "justifyContent": "center",
+    "alignItems": "center",
+    "maxWidth": "100%"
+   }
+  },
+  {
+   "tag": "img",
+   "id": "brxe-wyjiai",
+   "cls": "brxe-image css-filter size-full bricks-lazy-hidden",
+   "rect": {
+    "x": 222.5,
+    "y": 6497.47,
+    "w": 329.95,
+    "h": 228.05
+   },
+   "text": "",
+   "style": {
+    "width": "329.953px",
+    "height": "228.047px",
+    "overflow": "clip",
+    "verticalAlign": "middle",
+    "maxWidth": "100%"
+   },
+   "src": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20667%20461'%3E%3C/svg%3E",
+   "data-src": "https://i0.wp.com/advancedsmileclinic.com/wp-content/uploads/2025/08/Logo-Advance-Smile-Dental-Clinic-01-2.webp?fit=667%2C461&ssl=1",
+   "alt": "Logo Advance Smile Dental Clinic",
+   "img": {
+    "nw": 217,
+    "nh": 150,
+    "cur": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20667%20461'%3E%3C/svg%3E"
+   }
+  },
+  {
+   "tag": "div",
+   "id": "brxe-jjdurc",
+   "cls": "brxe-block bricks-lazy-hidden",
+   "rect": {
+    "x": 632.45,
+    "y": 6492.98,
+    "w": 610.05,
+    "h": 237
+   },
+   "style": {
+    "width": "610.047px",
+    "height": "237px",
+    "display": "flex",
+    "flexDirection": "column",
+    "justifyContent": "center",
+    "alignItems": "flex-start",
+    "gap": "20px normal",
+    "maxWidth": "100%",
+    "alignSelf": "center"
+   }
+  },
+  {
+   "tag": "h2",
+   "id": "brxe-xodbss",
+   "cls": "brxe-heading",
+   "rect": {
+    "x": 632.45,
+    "y": 6492.98,
+    "w": 610.05,
+    "h": 168
+   },
+   "text": "Your perfect smile starts with one call",
+   "style": {
+    "fontSize": "60px",
+    "fontWeight": "600",
+    "fontFamily": "\"Playfair Display\"",
+    "lineHeight": "84px",
+    "color": "rgb(118, 97, 72)",
+    "width": "610.047px",
+    "height": "168px",
+    "maxWidth": "100%",
+    "outline": "rgb(118, 97, 72) none 3px"
+   }
+  },
+  {
+   "tag": "h2",
+   "id": "brxe-vtdqzm",
+   "cls": "brxe-heading",
+   "rect": {
+    "x": 632.45,
+    "y": 6680.98,
+    "w": 372.23,
+    "h": 49
+   },
+   "text": "Let’s make it happen!",
+   "style": {
+    "fontSize": "35px",
+    "fontFamily": "Poppins",
+    "lineHeight": "49px",
+    "color": "rgb(164, 153, 132)",
+    "width": "372.234px",
+    "height": "49px",
+    "maxWidth": "100%",
+    "outline": "rgb(164, 153, 132) none 3px"
+   }
+  },
+  {
+   "tag": "div",
+   "id": "brxe-isldso",
+   "cls": "brxe-container bricks-lazy-hidden",
+   "rect": {
+    "x": 162.5,
+    "y": 6805.52,
+    "w": 1100,
+    "h": 54.59
+   },
+   "style": {
+    "margin": "40px 162.5px 0px",
+    "width": "1100px",
+    "height": "54.5938px",
+    "display": "flex",
+    "alignItems": "center",
+    "maxWidth": "100%"
+   }
+  },
+  {
+   "tag": "div",
+   "id": "brxe-qpkmop",
+   "cls": "brxe-divider horizontal",
+   "rect": {
+    "x": 162.5,
+    "y": 6831.81,
+    "w": 440,
+    "h": 2
+   },
+   "style": {
+    "fontSize": "30px",
+    "lineHeight": "51px",
+    "width": "440px",
+    "height": "2px",
+    "display": "flex",
+    "alignItems": "center",
+    "gap": "30px",
+    "maxWidth": "100%"
+   }
+  },
+  {
+   "tag": "div",
+   "cls": "line",
+   "rect": {
+    "x": 162.5,
+    "y": 6831.81,
+    "w": 440,
+    "h": 2
+   },
+   "text": "",
+   "style": {
+    "fontSize": "30px",
+    "lineHeight": "51px",
+    "width": "440px",
+    "height": "2px",
+    "borderTop": "2px solid rgb(98, 84, 78)",
+    "position": "relative",
+    "top": "0px",
+    "left": "0px",
+    "right": "0px",
+    "bottom": "0px"
+   }
+  },
+  {
+   "tag": "div",
+   "id": "brxe-sanddn",
+   "cls": "brxe-block bricks-lazy-hidden",
+   "rect": {
+    "x": 602.5,
+    "y": 6805.52,
+    "w": 605,
+    "h": 54.59
+   },
+   "style": {
+    "padding": "0px 20px",
+    "width": "605px",
+    "height": "54.5938px",
+    "display": "flex",
+    "justifyContent": "center",
+    "alignItems": "flex-start",
+    "gap": "20px",
+    "maxWidth": "100%"
+   }
+  },
+  {
+   "tag": "a",
+   "id": "brxe-nfmpvj",
+   "cls": "brxe-button btn-radial-4 bricks-button",
+   "rect": {
+    "x": 637.73,
+    "y": 6805.52,
+    "w": 235.92,
+    "h": 54.59
+   },
+   "text": "Hialeah (305) 846-7987",
+   "style": {
+    "fontSize": "18px",
+    "fontWeight": "600",
+    "fontFamily": "Lato",
+    "lineHeight": "30.6px",
+    "letterSpacing": "0.5px",
+    "color": "rgb(255, 255, 255)",
+    "backgroundColor": "rgb(164, 153, 132)",
+    "padding": "12px 18px",
+    "width": "235.922px",
+    "height": "54.5938px",
+    "display": "flex",
+    "justifyContent": "center",
+    "alignItems": "center",
+    "gap": "10px",
+    "borderRadius": "40px",
+    "border": "0px none rgb(255, 255, 255)",
+    "borderTop": "0px none rgb(255, 255, 255)",
+    "borderRight": "0px none rgb(255, 255, 255)",
+    "borderBottom": "0px none rgb(255, 255, 255)",
+    "borderLeft": "0px none rgb(255, 255, 255)",
+    "overflow": "hidden",
+    "position": "relative",
+    "top": "0px",
+    "left": "0px",
+    "right": "0px",
+    "bottom": "0px",
+    "zIndex": "99",
+    "transition": "0.3s",
+    "textAlign": "center",
+    "cursor": "pointer",
+    "maxWidth": "100%",
+    "outline": "rgb(255, 255, 255) none 3px"
+   },
+   "href": "tel:(305) 846-7987"
+  },
+  {
+   "tag": "a",
+   "id": "brxe-kklsnf",
+   "cls": "brxe-button btn-radial-5 bricks-button",
+   "rect": {
+    "x": 893.66,
+    "y": 6805.52,
+    "w": 278.61,
+    "h": 54.59
+   },
+   "text": "Coral Gables (786) 391-0588",
+   "style": {
+    "fontSize": "18px",
+    "fontWeight": "600",
+    "fontFamily": "Lato",
+    "lineHeight": "30.6px",
+    "letterSpacing": "0.5px",
+    "color": "rgb(255, 255, 255)",
+    "backgroundColor": "rgb(118, 97, 72)",
+    "padding": "12px 18px",
+    "width": "278.609px",
+    "height": "54.5938px",
+    "display": "flex",
+    "justifyContent": "center",
+    "alignItems": "center",
+    "gap": "10px",
+    "borderRadius": "40px",
+    "border": "0px none rgb(255, 255, 255)",
+    "borderTop": "0px none rgb(255, 255, 255)",
+    "borderRight": "0px none rgb(255, 255, 255)",
+    "borderBottom": "0px none rgb(255, 255, 255)",
+    "borderLeft": "0px none rgb(255, 255, 255)",
+    "overflow": "hidden",
+    "position": "relative",
+    "top": "0px",
+    "left": "0px",
+    "right": "0px",
+    "bottom": "0px",
+    "zIndex": "99",
+    "transition": "0.3s",
+    "textAlign": "center",
+    "cursor": "pointer",
+    "maxWidth": "100%",
+    "outline": "rgb(255, 255, 255) none 3px"
+   },
+   "href": "tel:786 391 0588"
+  },
+  {
+   "tag": "div",
+   "id": "brxe-mnsjan",
+   "cls": "brxe-divider horizontal",
+   "rect": {
+    "x": 1207.5,
+    "y": 6831.81,
+    "w": 55,
+    "h": 2
+   },
+   "style": {
+    "fontSize": "30px",
+    "lineHeight": "51px",
+    "width": "55px",
+    "height": "2px",
+    "display": "flex",
+    "alignItems": "center",
+    "gap": "30px",
+    "maxWidth": "100%"
+   }
+  },
+  {
+   "tag": "div",
+   "cls": "line",
+   "rect": {
+    "x": 1207.5,
+    "y": 6831.81,
+    "w": 55,
+    "h": 2
+   },
+   "text": "",
+   "style": {
+    "fontSize": "30px",
+    "lineHeight": "51px",
+    "width": "55px",
+    "height": "2px",
+    "borderTop": "2px solid rgb(98, 84, 78)",
+    "position": "relative",
+    "top": "0px",
+    "left": "0px",
+    "right": "0px",
+    "bottom": "0px"
+   }
+  }
+ ]
+}

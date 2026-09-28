@@ -1,0 +1,442 @@
+.svcSection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.svcHead {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 80px 0 360px;
+  background-color: var(--asc-offwhite);
+}
+
+.svcDivider {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1100px;
+  height: 2px;
+  margin: 0 auto 60px;
+  border-top: 2px solid var(--asc-brown);
+}
+
+.svcReveal {
+  animation: asc-fade-in-left 1s 1.4s both;
+}
+
+.svcHeadRow {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.svcHeadText {
+  width: 742px;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.svcHeadActions {
+  width: 318px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+.svcHead .svcEyebrow {
+  margin: 0;
+  font-family: var(--asc-font-head), "Poppins", sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 49px;
+  color: var(--asc-tan);
+}
+
+.svcHead .svcTitle {
+  margin: 0;
+  font-family: var(--asc-font-display), "Playfair Display", serif;
+  font-size: 70px;
+  font-weight: 500;
+  line-height: 98px;
+  color: var(--asc-brown);
+}
+
+.svcRadial {
+  position: relative;
+  z-index: 99;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 0;
+  border: 0;
+  border-radius: 40px;
+  background-color: var(--asc-sage-2);
+  color: #ffffff;
+  font-family: var(--asc-font-body), "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30.6px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.svcRadial::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  background: linear-gradient(45deg, rgb(118, 97, 72), rgb(118, 97, 72));
+  border-radius: 50%;
+  transform: translateX(-50%);
+  transition: 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  z-index: -1;
+  opacity: 0;
+}
+
+.svcRadial:hover::before {
+  width: 120%;
+  height: 250px;
+  bottom: -125px;
+  opacity: 1;
+}
+
+.svcBtn {
+  padding: 18px;
+}
+
+.svcPill {
+  width: 90%;
+  padding: 12px 20px;
+  margin-bottom: -28px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 4px 20px 0;
+}
+
+.svcSliderWrap {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1100px;
+  margin: -340px auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.svcSplide {
+  position: relative;
+  width: 100%;
+  height: 540px;
+}
+
+.svcArrows {
+  width: 100%;
+  height: 0;
+}
+
+.svcArrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  min-width: 30px;
+  min-height: 30px;
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+  color: var(--asc-beige);
+  font-size: 30px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.svcArrow svg {
+  width: 30px;
+  height: 30px;
+  fill: var(--asc-beige);
+}
+
+.svcArrowPrev {
+  left: 0;
+  transform: translateY(-50%) scaleX(-1);
+}
+
+.svcArrowNext {
+  right: 0;
+}
+
+.svcTrack {
+  position: relative;
+  z-index: 0;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 80px 0;
+  overflow: hidden;
+  user-select: none;
+  touch-action: pan-y;
+}
+
+.svcList {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  transition: transform 400ms cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.svcListNoAnim {
+  transition: none;
+}
+
+.svcSlide {
+  position: relative;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  perspective: 1000px;
+}
+
+.svcFlipper {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 328px;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-size: cover;
+  background-position: 0% 0%;
+  transform-style: preserve-3d;
+}
+
+.svcFace {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s, opacity 0.6s;
+  backface-visibility: hidden;
+}
+
+.svcFront {
+  z-index: 2;
+  opacity: 1;
+  transform: rotateY(0deg) scale(1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.svcFrontInner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.svcBack {
+  z-index: 1;
+  opacity: 0;
+  transform: rotateY(10deg) scale(0.95);
+  pointer-events: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.svcBackInner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.svcSlide:hover .svcFront {
+  z-index: 1;
+  opacity: 0;
+  transform: rotateY(-10deg) scale(0.95);
+}
+
+.svcSlide:hover .svcBack {
+  z-index: 2;
+  opacity: 1;
+  transform: rotateY(0deg) scale(1);
+  pointer-events: all;
+}
+
+.svcBackCard {
+  box-sizing: border-box;
+  width: 90%;
+  height: 433.188px;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: rgba(118, 97, 72, 0.8);
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 4px 20px 0;
+  color: #ffffff;
+  z-index: 99;
+}
+
+.svcBackTitle {
+  margin: 0;
+  font-family: var(--asc-font-head), "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.svcBackCopy {
+  width: 100%;
+}
+
+.svcBackCopy p {
+  margin: 0;
+  width: 100%;
+  font-family: var(--asc-font-body), "Lato", sans-serif;
+  font-size: 16px;
+  line-height: 27.2px;
+  color: #ffffff;
+}
+
+.svcBackActions {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.svcLearnMore {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--asc-font-head), "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 34px;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.svcBack:hover .svcLearnMore {
+  animation: asc-mover-derecha-parpadeo 1.2s ease 0.8s infinite;
+}
+
+.svcLearnMoreIcon {
+  position: relative;
+  width: 20.5px;
+  height: 20px;
+  fill: currentColor;
+}
+
+@media (max-width: 991px) {
+  .svcHeadRow {
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 0 30px;
+  }
+
+  .svcHeadText {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .svcHeadActions {
+    width: 100%;
+  }
+
+  .svcHead .svcEyebrow {
+    font-size: 30px;
+    line-height: 42px;
+  }
+
+  .svcHead .svcTitle {
+    font-size: 60px;
+    line-height: 84px;
+  }
+}
+
+@media (max-width: 767px) {
+  .svcSection {
+    margin-bottom: 80px;
+  }
+
+  .svcArrowPrev {
+    left: 40px;
+  }
+
+  .svcArrowNext {
+    right: 40px;
+  }
+
+  .svcHead .svcEyebrow {
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .svcHead .svcTitle {
+    font-size: 45px;
+    line-height: 63px;
+  }
+}
+
+@media (max-width: 478px) {
+  .svcHeadRow {
+    padding: 0 20px;
+  }
+
+  .svcArrowPrev {
+    left: 20px;
+  }
+
+  .svcArrowNext {
+    right: 20px;
+  }
+
+  .svcHead .svcEyebrow {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .svcHead .svcTitle {
+    font-size: 35px;
+    line-height: 49px;
+  }
+}

@@ -1,0 +1,143 @@
+.insSection {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+  margin: 80px 0;
+  background-color: transparent;
+}
+
+.insSection .insInner {
+  animation-delay: 1.4s;
+}
+
+.insInner {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1100px;
+  height: 140px;
+  margin: 0 auto;
+}
+
+.insRoot {
+  position: relative;
+  box-sizing: border-box;
+  display: block;
+  width: 80%;
+  max-width: 100%;
+  height: 140px;
+  min-width: 0;
+}
+
+.insTrack {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  height: 140px;
+  overflow: hidden;
+  padding: 0;
+  touch-action: pan-y;
+}
+
+.insList {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 140px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  user-select: none;
+  transform: translate3d(
+    calc(
+      var(--ins-index, 0) * -1 * ((100% - 80px) / 3 + 40px) +
+        var(--ins-drag, 0px)
+    ),
+    0px,
+    0px
+  );
+  transition: transform 800ms cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.insListNoTransition {
+  transition: none;
+}
+
+.insSlide {
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  width: calc((100% - 80px) / 3);
+  max-width: 100%;
+  height: 140px;
+  margin: 0 40px 0 0;
+  padding: 40px 0;
+  background-color: transparent;
+}
+
+.insSlide img {
+  display: block;
+  flex-shrink: 0;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+@media (max-width: 767px) {
+  .insSection {
+    margin: 60px 0;
+  }
+
+  .insSlide {
+    width: calc((100% - 40px) / 2);
+  }
+
+  .insList {
+    transform: translate3d(
+      calc(
+        var(--ins-index, 0) * -1 * ((100% - 40px) / 2 + 40px) +
+          var(--ins-drag, 0px)
+      ),
+      0px,
+      0px
+    );
+  }
+}
+
+@media (max-width: 478px) {
+  .insSection {
+    margin: 40px 0;
+  }
+
+  .insInner {
+    height: 280px;
+  }
+
+  .insRoot {
+    width: 70%;
+  }
+
+  .insSlide {
+    width: 100%;
+  }
+
+  .insList {
+    transform: translate3d(
+      calc(
+        var(--ins-index, 0) * -1 * (100% + 40px) + var(--ins-drag, 0px)
+      ),
+      0px,
+      0px
+    );
+  }
+}

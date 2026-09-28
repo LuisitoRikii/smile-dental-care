@@ -1,0 +1,241 @@
+.npsSection {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 100px 0 80px;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.npsBlock {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.npsBloque {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: all 0.8s ease;
+}
+
+.npsMostrar {
+  margin-top: 60px;
+  max-height: 800px;
+  opacity: 1;
+}
+
+.npsCard {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1100px;
+  margin-inline: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.npsLeft {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-shrink: 0;
+  width: 275px;
+}
+
+.npsTitle {
+  box-sizing: border-box;
+  width: 247.5px;
+  margin: 0;
+  border-bottom: 2px solid var(--asc-beige);
+  font-family: var(--asc-font-display), "Playfair Display", serif;
+  font-size: 35px;
+  font-weight: 800;
+  line-height: 59.5px;
+  color: var(--asc-brown-dark);
+}
+
+.npsPriceRow {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  width: 275px;
+  height: 102px;
+}
+
+.npsPriceRowEnd {
+  justify-content: flex-end;
+}
+
+.npsPriceRowCenter {
+  justify-content: center;
+}
+
+.npsDollar {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  flex-shrink: 0;
+  width: 27.5px;
+  height: 30px;
+  margin-bottom: -14px;
+}
+
+.npsDollarIcon {
+  display: block;
+  width: 18.33px;
+  height: 30px;
+}
+
+.npsPriceWrap {
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  width: 192.5px;
+  height: 102px;
+}
+
+.npsPrice {
+  font-family: var(--asc-font-head), "Poppins", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 102px;
+  color: var(--asc-brown-dark);
+}
+
+.npsPanel {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  width: 748px;
+  padding-right: 120px;
+  background-color: var(--asc-brown);
+}
+
+.npsCell {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  width: 209.781px;
+  padding: 44px 0;
+}
+
+.npsCellDivider {
+  border-right: 2px solid #ffffff;
+}
+
+.npsCellLast {
+  width: 208.438px;
+}
+
+.npsCellText {
+  font-family: var(--asc-font-body), "Lato", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 47.6px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.npsBtnRow {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1100px;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+:global(.asc-root) a.npsBook {
+  box-sizing: border-box;
+  position: relative;
+  z-index: 99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  overflow: hidden;
+  margin-top: -134px;
+  padding: 12px 40px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 4px 20px 0;
+  background-color: var(--asc-tan);
+  font-family: var(--asc-font-body), "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30.6px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #ffffff;
+  transition: 0.3s;
+}
+
+:global(.asc-root) a.npsBook::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  background: linear-gradient(45deg, rgb(118, 97, 72), rgb(118, 97, 72));
+  border-radius: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  z-index: -1;
+  transition: 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+:global(.asc-root) a.npsBook:hover::before {
+  width: 120%;
+  height: 250px;
+  bottom: -125px;
+  opacity: 1;
+}
+
+.npsToggleWrap {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1100px;
+  height: 116px;
+  margin: 60px auto 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.npsToggleBtn {
+  --nps-anim: asc-bounce-subtle;
+  width: 43px;
+  height: 62px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  animation: var(--nps-anim) 1.4s ease-in-out infinite;
+}
+
+.npsRotado {
+  transform: rotate(180deg);
+}
+
+.npsToggleLabel {
+  margin-top: 20px;
+  font-family: var(--asc-font-head), "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 34px;
+  color: var(--asc-brown-accent);
+}

@@ -7,7 +7,8 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: "Geist", "Geist Fallback", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: var(--font-body, "Open Sans"), arial, sans-serif;
+  --font-serif: var(--font-display, "Playfair Display"), Georgia, serif;
   --font-mono: "Geist Mono", "Geist Mono Fallback", ui-monospace, monospace;
   --font-heading: var(--font-sans);
   --color-sidebar-ring: var(--sidebar-ring);
@@ -127,4 +128,58 @@
   html {
     @apply font-sans;
   }
+}
+/* ---- smiledentalcare.info clone tokens & base ---- */
+@layer base {
+  html {
+    font-family: var(--font-sans, "Open Sans"), arial, sans-serif;
+  }
+  body {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+.sdc-container {
+  box-sizing: border-box;
+  width: 100%;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 1024px) {
+  .sdc-container {
+    width: 97.5%;
+    max-width: 1160px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .sdc-container {
+    max-width: 1280px;
+  }
+}
+
+.sdc-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 32px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2.996px;
+  text-transform: uppercase;
+  text-align: center;
+  border: 0;
+  cursor: pointer;
+  transition: 0.3s;
+  position: relative;
+}
+
+.sdc-btn:hover {
+  box-shadow: rgba(0, 0, 0, 0.5) 0 10px 10px -10px;
 }

@@ -1,0 +1,5060 @@
+{
+ "note": "NOTE: brief selector #brxe-oxjdlg actually contains the Splide testimonials carousel; #brxe-aafbdt contains the \"Don't Wait in Pain!\" image slider; one-call content lives in #brxe-hvnpwj + #brxe-isldso (children of #brxe-bqoeeh)",
+ "extractedAt": "2026-09-27T14:26:23.943Z",
+ "tree": {
+  "#brxe-oxjdlg": [
+   {
+    "tag": "section",
+    "id": "brxe-oxjdlg",
+    "cls": "brxe-section bricks-lazy-hidden",
+    "rect": {
+     "x": 0,
+     "y": 6960.11,
+     "w": 1425,
+     "h": 769
+    },
+    "style": {
+     "height": "769px",
+     "display": "flex",
+     "flexDirection": "column",
+     "alignItems": "center",
+     "minWidth": "0px",
+     "maxWidth": "100%",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-ovtvxy",
+    "cls": "brxe-container bricks-lazy-hidden",
+    "rect": {
+     "x": 162.5,
+     "y": 6960.11,
+     "w": 1100,
+     "h": 769
+    },
+    "style": {
+     "padding": "140px 0px 80px",
+     "margin": "0px 162.5px",
+     "width": "1100px",
+     "height": "769px",
+     "display": "flex",
+     "flexDirection": "column",
+     "alignItems": "center",
+     "borderBottom": "2px solid rgb(98, 84, 78)",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-xnafut",
+    "cls": "brxe-block bricks-lazy-hidden",
+    "rect": {
+     "x": 162.5,
+     "y": 7100.11,
+     "w": 1100,
+     "h": 147
+    },
+    "style": {
+     "width": "1100px",
+     "height": "147px",
+     "display": "flex",
+     "flexDirection": "column",
+     "alignItems": "center",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "h2",
+    "id": "brxe-spcean",
+    "cls": "brxe-heading",
+    "rect": {
+     "x": 322.78,
+     "y": 7100.11,
+     "w": 779.42,
+     "h": 49
+    },
+    "text": "Why Coral Gables & Hialeah Patients Love Us",
+    "style": {
+     "fontSize": "35px",
+     "fontFamily": "Poppins",
+     "lineHeight": "49px",
+     "color": "rgb(164, 153, 132)",
+     "width": "779.422px",
+     "height": "49px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "h2",
+    "id": "brxe-teealg",
+    "cls": "brxe-heading",
+    "rect": {
+     "x": 310.88,
+     "y": 7149.11,
+     "w": 803.25,
+     "h": 98
+    },
+    "text": "Real Stories. Real Smiles.",
+    "style": {
+     "fontSize": "70px",
+     "fontWeight": "600",
+     "fontFamily": "\"Playfair Display\"",
+     "lineHeight": "98px",
+     "color": "rgb(118, 97, 72)",
+     "width": "803.25px",
+     "height": "98px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-rdzrnr",
+    "cls": "brxe-slider-nested bricks-lazy-hidden splide brx-auto-height splide--loop splide--ltr splide--draggable is-active is-overflow is-initialized",
+    "rect": {
+     "x": 162.5,
+     "y": 7287.11,
+     "w": 1100,
+     "h": 360
+    },
+    "style": {
+     "margin": "40px 0px 0px",
+     "width": "1100px",
+     "height": "360px",
+     "position": "relative",
+     "top": "0px",
+     "left": "0px",
+     "right": "0px",
+     "bottom": "0px",
+     "minWidth": "0px",
+     "maxWidth": "100%"
+    },
+    "role": "region",
+    "data-splide": "{\"type\":\"loop\",\"direction\":\"ltr\",\"keyboard\":\"global\",\"height\":\"40vh\",\"gap\":\"0px\",\"start\":0,\"perPage\":1,\"perMove\":1,\"speed\":\"500\",\"interval\":3000,\"autoHeight\":true,\"autoplay\":true,\"pauseOnHover\":true,\"pauseOnFocus\":true,\"arrows\":true,\"pagination\":false,\"mediaQuery\":\"max\",\"breakpoints\":{\"1279\":{\"height\":\"40vh\",\"speed\":\"500\",\"autoHeight\":true,\"autoplay\":true,\"pauseOnHover\":true,\"pauseOnFocus\":true,\"arrows\":true},\"767\":{\"height\":\"60vh\"},\"478\":{\"height\":\"90vh\"}}}"
+   },
+   {
+    "tag": "div",
+    "cls": "splide__arrows splide__arrows--ltr",
+    "rect": {
+     "x": 162.5,
+     "y": 7287.11,
+     "w": 1100,
+     "h": 0
+    },
+    "style": {
+     "width": "1100px",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "button",
+    "cls": "splide__arrow splide__arrow--prev",
+    "rect": {
+     "x": 162.5,
+     "y": 7442.11,
+     "w": 50,
+     "h": 50
+    },
+    "style": {
+     "fontSize": "30px",
+     "lineHeight": "34.5px",
+     "color": "rgb(189, 170, 156)",
+     "width": "50px",
+     "height": "50px",
+     "display": "flex",
+     "justifyContent": "center",
+     "alignItems": "center",
+     "border": "0px none rgb(189, 170, 156)",
+     "borderTop": "0px none rgb(189, 170, 156)",
+     "borderRight": "0px none rgb(189, 170, 156)",
+     "borderBottom": "0px none rgb(189, 170, 156)",
+     "borderLeft": "0px none rgb(189, 170, 156)",
+     "position": "absolute",
+     "top": "180px",
+     "left": "0px",
+     "right": "1050px",
+     "bottom": "130px",
+     "zIndex": "1",
+     "transform": "matrix(-1, 0, 0, 1, 0, -25)",
+     "cursor": "pointer",
+     "minWidth": "30px",
+     "minHeight": "30px"
+    },
+    "aria-label": "undefined"
+   },
+   {
+    "tag": "svg",
+    "rect": {
+     "x": 172.5,
+     "y": 7452.11,
+     "w": 30,
+     "h": 30
+    },
+    "style": {
+     "fontSize": "30px",
+     "lineHeight": "34.5px",
+     "color": "rgb(189, 170, 156)",
+     "width": "30px",
+     "height": "30px",
+     "overflow": "hidden",
+     "cursor": "pointer",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "path",
+    "rect": {
+     "x": 176.63,
+     "y": 7452.79,
+     "w": 17.48,
+     "h": 28.42
+    },
+    "text": "",
+    "style": {
+     "fontSize": "30px",
+     "lineHeight": "34.5px",
+     "color": "rgb(189, 170, 156)",
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "cursor": "pointer",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "button",
+    "cls": "splide__arrow splide__arrow--next",
+    "rect": {
+     "x": 1212.5,
+     "y": 7442.11,
+     "w": 50,
+     "h": 50
+    },
+    "style": {
+     "fontSize": "30px",
+     "lineHeight": "34.5px",
+     "color": "rgb(189, 170, 156)",
+     "width": "50px",
+     "height": "50px",
+     "display": "flex",
+     "justifyContent": "center",
+     "alignItems": "center",
+     "border": "0px none rgb(189, 170, 156)",
+     "borderTop": "0px none rgb(189, 170, 156)",
+     "borderRight": "0px none rgb(189, 170, 156)",
+     "borderBottom": "0px none rgb(189, 170, 156)",
+     "borderLeft": "0px none rgb(189, 170, 156)",
+     "position": "absolute",
+     "top": "180px",
+     "left": "1050px",
+     "right": "0px",
+     "bottom": "130px",
+     "zIndex": "1",
+     "transform": "matrix(1, 0, 0, 1, 0, -25)",
+     "cursor": "pointer",
+     "minWidth": "30px",
+     "minHeight": "30px"
+    },
+    "aria-label": "Next slide"
+   },
+   {
+    "tag": "svg",
+    "rect": {
+     "x": 1222.5,
+     "y": 7452.11,
+     "w": 30,
+     "h": 30
+    },
+    "style": {
+     "fontSize": "30px",
+     "lineHeight": "34.5px",
+     "color": "rgb(189, 170, 156)",
+     "width": "30px",
+     "height": "30px",
+     "overflow": "hidden",
+     "cursor": "pointer",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "path",
+    "rect": {
+     "x": 1230.9,
+     "y": 7452.79,
+     "w": 17.47,
+     "h": 28.42
+    },
+    "text": "",
+    "style": {
+     "fontSize": "30px",
+     "lineHeight": "34.5px",
+     "color": "rgb(189, 170, 156)",
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "cursor": "pointer",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-rdzrnr-track",
+    "cls": "splide__track splide__track--loop splide__track--ltr splide__track--draggable",
+    "rect": {
+     "x": 162.5,
+     "y": 7287.11,
+     "w": 1100,
+     "h": 360
+    },
+    "style": "padding-left: 0px; padding-right: 0px;"
+   },
+   {
+    "tag": "div",
+    "id": "brxe-rdzrnr-list",
+    "cls": "splide__list",
+    "rect": {
+     "x": -3137.5,
+     "y": 7287.11,
+     "w": 1100,
+     "h": 360
+    },
+    "style": "transform: translateX(-3300px); height: 360px;",
+    "role": "presentation"
+   },
+   {
+    "tag": "div",
+    "id": "brxe-rdzrnr-clone01",
+    "cls": "brxe-block bricks-lazy-hidden splide__slide splide__slide--clone",
+    "rect": {
+     "x": -3137.5,
+     "y": 7287.11,
+     "w": 1100,
+     "h": 360
+    },
+    "style": "margin-right: 0px; width: calc(100% + 0px); height: 40vh;",
+    "aria-label": "3 of 4",
+    "role": "group"
+   },
+   {
+    "tag": "svg",
+    "id": "brxe-weuihx",
+    "rect": {
+     "x": -2619.5,
+     "y": 7310.22,
+     "w": 64,
+     "h": 64
+    },
+    "style": {
+     "margin": "0px 0px -20px",
+     "width": "64px",
+     "height": "64px",
+     "overflow": "hidden",
+     "zIndex": "99",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "g",
+    "rect": {
+     "x": -2619.43,
+     "y": 7315.53,
+     "w": 63.86,
+     "h": 53.37
+    },
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "path",
+    "rect": {
+     "x": -2619.43,
+     "y": 7315.53,
+     "w": 63.86,
+     "h": 53.37
+    },
+    "text": "",
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "defs",
+    "rect": {
+     "x": 0,
+     "y": 5109,
+     "w": 0,
+     "h": 0
+    },
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "clippath",
+    "id": "clip0_98_11",
+    "rect": {
+     "x": 0,
+     "y": 5109,
+     "w": 0,
+     "h": 0
+    },
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "rect",
+    "rect": {
+     "x": 0,
+     "y": 5109,
+     "w": 0,
+     "h": 0
+    },
+    "text": "",
+    "style": {
+     "width": "55px",
+     "height": "46px",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-bqbcke",
+    "cls": "brxe-block bricks-lazy-hidden",
+    "rect": {
+     "x": -2972.5,
+     "y": 7354.22,
+     "w": 770,
+     "h": 202.38
+    },
+    "style": {
+     "backgroundColor": "rgb(238, 231, 224)",
+     "padding": "40px",
+     "width": "770px",
+     "height": "202.375px",
+     "display": "flex",
+     "flexDirection": "column",
+     "alignItems": "flex-start",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-cwivge",
+    "cls": "brxe-text",
+    "rect": {
+     "x": -2932.5,
+     "y": 7394.22,
+     "w": 690,
+     "h": 122.38
+    },
+    "style": {
+     "fontSize": "18px",
+     "fontWeight": "300",
+     "fontFamily": "Lato",
+     "lineHeight": "30.6px",
+     "color": "rgb(51, 51, 51)",
+     "width": "690px",
+     "height": "122.375px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "p",
+    "rect": {
+     "x": -2932.5,
+     "y": 7394.22,
+     "w": 690,
+     "h": 122.38
+    },
+    "text": "I had such a positive visit at Advanced Smile Dental Clinic! Dr. Perez is gentle, kind, and makes you feel completely at ease during the appointment. She walked me through the entire process and answered all of my questions. The office is clean, modern, and very comfortable. I will definitely be coming back!",
+    "style": {
+     "fontSize": "18px",
+     "fontWeight": "300",
+     "fontFamily": "Lato",
+     "lineHeight": "30.6px",
+     "color": "rgb(51, 51, 51)",
+     "width": "690px",
+     "height": "122.375px",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-zzuehg",
+    "cls": "brxe-block bricks-lazy-hidden",
+    "rect": {
+     "x": -2972.5,
+     "y": 7556.59,
+     "w": 770,
+     "h": 67.39
+    },
+    "style": {
+     "padding": "30px 0px 0px",
+     "width": "770px",
+     "height": "67.3906px",
+     "display": "flex",
+     "justifyContent": "center",
+     "alignItems": "center",
+     "maxWidth": "100%",
+     "alignSelf": "center"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-jdhxvn",
+    "cls": "brxe-block bricks-lazy-hidden",
+    "rect": {
+     "x": -2972.5,
+     "y": 7586.59,
+     "w": 385,
+     "h": 37.39
+    },
+    "style": {
+     "width": "385px",
+     "height": "37.3906px",
+     "display": "flex",
+     "alignItems": "flex-start",
+     "gap": "normal 20px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "svg",
+    "id": "brxe-pezpuj",
+    "rect": {
+     "x": -2972.5,
+     "y": 7586.59,
+     "w": 37,
+     "h": 37
+    },
+    "style": {
+     "width": "37px",
+     "height": "37px",
+     "overflow": "hidden",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "path",
+    "rect": {
+     "x": -2969.42,
+     "y": 7589.68,
+     "w": 30.83,
+     "h": 30.83
+    },
+    "text": "",
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "path",
+    "rect": {
+     "x": -2967.64,
+     "y": 7589.68,
+     "w": 24.14,
+     "h": 11.96
+    },
+    "text": "",
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "path",
+    "rect": {
+     "x": -2967.72,
+     "y": 7608.22,
+     "w": 24.06,
+     "h": 12.29
+    },
+    "text": "",
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "path",
+    "rect": {
+     "x": -2954,
+     "y": 7602.01,
+     "w": 15.42,
+     "h": 14.51
+    },
+    "text": "",
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-cbflpv",
+    "cls": "brxe-text-basic",
+    "rect": {
+     "x": -2915.5,
+     "y": 7586.59,
+     "w": 102.17,
+     "h": 37.39
+    },
+    "text": "Sophia R.",
+    "style": {
+     "fontSize": "22px",
+     "fontWeight": "500",
+     "fontFamily": "Poppins",
+     "lineHeight": "37.4px",
+     "color": "rgb(98, 84, 78)",
+     "width": "102.172px",
+     "height": "37.3906px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-ndbpue",
+    "cls": "brxe-block bricks-lazy-hidden",
+    "rect": {
+     "x": -2587.5,
+     "y": 7594.28,
+     "w": 385,
+     "h": 22
+    },
+    "style": {
+     "width": "385px",
+     "height": "22px",
+     "display": "flex",
+     "flexDirection": "column",
+     "justifyContent": "flex-end",
+     "alignItems": "flex-end",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-zndrhr",
+    "cls": "brxe-block bricks-lazy-hidden",
+    "rect": {
+     "x": -2587.5,
+     "y": 7594.28,
+     "w": 385,
+     "h": 22
+    },
+    "style": {
+     "width": "385px",
+     "height": "22px",
+     "display": "flex",
+     "justifyContent": "flex-end",
+     "alignItems": "flex-start",
+     "gap": "normal 10px",
+     "maxWidth": "100%",
+     "alignSelf": "flex-end"
+    }
+   },
+   {
+    "tag": "i",
+    "id": "brxe-jmqlcj",
+    "cls": "fas fa-star brxe-icon",
+    "rect": {
+     "x": -2366.25,
+     "y": 7594.28,
+     "w": 24.75,
+     "h": 22
+    },
+    "text": "",
+    "style": {
+     "fontSize": "22px",
+     "fontWeight": "900",
+     "fontFamily": "\"Font Awesome 6 Solid\"",
+     "lineHeight": "22px",
+     "color": "rgb(129, 137, 126)",
+     "width": "24.75px",
+     "height": "22px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "i",
+    "id": "brxe-tuooih",
+    "cls": "fas fa-star brxe-icon",
+    "rect": {
+     "x": -2331.5,
+     "y": 7594.28,
+     "w": 24.75,
+     "h": 22
+    },
+    "text": "",
+    "style": {
+     "fontSize": "22px",
+     "fontWeight": "900",
+     "fontFamily": "\"Font Awesome 6 Solid\"",
+     "lineHeight": "22px",
+     "color": "rgb(129, 137, 126)",
+     "width": "24.75px",
+     "height": "22px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "i",
+    "id": "brxe-feavik",
+    "cls": "fas fa-star brxe-icon",
+    "rect": {
+     "x": -2296.75,
+     "y": 7594.28,
+     "w": 24.75,
+     "h": 22
+    },
+    "text": "",
+    "style": {
+     "fontSize": "22px",
+     "fontWeight": "900",
+     "fontFamily": "\"Font Awesome 6 Solid\"",
+     "lineHeight": "22px",
+     "color": "rgb(129, 137, 126)",
+     "width": "24.75px",
+     "height": "22px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "i",
+    "id": "brxe-vkrwje",
+    "cls": "fas fa-star brxe-icon",
+    "rect": {
+     "x": -2262,
+     "y": 7594.28,
+     "w": 24.75,
+     "h": 22
+    },
+    "text": "",
+    "style": {
+     "fontSize": "22px",
+     "fontWeight": "900",
+     "fontFamily": "\"Font Awesome 6 Solid\"",
+     "lineHeight": "22px",
+     "color": "rgb(129, 137, 126)",
+     "width": "24.75px",
+     "height": "22px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "i",
+    "id": "brxe-olprwp",
+    "cls": "fas fa-star brxe-icon",
+    "rect": {
+     "x": -2227.25,
+     "y": 7594.28,
+     "w": 24.75,
+     "h": 22
+    },
+    "text": "",
+    "style": {
+     "fontSize": "22px",
+     "fontWeight": "900",
+     "fontFamily": "\"Font Awesome 6 Solid\"",
+     "lineHeight": "22px",
+     "color": "rgb(129, 137, 126)",
+     "width": "24.75px",
+     "height": "22px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-rdzrnr-clone02",
+    "cls": "brxe-block bricks-lazy-hidden splide__slide splide__slide--clone",
+    "rect": {
+     "x": -2037.5,
+     "y": 7287.11,
+     "w": 1100,
+     "h": 360
+    },
+    "style": "margin-right: 0px; width: calc(100% + 0px); height: 40vh;",
+    "aria-label": "4 of 4",
+    "role": "group"
+   },
+   {
+    "tag": "svg",
+    "id": "brxe-kqvtek",
+    "rect": {
+     "x": -1519.5,
+     "y": 7310.22,
+     "w": 64,
+     "h": 64
+    },
+    "style": {
+     "margin": "0px 0px -20px",
+     "width": "64px",
+     "height": "64px",
+     "overflow": "hidden",
+     "zIndex": "99",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "g",
+    "rect": {
+     "x": -1519.43,
+     "y": 7315.53,
+     "w": 63.86,
+     "h": 53.37
+    },
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "path",
+    "rect": {
+     "x": -1519.43,
+     "y": 7315.53,
+     "w": 63.86,
+     "h": 53.37
+    },
+    "text": "",
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "defs",
+    "rect": {
+     "x": 0,
+     "y": 5109,
+     "w": 0,
+     "h": 0
+    },
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "clippath",
+    "id": "clip0_98_11",
+    "rect": {
+     "x": 0,
+     "y": 5109,
+     "w": 0,
+     "h": 0
+    },
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "rect",
+    "rect": {
+     "x": 0,
+     "y": 5109,
+     "w": 0,
+     "h": 0
+    },
+    "text": "",
+    "style": {
+     "width": "55px",
+     "height": "46px",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-fhjhkp",
+    "cls": "brxe-block bricks-lazy-hidden",
+    "rect": {
+     "x": -1872.5,
+     "y": 7354.22,
+     "w": 770,
+     "h": 202.38
+    },
+    "style": {
+     "backgroundColor": "rgb(238, 231, 224)",
+     "padding": "40px",
+     "width": "770px",
+     "height": "202.375px",
+     "display": "flex",
+     "flexDirection": "column",
+     "alignItems": "flex-start",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-oswlwp",
+    "cls": "brxe-text",
+    "rect": {
+     "x": -1832.5,
+     "y": 7394.22,
+     "w": 690,
+     "h": 122.38
+    },
+    "style": {
+     "fontSize": "18px",
+     "fontWeight": "300",
+     "fontFamily": "Lato",
+     "lineHeight": "30.6px",
+     "color": "rgb(51, 51, 51)",
+     "width": "690px",
+     "height": "122.375px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "p",
+    "rect": {
+     "x": -1832.5,
+     "y": 7394.22,
+     "w": 690,
+     "h": 122.38
+    },
+    "text": "Dr. Laura Perez and her team are truly wonderful! From the moment I walked in, I felt welcomed and cared for. The staff was very professional and friendly, and Dr. Perez explained everything clearly so I understood my treatment. My smile has never looked better, and I couldn’t be happier with the results.",
+    "style": {
+     "fontSize": "18px",
+     "fontWeight": "300",
+     "fontFamily": "Lato",
+     "lineHeight": "30.6px",
+     "color": "rgb(51, 51, 51)",
+     "width": "690px",
+     "height": "122.375px",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-sxtrwh",
+    "cls": "brxe-block bricks-lazy-hidden",
+    "rect": {
+     "x": -1872.5,
+     "y": 7556.59,
+     "w": 770,
+     "h": 67.39
+    },
+    "style": {
+     "padding": "30px 0px 0px",
+     "width": "770px",
+     "height": "67.3906px",
+     "display": "flex",
+     "justifyContent": "center",
+     "alignItems": "center",
+     "maxWidth": "100%",
+     "alignSelf": "center"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-sgjvlo",
+    "cls": "brxe-block bricks-lazy-hidden",
+    "rect": {
+     "x": -1872.5,
+     "y": 7586.59,
+     "w": 385,
+     "h": 37.39
+    },
+    "style": {
+     "width": "385px",
+     "height": "37.3906px",
+     "display": "flex",
+     "alignItems": "flex-start",
+     "gap": "normal 20px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "svg",
+    "id": "brxe-pxdyzx",
+    "rect": {
+     "x": -1872.5,
+     "y": 7586.59,
+     "w": 37,
+     "h": 37
+    },
+    "style": {
+     "width": "37px",
+     "height": "37px",
+     "overflow": "hidden",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "path",
+    "rect": {
+     "x": -1869.42,
+     "y": 7589.68,
+     "w": 30.83,
+     "h": 30.83
+    },
+    "text": "",
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "path",
+    "rect": {
+     "x": -1867.64,
+     "y": 7589.68,
+     "w": 24.14,
+     "h": 11.96
+    },
+    "text": "",
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "path",
+    "rect": {
+     "x": -1867.72,
+     "y": 7608.22,
+     "w": 24.06,
+     "h": 12.29
+    },
+    "text": "",
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "path",
+    "rect": {
+     "x": -1854,
+     "y": 7602.01,
+     "w": 15.42,
+     "h": 14.51
+    },
+    "text": "",
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-ppwsym",
+    "cls": "brxe-text-basic",
+    "rect": {
+     "x": -1815.5,
+     "y": 7586.59,
+     "w": 100.42,
+     "h": 37.39
+    },
+    "text": "Daniel M.",
+    "style": {
+     "fontSize": "22px",
+     "fontWeight": "500",
+     "fontFamily": "Poppins",
+     "lineHeight": "37.4px",
+     "color": "rgb(98, 84, 78)",
+     "width": "100.422px",
+     "height": "37.3906px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-djtbil",
+    "cls": "brxe-block bricks-lazy-hidden",
+    "rect": {
+     "x": -1487.5,
+     "y": 7594.28,
+     "w": 385,
+     "h": 22
+    },
+    "style": {
+     "width": "385px",
+     "height": "22px",
+     "display": "flex",
+     "flexDirection": "column",
+     "justifyContent": "flex-end",
+     "alignItems": "flex-end",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-wpkiaf",
+    "cls": "brxe-block bricks-lazy-hidden",
+    "rect": {
+     "x": -1487.5,
+     "y": 7594.28,
+     "w": 385,
+     "h": 22
+    },
+    "style": {
+     "width": "385px",
+     "height": "22px",
+     "display": "flex",
+     "justifyContent": "flex-end",
+     "alignItems": "flex-start",
+     "gap": "normal 10px",
+     "maxWidth": "100%",
+     "alignSelf": "flex-end"
+    }
+   },
+   {
+    "tag": "i",
+    "id": "brxe-fhmsmw",
+    "cls": "fas fa-star brxe-icon",
+    "rect": {
+     "x": -1266.25,
+     "y": 7594.28,
+     "w": 24.75,
+     "h": 22
+    },
+    "text": "",
+    "style": {
+     "fontSize": "22px",
+     "fontWeight": "900",
+     "fontFamily": "\"Font Awesome 6 Solid\"",
+     "lineHeight": "22px",
+     "color": "rgb(129, 137, 126)",
+     "width": "24.75px",
+     "height": "22px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "i",
+    "id": "brxe-iqopoi",
+    "cls": "fas fa-star brxe-icon",
+    "rect": {
+     "x": -1231.5,
+     "y": 7594.28,
+     "w": 24.75,
+     "h": 22
+    },
+    "text": "",
+    "style": {
+     "fontSize": "22px",
+     "fontWeight": "900",
+     "fontFamily": "\"Font Awesome 6 Solid\"",
+     "lineHeight": "22px",
+     "color": "rgb(129, 137, 126)",
+     "width": "24.75px",
+     "height": "22px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "i",
+    "id": "brxe-qogssy",
+    "cls": "fas fa-star brxe-icon",
+    "rect": {
+     "x": -1196.75,
+     "y": 7594.28,
+     "w": 24.75,
+     "h": 22
+    },
+    "text": "",
+    "style": {
+     "fontSize": "22px",
+     "fontWeight": "900",
+     "fontFamily": "\"Font Awesome 6 Solid\"",
+     "lineHeight": "22px",
+     "color": "rgb(129, 137, 126)",
+     "width": "24.75px",
+     "height": "22px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "i",
+    "id": "brxe-fjqndl",
+    "cls": "fas fa-star brxe-icon",
+    "rect": {
+     "x": -1162,
+     "y": 7594.28,
+     "w": 24.75,
+     "h": 22
+    },
+    "text": "",
+    "style": {
+     "fontSize": "22px",
+     "fontWeight": "900",
+     "fontFamily": "\"Font Awesome 6 Solid\"",
+     "lineHeight": "22px",
+     "color": "rgb(129, 137, 126)",
+     "width": "24.75px",
+     "height": "22px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "i",
+    "id": "brxe-vyrggx",
+    "cls": "fas fa-star brxe-icon",
+    "rect": {
+     "x": -1127.25,
+     "y": 7594.28,
+     "w": 24.75,
+     "h": 22
+    },
+    "text": "",
+    "style": {
+     "fontSize": "22px",
+     "fontWeight": "900",
+     "fontFamily": "\"Font Awesome 6 Solid\"",
+     "lineHeight": "22px",
+     "color": "rgb(129, 137, 126)",
+     "width": "24.75px",
+     "height": "22px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-bdibso",
+    "cls": "brxe-block bricks-lazy-hidden splide__slide is-prev",
+    "rect": {
+     "x": -937.5,
+     "y": 7287.11,
+     "w": 1100,
+     "h": 360
+    },
+    "style": "margin-right: 0px; width: calc(100% + 0px); height: 40vh;",
+    "aria-label": "1 of 4",
+    "role": "group"
+   },
+   {
+    "tag": "svg",
+    "id": "brxe-wubqgn",
+    "rect": {
+     "x": -419.5,
+     "y": 7310.22,
+     "w": 64,
+     "h": 64
+    },
+    "style": {
+     "margin": "0px 0px -20px",
+     "width": "64px",
+     "height": "64px",
+     "overflow": "hidden",
+     "zIndex": "99",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "g",
+    "rect": {
+     "x": -419.43,
+     "y": 7315.53,
+     "w": 63.87,
+     "h": 53.37
+    },
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "path",
+    "rect": {
+     "x": -419.43,
+     "y": 7315.53,
+     "w": 63.87,
+     "h": 53.37
+    },
+    "text": "",
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "defs",
+    "rect": {
+     "x": 0,
+     "y": 5109,
+     "w": 0,
+     "h": 0
+    },
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "clippath",
+    "id": "clip0_98_11",
+    "rect": {
+     "x": 0,
+     "y": 5109,
+     "w": 0,
+     "h": 0
+    },
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "rect",
+    "rect": {
+     "x": 0,
+     "y": 5109,
+     "w": 0,
+     "h": 0
+    },
+    "text": "",
+    "style": {
+     "width": "55px",
+     "height": "46px",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-lgklns",
+    "cls": "brxe-block bricks-lazy-hidden",
+    "rect": {
+     "x": -772.5,
+     "y": 7354.22,
+     "w": 770,
+     "h": 202.38
+    },
+    "style": {
+     "backgroundColor": "rgb(238, 231, 224)",
+     "padding": "40px",
+     "width": "770px",
+     "height": "202.375px",
+     "display": "flex",
+     "flexDirection": "column",
+     "alignItems": "flex-start",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-jlqdtb",
+    "cls": "brxe-text",
+    "rect": {
+     "x": -732.5,
+     "y": 7394.22,
+     "w": 690,
+     "h": 122.38
+    },
+    "style": {
+     "fontSize": "18px",
+     "fontWeight": "300",
+     "fontFamily": "Lato",
+     "lineHeight": "30.6px",
+     "color": "rgb(51, 51, 51)",
+     "width": "690px",
+     "height": "122.375px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "p",
+    "rect": {
+     "x": -732.5,
+     "y": 7394.22,
+     "w": 690,
+     "h": 122.38
+    },
+    "text": "My experience here was excellent! Dr. Perez really takes the time to listen and provide the best care possible. She was very detailed, professional, and made the whole appointment stress-free. The staff was also very attentive and helpful. I can finally say I enjoy going to the dentist now. Highly recommended!",
+    "style": {
+     "fontSize": "18px",
+     "fontWeight": "300",
+     "fontFamily": "Lato",
+     "lineHeight": "30.6px",
+     "color": "rgb(51, 51, 51)",
+     "width": "690px",
+     "height": "122.375px",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-dcmgue",
+    "cls": "brxe-block bricks-lazy-hidden",
+    "rect": {
+     "x": -772.5,
+     "y": 7556.59,
+     "w": 770,
+     "h": 67.39
+    },
+    "style": {
+     "padding": "30px 0px 0px",
+     "width": "770px",
+     "height": "67.3906px",
+     "display": "flex",
+     "justifyContent": "center",
+     "alignItems": "center",
+     "maxWidth": "100%",
+     "alignSelf": "center"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-pvbxoc",
+    "cls": "brxe-block bricks-lazy-hidden",
+    "rect": {
+     "x": -772.5,
+     "y": 7586.59,
+     "w": 385,
+     "h": 37.39
+    },
+    "style": {
+     "width": "385px",
+     "height": "37.3906px",
+     "display": "flex",
+     "alignItems": "flex-start",
+     "gap": "normal 20px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "svg",
+    "id": "brxe-knuemc",
+    "rect": {
+     "x": -772.5,
+     "y": 7586.59,
+     "w": 37,
+     "h": 37
+    },
+    "style": {
+     "width": "37px",
+     "height": "37px",
+     "overflow": "hidden",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "path",
+    "rect": {
+     "x": -769.42,
+     "y": 7589.68,
+     "w": 30.83,
+     "h": 30.83
+    },
+    "text": "",
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "path",
+    "rect": {
+     "x": -767.64,
+     "y": 7589.68,
+     "w": 24.14,
+     "h": 11.96
+    },
+    "text": "",
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "path",
+    "rect": {
+     "x": -767.72,
+     "y": 7608.22,
+     "w": 24.06,
+     "h": 12.29
+    },
+    "text": "",
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "path",
+    "rect": {
+     "x": -754,
+     "y": 7602.01,
+     "w": 15.42,
+     "h": 14.51
+    },
+    "text": "",
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-uahxvr",
+    "cls": "brxe-text-basic",
+    "rect": {
+     "x": -715.5,
+     "y": 7586.59,
+     "w": 107.78,
+     "h": 37.39
+    },
+    "text": "Michael L.",
+    "style": {
+     "fontSize": "22px",
+     "fontWeight": "500",
+     "fontFamily": "Poppins",
+     "lineHeight": "37.4px",
+     "color": "rgb(98, 84, 78)",
+     "width": "107.781px",
+     "height": "37.3906px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-avaind",
+    "cls": "brxe-block bricks-lazy-hidden",
+    "rect": {
+     "x": -387.5,
+     "y": 7594.28,
+     "w": 385,
+     "h": 22
+    },
+    "style": {
+     "width": "385px",
+     "height": "22px",
+     "display": "flex",
+     "flexDirection": "column",
+     "justifyContent": "flex-end",
+     "alignItems": "flex-end",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-xtyuti",
+    "cls": "brxe-block bricks-lazy-hidden",
+    "rect": {
+     "x": -387.5,
+     "y": 7594.28,
+     "w": 385,
+     "h": 22
+    },
+    "style": {
+     "width": "385px",
+     "height": "22px",
+     "display": "flex",
+     "justifyContent": "flex-end",
+     "alignItems": "flex-start",
+     "gap": "normal 10px",
+     "maxWidth": "100%",
+     "alignSelf": "flex-end"
+    }
+   },
+   {
+    "tag": "i",
+    "id": "brxe-hbrkuh",
+    "cls": "fas fa-star brxe-icon",
+    "rect": {
+     "x": -166.25,
+     "y": 7594.28,
+     "w": 24.75,
+     "h": 22
+    },
+    "text": "",
+    "style": {
+     "fontSize": "22px",
+     "fontWeight": "900",
+     "fontFamily": "\"Font Awesome 6 Solid\"",
+     "lineHeight": "22px",
+     "color": "rgb(129, 137, 126)",
+     "width": "24.75px",
+     "height": "22px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "i",
+    "id": "brxe-kmglqs",
+    "cls": "fas fa-star brxe-icon",
+    "rect": {
+     "x": -131.5,
+     "y": 7594.28,
+     "w": 24.75,
+     "h": 22
+    },
+    "text": "",
+    "style": {
+     "fontSize": "22px",
+     "fontWeight": "900",
+     "fontFamily": "\"Font Awesome 6 Solid\"",
+     "lineHeight": "22px",
+     "color": "rgb(129, 137, 126)",
+     "width": "24.75px",
+     "height": "22px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "i",
+    "id": "brxe-gdsulu",
+    "cls": "fas fa-star brxe-icon",
+    "rect": {
+     "x": -96.75,
+     "y": 7594.28,
+     "w": 24.75,
+     "h": 22
+    },
+    "text": "",
+    "style": {
+     "fontSize": "22px",
+     "fontWeight": "900",
+     "fontFamily": "\"Font Awesome 6 Solid\"",
+     "lineHeight": "22px",
+     "color": "rgb(129, 137, 126)",
+     "width": "24.75px",
+     "height": "22px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "i",
+    "id": "brxe-iqixdw",
+    "cls": "fas fa-star brxe-icon",
+    "rect": {
+     "x": -62,
+     "y": 7594.28,
+     "w": 24.75,
+     "h": 22
+    },
+    "text": "",
+    "style": {
+     "fontSize": "22px",
+     "fontWeight": "900",
+     "fontFamily": "\"Font Awesome 6 Solid\"",
+     "lineHeight": "22px",
+     "color": "rgb(129, 137, 126)",
+     "width": "24.75px",
+     "height": "22px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "i",
+    "id": "brxe-iomwtg",
+    "cls": "fas fa-star brxe-icon",
+    "rect": {
+     "x": -27.25,
+     "y": 7594.28,
+     "w": 24.75,
+     "h": 22
+    },
+    "text": "",
+    "style": {
+     "fontSize": "22px",
+     "fontWeight": "900",
+     "fontFamily": "\"Font Awesome 6 Solid\"",
+     "lineHeight": "22px",
+     "color": "rgb(129, 137, 126)",
+     "width": "24.75px",
+     "height": "22px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-uzteqw",
+    "cls": "brxe-block bricks-lazy-hidden splide__slide is-active is-visible",
+    "rect": {
+     "x": 162.5,
+     "y": 7287.11,
+     "w": 1100,
+     "h": 360
+    },
+    "style": "margin-right: 0px; width: calc(100% + 0px); height: 40vh;",
+    "aria-label": "2 of 4",
+    "role": "group"
+   },
+   {
+    "tag": "svg",
+    "id": "brxe-mixegr",
+    "rect": {
+     "x": 680.5,
+     "y": 7310.22,
+     "w": 64,
+     "h": 64
+    },
+    "style": {
+     "margin": "0px 0px -20px",
+     "width": "64px",
+     "height": "64px",
+     "overflow": "hidden",
+     "zIndex": "99",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "g",
+    "rect": {
+     "x": 680.57,
+     "y": 7315.53,
+     "w": 63.87,
+     "h": 53.37
+    },
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "path",
+    "rect": {
+     "x": 680.57,
+     "y": 7315.53,
+     "w": 63.87,
+     "h": 53.37
+    },
+    "text": "",
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "defs",
+    "rect": {
+     "x": 0,
+     "y": 5109,
+     "w": 0,
+     "h": 0
+    },
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "clippath",
+    "id": "clip0_98_11",
+    "rect": {
+     "x": 0,
+     "y": 5109,
+     "w": 0,
+     "h": 0
+    },
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "rect",
+    "rect": {
+     "x": 0,
+     "y": 5109,
+     "w": 0,
+     "h": 0
+    },
+    "text": "",
+    "style": {
+     "width": "55px",
+     "height": "46px",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-lutvof",
+    "cls": "brxe-block bricks-lazy-hidden",
+    "rect": {
+     "x": 327.5,
+     "y": 7354.22,
+     "w": 770,
+     "h": 202.38
+    },
+    "style": {
+     "backgroundColor": "rgb(238, 231, 224)",
+     "padding": "40px",
+     "width": "770px",
+     "height": "202.375px",
+     "display": "flex",
+     "flexDirection": "column",
+     "alignItems": "flex-start",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-zytpoe",
+    "cls": "brxe-text",
+    "rect": {
+     "x": 367.5,
+     "y": 7394.22,
+     "w": 690,
+     "h": 122.38
+    },
+    "style": {
+     "fontSize": "18px",
+     "fontWeight": "300",
+     "fontFamily": "Lato",
+     "lineHeight": "30.6px",
+     "color": "rgb(51, 51, 51)",
+     "width": "690px",
+     "height": "122.375px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "p",
+    "rect": {
+     "x": 367.5,
+     "y": 7394.22,
+     "w": 690,
+     "h": 122.38
+    },
+    "text": "I had the best experience with Dr. Laura Perez! Her main priority was making sure it was fast and comfortable and she was very knowledgeable and gave me great tips on how to continue to take care of my teeth. I left there with my teeth feeling great! I highly recommend Advanced Smile Dental Clinic for amazing dental care.",
+    "style": {
+     "fontSize": "18px",
+     "fontWeight": "300",
+     "fontFamily": "Lato",
+     "lineHeight": "30.6px",
+     "color": "rgb(51, 51, 51)",
+     "width": "690px",
+     "height": "122.375px",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-qlsrpg",
+    "cls": "brxe-block bricks-lazy-hidden",
+    "rect": {
+     "x": 327.5,
+     "y": 7556.59,
+     "w": 770,
+     "h": 67.39
+    },
+    "style": {
+     "padding": "30px 0px 0px",
+     "width": "770px",
+     "height": "67.3906px",
+     "display": "flex",
+     "justifyContent": "center",
+     "alignItems": "center",
+     "maxWidth": "100%",
+     "alignSelf": "center"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-ajwyos",
+    "cls": "brxe-block bricks-lazy-hidden",
+    "rect": {
+     "x": 327.5,
+     "y": 7586.59,
+     "w": 385,
+     "h": 37.39
+    },
+    "style": {
+     "width": "385px",
+     "height": "37.3906px",
+     "display": "flex",
+     "alignItems": "flex-start",
+     "gap": "normal 20px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "svg",
+    "id": "brxe-xyzbgh",
+    "rect": {
+     "x": 327.5,
+     "y": 7586.59,
+     "w": 37,
+     "h": 37
+    },
+    "style": {
+     "width": "37px",
+     "height": "37px",
+     "overflow": "hidden",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "path",
+    "rect": {
+     "x": 330.58,
+     "y": 7589.68,
+     "w": 30.83,
+     "h": 30.83
+    },
+    "text": "",
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "path",
+    "rect": {
+     "x": 332.36,
+     "y": 7589.68,
+     "w": 24.14,
+     "h": 11.96
+    },
+    "text": "",
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "path",
+    "rect": {
+     "x": 332.28,
+     "y": 7608.22,
+     "w": 24.06,
+     "h": 12.29
+    },
+    "text": "",
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "path",
+    "rect": {
+     "x": 346,
+     "y": 7602.01,
+     "w": 15.42,
+     "h": 14.51
+    },
+    "text": "",
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-mpdfrv",
+    "cls": "brxe-text-basic",
+    "rect": {
+     "x": 384.5,
+     "y": 7586.59,
+     "w": 115.53,
+     "h": 37.39
+    },
+    "text": "Isabella C.",
+    "style": {
+     "fontSize": "22px",
+     "fontWeight": "500",
+     "fontFamily": "Poppins",
+     "lineHeight": "37.4px",
+     "color": "rgb(98, 84, 78)",
+     "width": "115.531px",
+     "height": "37.3906px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-onadzq",
+    "cls": "brxe-block bricks-lazy-hidden",
+    "rect": {
+     "x": 712.5,
+     "y": 7594.28,
+     "w": 385,
+     "h": 22
+    },
+    "style": {
+     "width": "385px",
+     "height": "22px",
+     "display": "flex",
+     "flexDirection": "column",
+     "justifyContent": "flex-end",
+     "alignItems": "flex-end",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-zrunft",
+    "cls": "brxe-block bricks-lazy-hidden",
+    "rect": {
+     "x": 712.5,
+     "y": 7594.28,
+     "w": 385,
+     "h": 22
+    },
+    "style": {
+     "width": "385px",
+     "height": "22px",
+     "display": "flex",
+     "justifyContent": "flex-end",
+     "alignItems": "flex-start",
+     "gap": "normal 10px",
+     "maxWidth": "100%",
+     "alignSelf": "flex-end"
+    }
+   },
+   {
+    "tag": "i",
+    "id": "brxe-auaets",
+    "cls": "fas fa-star brxe-icon",
+    "rect": {
+     "x": 933.75,
+     "y": 7594.28,
+     "w": 24.75,
+     "h": 22
+    },
+    "text": "",
+    "style": {
+     "fontSize": "22px",
+     "fontWeight": "900",
+     "fontFamily": "\"Font Awesome 6 Solid\"",
+     "lineHeight": "22px",
+     "color": "rgb(129, 137, 126)",
+     "width": "24.75px",
+     "height": "22px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "i",
+    "id": "brxe-dxhucc",
+    "cls": "fas fa-star brxe-icon",
+    "rect": {
+     "x": 968.5,
+     "y": 7594.28,
+     "w": 24.75,
+     "h": 22
+    },
+    "text": "",
+    "style": {
+     "fontSize": "22px",
+     "fontWeight": "900",
+     "fontFamily": "\"Font Awesome 6 Solid\"",
+     "lineHeight": "22px",
+     "color": "rgb(129, 137, 126)",
+     "width": "24.75px",
+     "height": "22px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "i",
+    "id": "brxe-rwiihn",
+    "cls": "fas fa-star brxe-icon",
+    "rect": {
+     "x": 1003.25,
+     "y": 7594.28,
+     "w": 24.75,
+     "h": 22
+    },
+    "text": "",
+    "style": {
+     "fontSize": "22px",
+     "fontWeight": "900",
+     "fontFamily": "\"Font Awesome 6 Solid\"",
+     "lineHeight": "22px",
+     "color": "rgb(129, 137, 126)",
+     "width": "24.75px",
+     "height": "22px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "i",
+    "id": "brxe-pzhrgj",
+    "cls": "fas fa-star brxe-icon",
+    "rect": {
+     "x": 1038,
+     "y": 7594.28,
+     "w": 24.75,
+     "h": 22
+    },
+    "text": "",
+    "style": {
+     "fontSize": "22px",
+     "fontWeight": "900",
+     "fontFamily": "\"Font Awesome 6 Solid\"",
+     "lineHeight": "22px",
+     "color": "rgb(129, 137, 126)",
+     "width": "24.75px",
+     "height": "22px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "i",
+    "id": "brxe-nfiyee",
+    "cls": "fas fa-star brxe-icon",
+    "rect": {
+     "x": 1072.75,
+     "y": 7594.28,
+     "w": 24.75,
+     "h": 22
+    },
+    "text": "",
+    "style": {
+     "fontSize": "22px",
+     "fontWeight": "900",
+     "fontFamily": "\"Font Awesome 6 Solid\"",
+     "lineHeight": "22px",
+     "color": "rgb(129, 137, 126)",
+     "width": "24.75px",
+     "height": "22px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-iioicl",
+    "cls": "brxe-block bricks-lazy-hidden splide__slide is-next",
+    "rect": {
+     "x": 1262.5,
+     "y": 7287.11,
+     "w": 1100,
+     "h": 360
+    },
+    "style": "margin-right: 0px; width: calc(100% + 0px); height: 40vh;",
+    "aria-label": "3 of 4",
+    "role": "group"
+   },
+   {
+    "tag": "svg",
+    "id": "brxe-weuihx",
+    "rect": {
+     "x": 1780.5,
+     "y": 7310.22,
+     "w": 64,
+     "h": 64
+    },
+    "style": {
+     "margin": "0px 0px -20px",
+     "width": "64px",
+     "height": "64px",
+     "overflow": "hidden",
+     "zIndex": "99",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "g",
+    "rect": {
+     "x": 1780.57,
+     "y": 7315.53,
+     "w": 63.86,
+     "h": 53.37
+    },
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "path",
+    "rect": {
+     "x": 1780.57,
+     "y": 7315.53,
+     "w": 63.86,
+     "h": 53.37
+    },
+    "text": "",
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "defs",
+    "rect": {
+     "x": 0,
+     "y": 5109,
+     "w": 0,
+     "h": 0
+    },
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "clippath",
+    "id": "clip0_98_11",
+    "rect": {
+     "x": 0,
+     "y": 5109,
+     "w": 0,
+     "h": 0
+    },
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "rect",
+    "rect": {
+     "x": 0,
+     "y": 5109,
+     "w": 0,
+     "h": 0
+    },
+    "text": "",
+    "style": {
+     "width": "55px",
+     "height": "46px",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-bqbcke",
+    "cls": "brxe-block bricks-lazy-hidden",
+    "rect": {
+     "x": 1427.5,
+     "y": 7354.22,
+     "w": 770,
+     "h": 202.38
+    },
+    "style": {
+     "backgroundColor": "rgb(238, 231, 224)",
+     "padding": "40px",
+     "width": "770px",
+     "height": "202.375px",
+     "display": "flex",
+     "flexDirection": "column",
+     "alignItems": "flex-start",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-cwivge",
+    "cls": "brxe-text",
+    "rect": {
+     "x": 1467.5,
+     "y": 7394.22,
+     "w": 690,
+     "h": 122.38
+    },
+    "style": {
+     "fontSize": "18px",
+     "fontWeight": "300",
+     "fontFamily": "Lato",
+     "lineHeight": "30.6px",
+     "color": "rgb(51, 51, 51)",
+     "width": "690px",
+     "height": "122.375px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "p",
+    "rect": {
+     "x": 1467.5,
+     "y": 7394.22,
+     "w": 690,
+     "h": 122.38
+    },
+    "text": "I had such a positive visit at Advanced Smile Dental Clinic! Dr. Perez is gentle, kind, and makes you feel completely at ease during the appointment. She walked me through the entire process and answered all of my questions. The office is clean, modern, and very comfortable. I will definitely be coming back!",
+    "style": {
+     "fontSize": "18px",
+     "fontWeight": "300",
+     "fontFamily": "Lato",
+     "lineHeight": "30.6px",
+     "color": "rgb(51, 51, 51)",
+     "width": "690px",
+     "height": "122.375px",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-zzuehg",
+    "cls": "brxe-block bricks-lazy-hidden",
+    "rect": {
+     "x": 1427.5,
+     "y": 7556.59,
+     "w": 770,
+     "h": 67.39
+    },
+    "style": {
+     "padding": "30px 0px 0px",
+     "width": "770px",
+     "height": "67.3906px",
+     "display": "flex",
+     "justifyContent": "center",
+     "alignItems": "center",
+     "maxWidth": "100%",
+     "alignSelf": "center"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-jdhxvn",
+    "cls": "brxe-block bricks-lazy-hidden",
+    "rect": {
+     "x": 1427.5,
+     "y": 7586.59,
+     "w": 385,
+     "h": 37.39
+    },
+    "style": {
+     "width": "385px",
+     "height": "37.3906px",
+     "display": "flex",
+     "alignItems": "flex-start",
+     "gap": "normal 20px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "svg",
+    "id": "brxe-pezpuj",
+    "rect": {
+     "x": 1427.5,
+     "y": 7586.59,
+     "w": 37,
+     "h": 37
+    },
+    "style": {
+     "width": "37px",
+     "height": "37px",
+     "overflow": "hidden",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "path",
+    "rect": {
+     "x": 1430.58,
+     "y": 7589.68,
+     "w": 30.83,
+     "h": 30.83
+    },
+    "text": "",
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "path",
+    "rect": {
+     "x": 1432.36,
+     "y": 7589.68,
+     "w": 24.14,
+     "h": 11.96
+    },
+    "text": "",
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "path",
+    "rect": {
+     "x": 1432.28,
+     "y": 7608.22,
+     "w": 24.06,
+     "h": 12.29
+    },
+    "text": "",
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "path",
+    "rect": {
+     "x": 1446,
+     "y": 7602.01,
+     "w": 15.42,
+     "h": 14.51
+    },
+    "text": "",
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-cbflpv",
+    "cls": "brxe-text-basic",
+    "rect": {
+     "x": 1484.5,
+     "y": 7586.59,
+     "w": 102.17,
+     "h": 37.39
+    },
+    "text": "Sophia R.",
+    "style": {
+     "fontSize": "22px",
+     "fontWeight": "500",
+     "fontFamily": "Poppins",
+     "lineHeight": "37.4px",
+     "color": "rgb(98, 84, 78)",
+     "width": "102.172px",
+     "height": "37.3906px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-ndbpue",
+    "cls": "brxe-block bricks-lazy-hidden",
+    "rect": {
+     "x": 1812.5,
+     "y": 7594.28,
+     "w": 385,
+     "h": 22
+    },
+    "style": {
+     "width": "385px",
+     "height": "22px",
+     "display": "flex",
+     "flexDirection": "column",
+     "justifyContent": "flex-end",
+     "alignItems": "flex-end",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-zndrhr",
+    "cls": "brxe-block bricks-lazy-hidden",
+    "rect": {
+     "x": 1812.5,
+     "y": 7594.28,
+     "w": 385,
+     "h": 22
+    },
+    "style": {
+     "width": "385px",
+     "height": "22px",
+     "display": "flex",
+     "justifyContent": "flex-end",
+     "alignItems": "flex-start",
+     "gap": "normal 10px",
+     "maxWidth": "100%",
+     "alignSelf": "flex-end"
+    }
+   },
+   {
+    "tag": "i",
+    "id": "brxe-jmqlcj",
+    "cls": "fas fa-star brxe-icon",
+    "rect": {
+     "x": 2033.75,
+     "y": 7594.28,
+     "w": 24.75,
+     "h": 22
+    },
+    "text": "",
+    "style": {
+     "fontSize": "22px",
+     "fontWeight": "900",
+     "fontFamily": "\"Font Awesome 6 Solid\"",
+     "lineHeight": "22px",
+     "color": "rgb(129, 137, 126)",
+     "width": "24.75px",
+     "height": "22px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "i",
+    "id": "brxe-tuooih",
+    "cls": "fas fa-star brxe-icon",
+    "rect": {
+     "x": 2068.5,
+     "y": 7594.28,
+     "w": 24.75,
+     "h": 22
+    },
+    "text": "",
+    "style": {
+     "fontSize": "22px",
+     "fontWeight": "900",
+     "fontFamily": "\"Font Awesome 6 Solid\"",
+     "lineHeight": "22px",
+     "color": "rgb(129, 137, 126)",
+     "width": "24.75px",
+     "height": "22px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "i",
+    "id": "brxe-feavik",
+    "cls": "fas fa-star brxe-icon",
+    "rect": {
+     "x": 2103.25,
+     "y": 7594.28,
+     "w": 24.75,
+     "h": 22
+    },
+    "text": "",
+    "style": {
+     "fontSize": "22px",
+     "fontWeight": "900",
+     "fontFamily": "\"Font Awesome 6 Solid\"",
+     "lineHeight": "22px",
+     "color": "rgb(129, 137, 126)",
+     "width": "24.75px",
+     "height": "22px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "i",
+    "id": "brxe-vkrwje",
+    "cls": "fas fa-star brxe-icon",
+    "rect": {
+     "x": 2138,
+     "y": 7594.28,
+     "w": 24.75,
+     "h": 22
+    },
+    "text": "",
+    "style": {
+     "fontSize": "22px",
+     "fontWeight": "900",
+     "fontFamily": "\"Font Awesome 6 Solid\"",
+     "lineHeight": "22px",
+     "color": "rgb(129, 137, 126)",
+     "width": "24.75px",
+     "height": "22px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "i",
+    "id": "brxe-olprwp",
+    "cls": "fas fa-star brxe-icon",
+    "rect": {
+     "x": 2172.75,
+     "y": 7594.28,
+     "w": 24.75,
+     "h": 22
+    },
+    "text": "",
+    "style": {
+     "fontSize": "22px",
+     "fontWeight": "900",
+     "fontFamily": "\"Font Awesome 6 Solid\"",
+     "lineHeight": "22px",
+     "color": "rgb(129, 137, 126)",
+     "width": "24.75px",
+     "height": "22px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-mbwzuk",
+    "cls": "brxe-block bricks-lazy-hidden splide__slide",
+    "rect": {
+     "x": 2362.5,
+     "y": 7287.11,
+     "w": 1100,
+     "h": 360
+    },
+    "style": "margin-right: 0px; width: calc(100% + 0px); height: 40vh;",
+    "aria-label": "4 of 4",
+    "role": "group"
+   },
+   {
+    "tag": "svg",
+    "id": "brxe-kqvtek",
+    "rect": {
+     "x": 2880.5,
+     "y": 7310.22,
+     "w": 64,
+     "h": 64
+    },
+    "style": {
+     "margin": "0px 0px -20px",
+     "width": "64px",
+     "height": "64px",
+     "overflow": "hidden",
+     "zIndex": "99",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "g",
+    "rect": {
+     "x": 2880.57,
+     "y": 7315.53,
+     "w": 63.86,
+     "h": 53.37
+    },
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "path",
+    "rect": {
+     "x": 2880.57,
+     "y": 7315.53,
+     "w": 63.86,
+     "h": 53.37
+    },
+    "text": "",
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "defs",
+    "rect": {
+     "x": 0,
+     "y": 5109,
+     "w": 0,
+     "h": 0
+    },
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "clippath",
+    "id": "clip0_98_11",
+    "rect": {
+     "x": 0,
+     "y": 5109,
+     "w": 0,
+     "h": 0
+    },
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "rect",
+    "rect": {
+     "x": 0,
+     "y": 5109,
+     "w": 0,
+     "h": 0
+    },
+    "text": "",
+    "style": {
+     "width": "55px",
+     "height": "46px",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-fhjhkp",
+    "cls": "brxe-block bricks-lazy-hidden",
+    "rect": {
+     "x": 2527.5,
+     "y": 7354.22,
+     "w": 770,
+     "h": 202.38
+    },
+    "style": {
+     "backgroundColor": "rgb(238, 231, 224)",
+     "padding": "40px",
+     "width": "770px",
+     "height": "202.375px",
+     "display": "flex",
+     "flexDirection": "column",
+     "alignItems": "flex-start",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-oswlwp",
+    "cls": "brxe-text",
+    "rect": {
+     "x": 2567.5,
+     "y": 7394.22,
+     "w": 690,
+     "h": 122.38
+    },
+    "style": {
+     "fontSize": "18px",
+     "fontWeight": "300",
+     "fontFamily": "Lato",
+     "lineHeight": "30.6px",
+     "color": "rgb(51, 51, 51)",
+     "width": "690px",
+     "height": "122.375px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "p",
+    "rect": {
+     "x": 2567.5,
+     "y": 7394.22,
+     "w": 690,
+     "h": 122.38
+    },
+    "text": "Dr. Laura Perez and her team are truly wonderful! From the moment I walked in, I felt welcomed and cared for. The staff was very professional and friendly, and Dr. Perez explained everything clearly so I understood my treatment. My smile has never looked better, and I couldn’t be happier with the results.",
+    "style": {
+     "fontSize": "18px",
+     "fontWeight": "300",
+     "fontFamily": "Lato",
+     "lineHeight": "30.6px",
+     "color": "rgb(51, 51, 51)",
+     "width": "690px",
+     "height": "122.375px",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-sxtrwh",
+    "cls": "brxe-block bricks-lazy-hidden",
+    "rect": {
+     "x": 2527.5,
+     "y": 7556.59,
+     "w": 770,
+     "h": 67.39
+    },
+    "style": {
+     "padding": "30px 0px 0px",
+     "width": "770px",
+     "height": "67.3906px",
+     "display": "flex",
+     "justifyContent": "center",
+     "alignItems": "center",
+     "maxWidth": "100%",
+     "alignSelf": "center"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-sgjvlo",
+    "cls": "brxe-block bricks-lazy-hidden",
+    "rect": {
+     "x": 2527.5,
+     "y": 7586.59,
+     "w": 385,
+     "h": 37.39
+    },
+    "style": {
+     "width": "385px",
+     "height": "37.3906px",
+     "display": "flex",
+     "alignItems": "flex-start",
+     "gap": "normal 20px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "svg",
+    "id": "brxe-pxdyzx",
+    "rect": {
+     "x": 2527.5,
+     "y": 7586.59,
+     "w": 37,
+     "h": 37
+    },
+    "style": {
+     "width": "37px",
+     "height": "37px",
+     "overflow": "hidden",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "path",
+    "rect": {
+     "x": 2530.58,
+     "y": 7589.68,
+     "w": 30.83,
+     "h": 30.83
+    },
+    "text": "",
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "path",
+    "rect": {
+     "x": 2532.36,
+     "y": 7589.68,
+     "w": 24.14,
+     "h": 11.96
+    },
+    "text": "",
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "path",
+    "rect": {
+     "x": 2532.28,
+     "y": 7608.22,
+     "w": 24.06,
+     "h": 12.29
+    },
+    "text": "",
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "path",
+    "rect": {
+     "x": 2546,
+     "y": 7602.01,
+     "w": 15.42,
+     "h": 14.51
+    },
+    "text": "",
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-ppwsym",
+    "cls": "brxe-text-basic",
+    "rect": {
+     "x": 2584.5,
+     "y": 7586.59,
+     "w": 100.42,
+     "h": 37.39
+    },
+    "text": "Daniel M.",
+    "style": {
+     "fontSize": "22px",
+     "fontWeight": "500",
+     "fontFamily": "Poppins",
+     "lineHeight": "37.4px",
+     "color": "rgb(98, 84, 78)",
+     "width": "100.422px",
+     "height": "37.3906px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-djtbil",
+    "cls": "brxe-block bricks-lazy-hidden",
+    "rect": {
+     "x": 2912.5,
+     "y": 7594.28,
+     "w": 385,
+     "h": 22
+    },
+    "style": {
+     "width": "385px",
+     "height": "22px",
+     "display": "flex",
+     "flexDirection": "column",
+     "justifyContent": "flex-end",
+     "alignItems": "flex-end",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-wpkiaf",
+    "cls": "brxe-block bricks-lazy-hidden",
+    "rect": {
+     "x": 2912.5,
+     "y": 7594.28,
+     "w": 385,
+     "h": 22
+    },
+    "style": {
+     "width": "385px",
+     "height": "22px",
+     "display": "flex",
+     "justifyContent": "flex-end",
+     "alignItems": "flex-start",
+     "gap": "normal 10px",
+     "maxWidth": "100%",
+     "alignSelf": "flex-end"
+    }
+   },
+   {
+    "tag": "i",
+    "id": "brxe-fhmsmw",
+    "cls": "fas fa-star brxe-icon",
+    "rect": {
+     "x": 3133.75,
+     "y": 7594.28,
+     "w": 24.75,
+     "h": 22
+    },
+    "text": "",
+    "style": {
+     "fontSize": "22px",
+     "fontWeight": "900",
+     "fontFamily": "\"Font Awesome 6 Solid\"",
+     "lineHeight": "22px",
+     "color": "rgb(129, 137, 126)",
+     "width": "24.75px",
+     "height": "22px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "i",
+    "id": "brxe-iqopoi",
+    "cls": "fas fa-star brxe-icon",
+    "rect": {
+     "x": 3168.5,
+     "y": 7594.28,
+     "w": 24.75,
+     "h": 22
+    },
+    "text": "",
+    "style": {
+     "fontSize": "22px",
+     "fontWeight": "900",
+     "fontFamily": "\"Font Awesome 6 Solid\"",
+     "lineHeight": "22px",
+     "color": "rgb(129, 137, 126)",
+     "width": "24.75px",
+     "height": "22px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "i",
+    "id": "brxe-qogssy",
+    "cls": "fas fa-star brxe-icon",
+    "rect": {
+     "x": 3203.25,
+     "y": 7594.28,
+     "w": 24.75,
+     "h": 22
+    },
+    "text": "",
+    "style": {
+     "fontSize": "22px",
+     "fontWeight": "900",
+     "fontFamily": "\"Font Awesome 6 Solid\"",
+     "lineHeight": "22px",
+     "color": "rgb(129, 137, 126)",
+     "width": "24.75px",
+     "height": "22px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "i",
+    "id": "brxe-fjqndl",
+    "cls": "fas fa-star brxe-icon",
+    "rect": {
+     "x": 3238,
+     "y": 7594.28,
+     "w": 24.75,
+     "h": 22
+    },
+    "text": "",
+    "style": {
+     "fontSize": "22px",
+     "fontWeight": "900",
+     "fontFamily": "\"Font Awesome 6 Solid\"",
+     "lineHeight": "22px",
+     "color": "rgb(129, 137, 126)",
+     "width": "24.75px",
+     "height": "22px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "i",
+    "id": "brxe-vyrggx",
+    "cls": "fas fa-star brxe-icon",
+    "rect": {
+     "x": 3272.75,
+     "y": 7594.28,
+     "w": 24.75,
+     "h": 22
+    },
+    "text": "",
+    "style": {
+     "fontSize": "22px",
+     "fontWeight": "900",
+     "fontFamily": "\"Font Awesome 6 Solid\"",
+     "lineHeight": "22px",
+     "color": "rgb(129, 137, 126)",
+     "width": "24.75px",
+     "height": "22px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-rdzrnr-clone03",
+    "cls": "brxe-block bricks-lazy-hidden splide__slide splide__slide--clone",
+    "rect": {
+     "x": 3462.5,
+     "y": 7287.11,
+     "w": 1100,
+     "h": 360
+    },
+    "style": "margin-right: 0px; width: calc(100% + 0px); height: 40vh;",
+    "aria-label": "1 of 4",
+    "role": "group"
+   },
+   {
+    "tag": "svg",
+    "id": "brxe-wubqgn",
+    "rect": {
+     "x": 3980.5,
+     "y": 7310.22,
+     "w": 64,
+     "h": 64
+    },
+    "style": {
+     "margin": "0px 0px -20px",
+     "width": "64px",
+     "height": "64px",
+     "overflow": "hidden",
+     "zIndex": "99",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "g",
+    "rect": {
+     "x": 3980.57,
+     "y": 7315.53,
+     "w": 63.86,
+     "h": 53.37
+    },
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "path",
+    "rect": {
+     "x": 3980.57,
+     "y": 7315.53,
+     "w": 63.86,
+     "h": 53.37
+    },
+    "text": "",
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "defs",
+    "rect": {
+     "x": 0,
+     "y": 5109,
+     "w": 0,
+     "h": 0
+    },
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "clippath",
+    "id": "clip0_98_11",
+    "rect": {
+     "x": 0,
+     "y": 5109,
+     "w": 0,
+     "h": 0
+    },
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "rect",
+    "rect": {
+     "x": 0,
+     "y": 5109,
+     "w": 0,
+     "h": 0
+    },
+    "text": "",
+    "style": {
+     "width": "55px",
+     "height": "46px",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-lgklns",
+    "cls": "brxe-block bricks-lazy-hidden",
+    "rect": {
+     "x": 3627.5,
+     "y": 7354.22,
+     "w": 770,
+     "h": 202.38
+    },
+    "style": {
+     "backgroundColor": "rgb(238, 231, 224)",
+     "padding": "40px",
+     "width": "770px",
+     "height": "202.375px",
+     "display": "flex",
+     "flexDirection": "column",
+     "alignItems": "flex-start",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-jlqdtb",
+    "cls": "brxe-text",
+    "rect": {
+     "x": 3667.5,
+     "y": 7394.22,
+     "w": 690,
+     "h": 122.38
+    },
+    "style": {
+     "fontSize": "18px",
+     "fontWeight": "300",
+     "fontFamily": "Lato",
+     "lineHeight": "30.6px",
+     "color": "rgb(51, 51, 51)",
+     "width": "690px",
+     "height": "122.375px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "p",
+    "rect": {
+     "x": 3667.5,
+     "y": 7394.22,
+     "w": 690,
+     "h": 122.38
+    },
+    "text": "My experience here was excellent! Dr. Perez really takes the time to listen and provide the best care possible. She was very detailed, professional, and made the whole appointment stress-free. The staff was also very attentive and helpful. I can finally say I enjoy going to the dentist now. Highly recommended!",
+    "style": {
+     "fontSize": "18px",
+     "fontWeight": "300",
+     "fontFamily": "Lato",
+     "lineHeight": "30.6px",
+     "color": "rgb(51, 51, 51)",
+     "width": "690px",
+     "height": "122.375px",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-dcmgue",
+    "cls": "brxe-block bricks-lazy-hidden",
+    "rect": {
+     "x": 3627.5,
+     "y": 7556.59,
+     "w": 770,
+     "h": 67.39
+    },
+    "style": {
+     "padding": "30px 0px 0px",
+     "width": "770px",
+     "height": "67.3906px",
+     "display": "flex",
+     "justifyContent": "center",
+     "alignItems": "center",
+     "maxWidth": "100%",
+     "alignSelf": "center"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-pvbxoc",
+    "cls": "brxe-block bricks-lazy-hidden",
+    "rect": {
+     "x": 3627.5,
+     "y": 7586.59,
+     "w": 385,
+     "h": 37.39
+    },
+    "style": {
+     "width": "385px",
+     "height": "37.3906px",
+     "display": "flex",
+     "alignItems": "flex-start",
+     "gap": "normal 20px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "svg",
+    "id": "brxe-knuemc",
+    "rect": {
+     "x": 3627.5,
+     "y": 7586.59,
+     "w": 37,
+     "h": 37
+    },
+    "style": {
+     "width": "37px",
+     "height": "37px",
+     "overflow": "hidden",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "path",
+    "rect": {
+     "x": 3630.58,
+     "y": 7589.68,
+     "w": 30.83,
+     "h": 30.83
+    },
+    "text": "",
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "path",
+    "rect": {
+     "x": 3632.36,
+     "y": 7589.68,
+     "w": 24.14,
+     "h": 11.96
+    },
+    "text": "",
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "path",
+    "rect": {
+     "x": 3632.28,
+     "y": 7608.22,
+     "w": 24.06,
+     "h": 12.29
+    },
+    "text": "",
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "path",
+    "rect": {
+     "x": 3646,
+     "y": 7602.01,
+     "w": 15.42,
+     "h": 14.51
+    },
+    "text": "",
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-uahxvr",
+    "cls": "brxe-text-basic",
+    "rect": {
+     "x": 3684.5,
+     "y": 7586.59,
+     "w": 107.78,
+     "h": 37.39
+    },
+    "text": "Michael L.",
+    "style": {
+     "fontSize": "22px",
+     "fontWeight": "500",
+     "fontFamily": "Poppins",
+     "lineHeight": "37.4px",
+     "color": "rgb(98, 84, 78)",
+     "width": "107.781px",
+     "height": "37.3906px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-avaind",
+    "cls": "brxe-block bricks-lazy-hidden",
+    "rect": {
+     "x": 4012.5,
+     "y": 7594.28,
+     "w": 385,
+     "h": 22
+    },
+    "style": {
+     "width": "385px",
+     "height": "22px",
+     "display": "flex",
+     "flexDirection": "column",
+     "justifyContent": "flex-end",
+     "alignItems": "flex-end",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-xtyuti",
+    "cls": "brxe-block bricks-lazy-hidden",
+    "rect": {
+     "x": 4012.5,
+     "y": 7594.28,
+     "w": 385,
+     "h": 22
+    },
+    "style": {
+     "width": "385px",
+     "height": "22px",
+     "display": "flex",
+     "justifyContent": "flex-end",
+     "alignItems": "flex-start",
+     "gap": "normal 10px",
+     "maxWidth": "100%",
+     "alignSelf": "flex-end"
+    }
+   },
+   {
+    "tag": "i",
+    "id": "brxe-hbrkuh",
+    "cls": "fas fa-star brxe-icon",
+    "rect": {
+     "x": 4233.75,
+     "y": 7594.28,
+     "w": 24.75,
+     "h": 22
+    },
+    "text": "",
+    "style": {
+     "fontSize": "22px",
+     "fontWeight": "900",
+     "fontFamily": "\"Font Awesome 6 Solid\"",
+     "lineHeight": "22px",
+     "color": "rgb(129, 137, 126)",
+     "width": "24.75px",
+     "height": "22px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "i",
+    "id": "brxe-kmglqs",
+    "cls": "fas fa-star brxe-icon",
+    "rect": {
+     "x": 4268.5,
+     "y": 7594.28,
+     "w": 24.75,
+     "h": 22
+    },
+    "text": "",
+    "style": {
+     "fontSize": "22px",
+     "fontWeight": "900",
+     "fontFamily": "\"Font Awesome 6 Solid\"",
+     "lineHeight": "22px",
+     "color": "rgb(129, 137, 126)",
+     "width": "24.75px",
+     "height": "22px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "i",
+    "id": "brxe-gdsulu",
+    "cls": "fas fa-star brxe-icon",
+    "rect": {
+     "x": 4303.25,
+     "y": 7594.28,
+     "w": 24.75,
+     "h": 22
+    },
+    "text": "",
+    "style": {
+     "fontSize": "22px",
+     "fontWeight": "900",
+     "fontFamily": "\"Font Awesome 6 Solid\"",
+     "lineHeight": "22px",
+     "color": "rgb(129, 137, 126)",
+     "width": "24.75px",
+     "height": "22px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "i",
+    "id": "brxe-iqixdw",
+    "cls": "fas fa-star brxe-icon",
+    "rect": {
+     "x": 4338,
+     "y": 7594.28,
+     "w": 24.75,
+     "h": 22
+    },
+    "text": "",
+    "style": {
+     "fontSize": "22px",
+     "fontWeight": "900",
+     "fontFamily": "\"Font Awesome 6 Solid\"",
+     "lineHeight": "22px",
+     "color": "rgb(129, 137, 126)",
+     "width": "24.75px",
+     "height": "22px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "i",
+    "id": "brxe-iomwtg",
+    "cls": "fas fa-star brxe-icon",
+    "rect": {
+     "x": 4372.75,
+     "y": 7594.28,
+     "w": 24.75,
+     "h": 22
+    },
+    "text": "",
+    "style": {
+     "fontSize": "22px",
+     "fontWeight": "900",
+     "fontFamily": "\"Font Awesome 6 Solid\"",
+     "lineHeight": "22px",
+     "color": "rgb(129, 137, 126)",
+     "width": "24.75px",
+     "height": "22px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-rdzrnr-clone04",
+    "cls": "brxe-block bricks-lazy-hidden splide__slide splide__slide--clone is-active",
+    "rect": {
+     "x": 4562.5,
+     "y": 7287.11,
+     "w": 1100,
+     "h": 360
+    },
+    "style": "margin-right: 0px; width: calc(100% + 0px); height: 40vh;",
+    "aria-label": "2 of 4",
+    "role": "group"
+   },
+   {
+    "tag": "svg",
+    "id": "brxe-mixegr",
+    "rect": {
+     "x": 5080.5,
+     "y": 7310.22,
+     "w": 64,
+     "h": 64
+    },
+    "style": {
+     "margin": "0px 0px -20px",
+     "width": "64px",
+     "height": "64px",
+     "overflow": "hidden",
+     "zIndex": "99",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "g",
+    "rect": {
+     "x": 5080.57,
+     "y": 7315.53,
+     "w": 63.86,
+     "h": 53.37
+    },
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "path",
+    "rect": {
+     "x": 5080.57,
+     "y": 7315.53,
+     "w": 63.86,
+     "h": 53.37
+    },
+    "text": "",
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "defs",
+    "rect": {
+     "x": 0,
+     "y": 5109,
+     "w": 0,
+     "h": 0
+    },
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "clippath",
+    "id": "clip0_98_11",
+    "rect": {
+     "x": 0,
+     "y": 5109,
+     "w": 0,
+     "h": 0
+    },
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "rect",
+    "rect": {
+     "x": 0,
+     "y": 5109,
+     "w": 0,
+     "h": 0
+    },
+    "text": "",
+    "style": {
+     "width": "55px",
+     "height": "46px",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-lutvof",
+    "cls": "brxe-block bricks-lazy-hidden",
+    "rect": {
+     "x": 4727.5,
+     "y": 7354.22,
+     "w": 770,
+     "h": 202.38
+    },
+    "style": {
+     "backgroundColor": "rgb(238, 231, 224)",
+     "padding": "40px",
+     "width": "770px",
+     "height": "202.375px",
+     "display": "flex",
+     "flexDirection": "column",
+     "alignItems": "flex-start",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-zytpoe",
+    "cls": "brxe-text",
+    "rect": {
+     "x": 4767.5,
+     "y": 7394.22,
+     "w": 690,
+     "h": 122.38
+    },
+    "style": {
+     "fontSize": "18px",
+     "fontWeight": "300",
+     "fontFamily": "Lato",
+     "lineHeight": "30.6px",
+     "color": "rgb(51, 51, 51)",
+     "width": "690px",
+     "height": "122.375px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "p",
+    "rect": {
+     "x": 4767.5,
+     "y": 7394.22,
+     "w": 690,
+     "h": 122.38
+    },
+    "text": "I had the best experience with Dr. Laura Perez! Her main priority was making sure it was fast and comfortable and she was very knowledgeable and gave me great tips on how to continue to take care of my teeth. I left there with my teeth feeling great! I highly recommend Advanced Smile Dental Clinic for amazing dental care.",
+    "style": {
+     "fontSize": "18px",
+     "fontWeight": "300",
+     "fontFamily": "Lato",
+     "lineHeight": "30.6px",
+     "color": "rgb(51, 51, 51)",
+     "width": "690px",
+     "height": "122.375px",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-qlsrpg",
+    "cls": "brxe-block bricks-lazy-hidden",
+    "rect": {
+     "x": 4727.5,
+     "y": 7556.59,
+     "w": 770,
+     "h": 67.39
+    },
+    "style": {
+     "padding": "30px 0px 0px",
+     "width": "770px",
+     "height": "67.3906px",
+     "display": "flex",
+     "justifyContent": "center",
+     "alignItems": "center",
+     "maxWidth": "100%",
+     "alignSelf": "center"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-ajwyos",
+    "cls": "brxe-block bricks-lazy-hidden",
+    "rect": {
+     "x": 4727.5,
+     "y": 7586.59,
+     "w": 385,
+     "h": 37.39
+    },
+    "style": {
+     "width": "385px",
+     "height": "37.3906px",
+     "display": "flex",
+     "alignItems": "flex-start",
+     "gap": "normal 20px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "svg",
+    "id": "brxe-xyzbgh",
+    "rect": {
+     "x": 4727.5,
+     "y": 7586.59,
+     "w": 37,
+     "h": 37
+    },
+    "style": {
+     "width": "37px",
+     "height": "37px",
+     "overflow": "hidden",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "path",
+    "rect": {
+     "x": 4730.58,
+     "y": 7589.68,
+     "w": 30.83,
+     "h": 30.83
+    },
+    "text": "",
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "path",
+    "rect": {
+     "x": 4732.36,
+     "y": 7589.68,
+     "w": 24.14,
+     "h": 11.96
+    },
+    "text": "",
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "path",
+    "rect": {
+     "x": 4732.28,
+     "y": 7608.22,
+     "w": 24.06,
+     "h": 12.29
+    },
+    "text": "",
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "path",
+    "rect": {
+     "x": 4746,
+     "y": 7602.01,
+     "w": 15.42,
+     "h": 14.51
+    },
+    "text": "",
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "inline",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-mpdfrv",
+    "cls": "brxe-text-basic",
+    "rect": {
+     "x": 4784.5,
+     "y": 7586.59,
+     "w": 115.53,
+     "h": 37.39
+    },
+    "text": "Isabella C.",
+    "style": {
+     "fontSize": "22px",
+     "fontWeight": "500",
+     "fontFamily": "Poppins",
+     "lineHeight": "37.4px",
+     "color": "rgb(98, 84, 78)",
+     "width": "115.531px",
+     "height": "37.3906px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-onadzq",
+    "cls": "brxe-block bricks-lazy-hidden",
+    "rect": {
+     "x": 5112.5,
+     "y": 7594.28,
+     "w": 385,
+     "h": 22
+    },
+    "style": {
+     "width": "385px",
+     "height": "22px",
+     "display": "flex",
+     "flexDirection": "column",
+     "justifyContent": "flex-end",
+     "alignItems": "flex-end",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-zrunft",
+    "cls": "brxe-block bricks-lazy-hidden",
+    "rect": {
+     "x": 5112.5,
+     "y": 7594.28,
+     "w": 385,
+     "h": 22
+    },
+    "style": {
+     "width": "385px",
+     "height": "22px",
+     "display": "flex",
+     "justifyContent": "flex-end",
+     "alignItems": "flex-start",
+     "gap": "normal 10px",
+     "maxWidth": "100%",
+     "alignSelf": "flex-end"
+    }
+   },
+   {
+    "tag": "i",
+    "id": "brxe-auaets",
+    "cls": "fas fa-star brxe-icon",
+    "rect": {
+     "x": 5333.75,
+     "y": 7594.28,
+     "w": 24.75,
+     "h": 22
+    },
+    "text": "",
+    "style": {
+     "fontSize": "22px",
+     "fontWeight": "900",
+     "fontFamily": "\"Font Awesome 6 Solid\"",
+     "lineHeight": "22px",
+     "color": "rgb(129, 137, 126)",
+     "width": "24.75px",
+     "height": "22px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "i",
+    "id": "brxe-dxhucc",
+    "cls": "fas fa-star brxe-icon",
+    "rect": {
+     "x": 5368.5,
+     "y": 7594.28,
+     "w": 24.75,
+     "h": 22
+    },
+    "text": "",
+    "style": {
+     "fontSize": "22px",
+     "fontWeight": "900",
+     "fontFamily": "\"Font Awesome 6 Solid\"",
+     "lineHeight": "22px",
+     "color": "rgb(129, 137, 126)",
+     "width": "24.75px",
+     "height": "22px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "i",
+    "id": "brxe-rwiihn",
+    "cls": "fas fa-star brxe-icon",
+    "rect": {
+     "x": 5403.25,
+     "y": 7594.28,
+     "w": 24.75,
+     "h": 22
+    },
+    "text": "",
+    "style": {
+     "fontSize": "22px",
+     "fontWeight": "900",
+     "fontFamily": "\"Font Awesome 6 Solid\"",
+     "lineHeight": "22px",
+     "color": "rgb(129, 137, 126)",
+     "width": "24.75px",
+     "height": "22px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "i",
+    "id": "brxe-pzhrgj",
+    "cls": "fas fa-star brxe-icon",
+    "rect": {
+     "x": 5438,
+     "y": 7594.28,
+     "w": 24.75,
+     "h": 22
+    },
+    "text": "",
+    "style": {
+     "fontSize": "22px",
+     "fontWeight": "900",
+     "fontFamily": "\"Font Awesome 6 Solid\"",
+     "lineHeight": "22px",
+     "color": "rgb(129, 137, 126)",
+     "width": "24.75px",
+     "height": "22px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "i",
+    "id": "brxe-nfiyee",
+    "cls": "fas fa-star brxe-icon",
+    "rect": {
+     "x": 5472.75,
+     "y": 7594.28,
+     "w": 24.75,
+     "h": 22
+    },
+    "text": "",
+    "style": {
+     "fontSize": "22px",
+     "fontWeight": "900",
+     "fontFamily": "\"Font Awesome 6 Solid\"",
+     "lineHeight": "22px",
+     "color": "rgb(129, 137, 126)",
+     "width": "24.75px",
+     "height": "22px",
+     "maxWidth": "100%"
+    }
+   }
+  ],
+  "#brxe-aafbdt": [
+   {
+    "tag": "section",
+    "id": "brxe-aafbdt",
+    "cls": "brxe-section bricks-lazy-hidden",
+    "rect": {
+     "x": 0,
+     "y": 7829.11,
+     "w": 1425,
+     "h": 657.19
+    },
+    "style": {
+     "padding": "0px 20px",
+     "margin": "100px 0px 0px",
+     "height": "657.188px",
+     "display": "flex",
+     "flexDirection": "column",
+     "alignItems": "center",
+     "minWidth": "0px",
+     "maxWidth": "100%",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-eivicm",
+    "cls": "brxe-container bricks-lazy-hidden",
+    "rect": {
+     "x": 162.5,
+     "y": 7829.11,
+     "w": 1100,
+     "h": 179.19
+    },
+    "style": {
+     "margin": "0px 142.5px",
+     "width": "1100px",
+     "height": "179.188px",
+     "display": "flex",
+     "alignItems": "center",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-jygwbx",
+    "cls": "brxe-block bricks-lazy-hidden",
+    "rect": {
+     "x": 162.5,
+     "y": 7829.11,
+     "w": 660,
+     "h": 179.19
+    },
+    "style": {
+     "width": "660px",
+     "height": "179.188px",
+     "display": "flex",
+     "flexDirection": "column",
+     "alignItems": "flex-start",
+     "gap": "20px normal",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "h2",
+    "id": "brxe-gbxbwp",
+    "cls": "brxe-heading",
+    "rect": {
+     "x": 162.5,
+     "y": 7829.11,
+     "w": 591.86,
+     "h": 98
+    },
+    "text": "Don’t Wait in Pain!",
+    "style": {
+     "fontSize": "70px",
+     "fontWeight": "600",
+     "fontFamily": "\"Playfair Display\"",
+     "lineHeight": "98px",
+     "color": "rgb(118, 97, 72)",
+     "width": "591.859px",
+     "height": "98px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-aalvse",
+    "cls": "brxe-text",
+    "rect": {
+     "x": 162.5,
+     "y": 7947.11,
+     "w": 660,
+     "h": 61.19
+    },
+    "style": {
+     "fontSize": "18px",
+     "fontFamily": "Lato",
+     "lineHeight": "30.6px",
+     "color": "rgb(51, 51, 51)",
+     "width": "660px",
+     "height": "61.1875px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "p",
+    "rect": {
+     "x": 162.5,
+     "y": 7947.11,
+     "w": 660,
+     "h": 61.19
+    },
+    "text": "At Advanced Smile Dental Clinic, we’re here when you need us most — whether it’s a sudden dental emergency or a routine visit.",
+    "style": {
+     "fontSize": "18px",
+     "fontFamily": "Lato",
+     "lineHeight": "30.6px",
+     "color": "rgb(51, 51, 51)",
+     "width": "660px",
+     "height": "61.1875px",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-nhvpqi",
+    "cls": "brxe-block bricks-lazy-hidden",
+    "rect": {
+     "x": 822.5,
+     "y": 7885.41,
+     "w": 440,
+     "h": 66.59
+    },
+    "style": {
+     "width": "440px",
+     "height": "66.5938px",
+     "display": "flex",
+     "flexDirection": "column",
+     "alignItems": "center",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "a",
+    "id": "brxe-nkgrkd",
+    "cls": "brxe-button btn-radial-4 bricks-button",
+    "rect": {
+     "x": 940.42,
+     "y": 7885.41,
+     "w": 204.14,
+     "h": 66.59
+    },
+    "text": "SCHEDULE NOW",
+    "style": {
+     "fontSize": "18px",
+     "fontWeight": "600",
+     "fontFamily": "Lato",
+     "lineHeight": "30.6px",
+     "letterSpacing": "0.5px",
+     "color": "rgb(255, 255, 255)",
+     "backgroundColor": "rgb(133, 141, 130)",
+     "padding": "18px 28px",
+     "width": "204.141px",
+     "height": "66.5938px",
+     "display": "flex",
+     "justifyContent": "center",
+     "alignItems": "center",
+     "gap": "10px",
+     "borderRadius": "40px",
+     "border": "0px none rgb(255, 255, 255)",
+     "borderTop": "0px none rgb(255, 255, 255)",
+     "borderRight": "0px none rgb(255, 255, 255)",
+     "borderBottom": "0px none rgb(255, 255, 255)",
+     "borderLeft": "0px none rgb(255, 255, 255)",
+     "overflow": "hidden",
+     "position": "relative",
+     "top": "0px",
+     "left": "0px",
+     "right": "0px",
+     "bottom": "0px",
+     "zIndex": "99",
+     "transition": "0.3s",
+     "textAlign": "center",
+     "cursor": "pointer",
+     "maxWidth": "100%"
+    },
+    "href": "https://advancedsmileclinic.com/contact-us/"
+   },
+   {
+    "tag": "div",
+    "id": "brxe-jsgspt",
+    "cls": "brxe-container bricks-lazy-hidden",
+    "rect": {
+     "x": 162.5,
+     "y": 8088.3,
+     "w": 1100,
+     "h": 398
+    },
+    "style": {
+     "margin": "80px 142.5px 0px",
+     "width": "1100px",
+     "height": "398px",
+     "display": "flex",
+     "flexDirection": "column",
+     "alignItems": "flex-start",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-kltkpi",
+    "cls": "brxe-block bricks-lazy-hidden",
+    "rect": {
+     "x": 162.5,
+     "y": 8088.3,
+     "w": 1100,
+     "h": 300
+    },
+    "style": {
+     "width": "1100px",
+     "height": "300px",
+     "display": "flex",
+     "alignItems": "flex-start",
+     "gap": "normal 40px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-nyxssl",
+    "cls": "brxe-block bricks-lazy-hidden",
+    "rect": {
+     "x": 162.5,
+     "y": 8128.3,
+     "w": 636,
+     "h": 220
+    },
+    "style": {
+     "width": "636px",
+     "height": "220px",
+     "display": "flex",
+     "justifyContent": "center",
+     "alignItems": "center",
+     "maxWidth": "100%",
+     "alignSelf": "center"
+    }
+   },
+   {
+    "tag": "figure",
+    "id": "imagesli1",
+    "cls": "brxe-image tag image-active",
+    "rect": {
+     "x": 157.29,
+     "y": 8119.5,
+     "w": 226.67,
+     "h": 237.6
+    },
+    "style": {
+     "width": "209.875px",
+     "height": "220px",
+     "borderRadius": "10px",
+     "boxShadow": "rgba(0, 0, 0, 0.25) 0px 4px 40px 0px",
+     "position": "relative",
+     "top": "0px",
+     "left": "0px",
+     "right": "0px",
+     "bottom": "0px",
+     "zIndex": "99",
+     "transform": "matrix(1.08, 0, 0, 1.08, 0, 0)",
+     "transition": "0.8s",
+     "maxWidth": "100%",
+     "filter": "saturate(1)"
+    }
+   },
+   {
+    "tag": "img",
+    "cls": "css-filter size-full bricks-lazy-hidden",
+    "rect": {
+     "x": 157.29,
+     "y": 8119.5,
+     "w": 226.67,
+     "h": 237.6
+    },
+    "text": "",
+    "style": {
+     "width": "209.875px",
+     "height": "220px",
+     "display": "inline",
+     "borderRadius": "10px",
+     "overflow": "clip",
+     "transition": "0.8s",
+     "verticalAlign": "middle",
+     "minWidth": "0px",
+     "maxWidth": "100%",
+     "minHeight": "0px"
+    },
+    "src": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20238%20246'%3E%3C/svg%3E",
+    "data-src": "https://i0.wp.com/advancedsmileclinic.com/wp-content/uploads/2025/08/iamge11.webp?fit=238%2C246&ssl=1",
+    "alt": "Happy woman smiling with bright teeth",
+    "img": {
+     "nw": 145,
+     "nh": 150,
+     "cur": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20238%20246'%3E%3C/svg%3E"
+    }
+   },
+   {
+    "tag": "img",
+    "id": "imagesli2",
+    "cls": "brxe-image css-filter size-full bricks-lazy-hidden",
+    "rect": {
+     "x": 375.56,
+     "y": 8128.3,
+     "w": 209.88,
+     "h": 220
+    },
+    "text": "",
+    "style": {
+     "width": "209.875px",
+     "height": "220px",
+     "overflow": "clip",
+     "transition": "0.4s",
+     "verticalAlign": "middle",
+     "objectFit": "cover",
+     "maxWidth": "100%",
+     "filter": "saturate(0)"
+    },
+    "src": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%201536'%3E%3C/svg%3E",
+    "data-src": "https://i0.wp.com/advancedsmileclinic.com/wp-content/uploads/2026/06/ChatGPT-Image-Jun-9-2026-10_05_42-AM.webp?fit=1024%2C1536&ssl=1",
+    "img": {
+     "nw": 100,
+     "nh": 150,
+     "cur": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%201536'%3E%3C/svg%3E"
+    }
+   },
+   {
+    "tag": "img",
+    "id": "imagesli3",
+    "cls": "brxe-image css-filter size-full bricks-lazy-hidden",
+    "rect": {
+     "x": 585.44,
+     "y": 8128.3,
+     "w": 209.88,
+     "h": 220
+    },
+    "text": "",
+    "style": {
+     "width": "209.875px",
+     "height": "220px",
+     "overflow": "clip",
+     "transition": "0.4s",
+     "verticalAlign": "middle",
+     "maxWidth": "100%",
+     "filter": "saturate(0)"
+    },
+    "src": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20238%20246'%3E%3C/svg%3E",
+    "data-src": "https://i0.wp.com/advancedsmileclinic.com/wp-content/uploads/2025/08/iamgedr33.webp?fit=238%2C246&ssl=1",
+    "alt": "Group of happy patients at Advanced Smile Dental",
+    "img": {
+     "nw": 145,
+     "nh": 150,
+     "cur": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20238%20246'%3E%3C/svg%3E"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-ybkydb",
+    "cls": "brxe-block bricks-lazy-hidden",
+    "rect": {
+     "x": 838.5,
+     "y": 8088.3,
+     "w": 424,
+     "h": 300
+    },
+    "style": {
+     "width": "424px",
+     "height": "300px",
+     "display": "flex",
+     "flexDirection": "column",
+     "justifyContent": "center",
+     "alignItems": "flex-start",
+     "gap": "20px normal",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "h3",
+    "id": "titulosli",
+    "cls": "brxe-heading",
+    "rect": {
+     "x": 838.5,
+     "y": 8144.02,
+     "w": 422.28,
+     "h": 46.19
+    },
+    "text": "Compassionate Dental Care",
+    "style": {
+     "fontSize": "33px",
+     "fontWeight": "700",
+     "fontFamily": "\"Playfair Display\"",
+     "lineHeight": "46.2px",
+     "color": "rgb(108, 93, 61)",
+     "width": "422.281px",
+     "height": "46.1875px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "textsli",
+    "cls": "brxe-text",
+    "rect": {
+     "x": 838.5,
+     "y": 8210.2,
+     "w": 424,
+     "h": 122.38
+    },
+    "text": "At Advanced Smile Dental Clinic, we believe every patient deserves personalized attention and gentle care. From the moment you walk in, our team is here to make your visit stress-free and comfortable.",
+    "style": {
+     "fontSize": "18px",
+     "fontFamily": "Lato",
+     "lineHeight": "30.6px",
+     "color": "rgb(51, 51, 51)",
+     "width": "424px",
+     "height": "122.375px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-qacisa",
+    "cls": "brxe-block bricks-lazy-hidden",
+    "rect": {
+     "x": 162.5,
+     "y": 8468.3,
+     "w": 1100,
+     "h": 18
+    },
+    "style": {
+     "margin": "80px 0px 0px",
+     "width": "1100px",
+     "height": "18px",
+     "display": "flex",
+     "justifyContent": "center",
+     "alignItems": "center",
+     "gap": "normal 14px",
+     "maxWidth": "100%",
+     "alignSelf": "center"
+    }
+   },
+   {
+    "tag": "i",
+    "id": "ciculosli1",
+    "cls": "fas fa-circle brxe-icon dot active",
+    "rect": {
+     "x": 670.6,
+     "y": 8467.4,
+     "w": 19.8,
+     "h": 19.8
+    },
+    "text": "",
+    "style": {
+     "fontSize": "18px",
+     "fontWeight": "900",
+     "fontFamily": "\"Font Awesome 6 Solid\"",
+     "lineHeight": "18px",
+     "color": "rgb(189, 170, 156)",
+     "width": "18px",
+     "height": "18px",
+     "transform": "matrix(1.1, 0, 0, 1.1, 0, 0)",
+     "transition": "background-color 0.3s, transform 0.2s",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "i",
+    "id": "ciculosli2",
+    "cls": "fas fa-circle brxe-icon dot",
+    "rect": {
+     "x": 703.5,
+     "y": 8468.3,
+     "w": 18,
+     "h": 18
+    },
+    "text": "",
+    "style": {
+     "fontSize": "18px",
+     "fontWeight": "900",
+     "fontFamily": "\"Font Awesome 6 Solid\"",
+     "lineHeight": "18px",
+     "color": "rgb(235, 229, 224)",
+     "width": "18px",
+     "height": "18px",
+     "transition": "background-color 0.3s, transform 0.2s",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "i",
+    "id": "ciculosli3",
+    "cls": "fas fa-circle brxe-icon dot",
+    "rect": {
+     "x": 735.5,
+     "y": 8468.3,
+     "w": 18,
+     "h": 18
+    },
+    "text": "",
+    "style": {
+     "fontSize": "18px",
+     "fontWeight": "900",
+     "fontFamily": "\"Font Awesome 6 Solid\"",
+     "lineHeight": "18px",
+     "color": "rgb(235, 229, 224)",
+     "width": "18px",
+     "height": "18px",
+     "transition": "background-color 0.3s, transform 0.2s",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-mhiapy",
+    "cls": "brxe-code",
+    "rect": {
+     "x": 162.5,
+     "y": 8486.3,
+     "w": 1100,
+     "h": 0
+    },
+    "style": {
+     "width": "1100px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "style",
+    "rect": {
+     "x": 0,
+     "y": 5109,
+     "w": 0,
+     "h": 0
+    },
+    "text": ".dot {\n    transition: background-color 0.3s ease, transform 0.2s ease;\n  }\n\n\n.dot.active {\n  transform: scale(1.1);\n  color: #BDAA9C !important;\n}\n\n/* Todas las imágenes empiezan en gris */\n[id^='imagesli'] {\n  filter: saturate(0%);\n  transition: all 0.4s ease;\n}\n\n/* Cuando están activas pasan a color y con estilo extra */\n.image-active {\n  filter: saturate(100%) !important;\n  transform: scaleX(1.08) scaleY(1.08);\n  border-radius: 10px;\n  box-shadow: 0 4px 40px 0 rgba(0, 0, 0, 0.25);\n  z-index: 99;\n}",
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "none",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   },
+   {
+    "tag": "script",
+    "rect": {
+     "x": 0,
+     "y": 5109,
+     "w": 0,
+     "h": 0
+    },
+    "text": "// Contenidos\nconst contenidos = {\n  1: { \n    titulo: \"Compassionate Dental Care\", \n    texto: \"At Advanced Smile Dental Clinic, we believe every patient deserves personalized attention and gentle care. From the moment you walk in, our team is here to make your visit stress-free and comfortable.\"\n  },\n  2: { \n    titulo: \"Modern Dentistry with a Personal Touch\", \n    texto: \"Using the latest technology and techniques, we provide advanced dental treatments tailored to your needs — all in a welcoming environment that feels like home.\"\n  },\n  3: { \n    titulo: \"Accepting Dental Emergencies and Walk-Ins\", \n    texto: \"At Advanced Smile Dental Clinic, we're here when you need us most — whether it’s a sudden dental emergency or a routine visit.\"\n  }\n};\n\nconst tituloEl = document.getElementById(\"titulosli\");\nconst textoEl  = document.getElementById(\"textsli\");\n\nfunction cambiarContenido(num) {",
+    "style": {
+     "width": "auto",
+     "height": "auto",
+     "display": "none",
+     "minWidth": "0px",
+     "minHeight": "0px"
+    }
+   }
+  ],
+  "#brxe-hvnpwj": [
+   {
+    "tag": "div",
+    "id": "brxe-hvnpwj",
+    "cls": "brxe-container bricks-lazy-hidden",
+    "rect": {
+     "x": 162.5,
+     "y": 6395.47,
+     "w": 1100,
+     "h": 370.05
+    },
+    "style": {
+     "padding": "60px 20px 0px",
+     "margin": "140px 162.5px 0px",
+     "width": "1100px",
+     "height": "370.047px",
+     "display": "flex",
+     "alignItems": "flex-start",
+     "gap": "40px",
+     "borderTop": "2px solid rgb(98, 84, 78)",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-pnrgkd",
+    "cls": "brxe-block bricks-lazy-hidden",
+    "rect": {
+     "x": 182.5,
+     "y": 6457.47,
+     "w": 409.95,
+     "h": 308.05
+    },
+    "style": {
+     "padding": "40px",
+     "width": "409.953px",
+     "height": "308.047px",
+     "display": "flex",
+     "flexDirection": "column",
+     "justifyContent": "center",
+     "alignItems": "center",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "img",
+    "id": "brxe-wyjiai",
+    "cls": "brxe-image css-filter size-full bricks-lazy-hidden",
+    "rect": {
+     "x": 222.5,
+     "y": 6497.47,
+     "w": 329.95,
+     "h": 228.05
+    },
+    "text": "",
+    "style": {
+     "width": "329.953px",
+     "height": "228.047px",
+     "overflow": "clip",
+     "verticalAlign": "middle",
+     "maxWidth": "100%"
+    },
+    "src": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20667%20461'%3E%3C/svg%3E",
+    "data-src": "https://i0.wp.com/advancedsmileclinic.com/wp-content/uploads/2025/08/Logo-Advance-Smile-Dental-Clinic-01-2.webp?fit=667%2C461&ssl=1",
+    "alt": "Logo Advance Smile Dental Clinic",
+    "img": {
+     "nw": 217,
+     "nh": 150,
+     "cur": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20667%20461'%3E%3C/svg%3E"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-jjdurc",
+    "cls": "brxe-block bricks-lazy-hidden",
+    "rect": {
+     "x": 632.45,
+     "y": 6492.98,
+     "w": 610.05,
+     "h": 237
+    },
+    "style": {
+     "width": "610.047px",
+     "height": "237px",
+     "display": "flex",
+     "flexDirection": "column",
+     "justifyContent": "center",
+     "alignItems": "flex-start",
+     "gap": "20px normal",
+     "maxWidth": "100%",
+     "alignSelf": "center"
+    }
+   },
+   {
+    "tag": "h2",
+    "id": "brxe-xodbss",
+    "cls": "brxe-heading",
+    "rect": {
+     "x": 632.45,
+     "y": 6492.98,
+     "w": 610.05,
+     "h": 168
+    },
+    "text": "Your perfect smile starts with one call",
+    "style": {
+     "fontSize": "60px",
+     "fontWeight": "600",
+     "fontFamily": "\"Playfair Display\"",
+     "lineHeight": "84px",
+     "color": "rgb(118, 97, 72)",
+     "width": "610.047px",
+     "height": "168px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "h2",
+    "id": "brxe-vtdqzm",
+    "cls": "brxe-heading",
+    "rect": {
+     "x": 632.45,
+     "y": 6680.98,
+     "w": 372.23,
+     "h": 49
+    },
+    "text": "Let’s make it happen!",
+    "style": {
+     "fontSize": "35px",
+     "fontFamily": "Poppins",
+     "lineHeight": "49px",
+     "color": "rgb(164, 153, 132)",
+     "width": "372.234px",
+     "height": "49px",
+     "maxWidth": "100%"
+    }
+   }
+  ],
+  "#brxe-isldso": [
+   {
+    "tag": "div",
+    "id": "brxe-isldso",
+    "cls": "brxe-container bricks-lazy-hidden",
+    "rect": {
+     "x": 162.5,
+     "y": 6805.52,
+     "w": 1100,
+     "h": 54.59
+    },
+    "style": {
+     "margin": "40px 162.5px 0px",
+     "width": "1100px",
+     "height": "54.5938px",
+     "display": "flex",
+     "alignItems": "center",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-qpkmop",
+    "cls": "brxe-divider horizontal",
+    "rect": {
+     "x": 162.5,
+     "y": 6831.81,
+     "w": 440,
+     "h": 2
+    },
+    "style": {
+     "fontSize": "30px",
+     "lineHeight": "51px",
+     "width": "440px",
+     "height": "2px",
+     "display": "flex",
+     "alignItems": "center",
+     "gap": "30px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "div",
+    "cls": "line",
+    "rect": {
+     "x": 162.5,
+     "y": 6831.81,
+     "w": 440,
+     "h": 2
+    },
+    "text": "",
+    "style": {
+     "fontSize": "30px",
+     "lineHeight": "51px",
+     "width": "440px",
+     "height": "2px",
+     "borderTop": "2px solid rgb(98, 84, 78)",
+     "position": "relative",
+     "top": "0px",
+     "left": "0px",
+     "right": "0px",
+     "bottom": "0px"
+    }
+   },
+   {
+    "tag": "div",
+    "id": "brxe-sanddn",
+    "cls": "brxe-block bricks-lazy-hidden",
+    "rect": {
+     "x": 602.5,
+     "y": 6805.52,
+     "w": 605,
+     "h": 54.59
+    },
+    "style": {
+     "padding": "0px 20px",
+     "width": "605px",
+     "height": "54.5938px",
+     "display": "flex",
+     "justifyContent": "center",
+     "alignItems": "flex-start",
+     "gap": "20px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "a",
+    "id": "brxe-nfmpvj",
+    "cls": "brxe-button btn-radial-4 bricks-button",
+    "rect": {
+     "x": 637.73,
+     "y": 6805.52,
+     "w": 235.92,
+     "h": 54.59
+    },
+    "text": "Hialeah (305) 846-7987",
+    "style": {
+     "fontSize": "18px",
+     "fontWeight": "600",
+     "fontFamily": "Lato",
+     "lineHeight": "30.6px",
+     "letterSpacing": "0.5px",
+     "color": "rgb(255, 255, 255)",
+     "backgroundColor": "rgb(164, 153, 132)",
+     "padding": "12px 18px",
+     "width": "235.922px",
+     "height": "54.5938px",
+     "display": "flex",
+     "justifyContent": "center",
+     "alignItems": "center",
+     "gap": "10px",
+     "borderRadius": "40px",
+     "border": "0px none rgb(255, 255, 255)",
+     "borderTop": "0px none rgb(255, 255, 255)",
+     "borderRight": "0px none rgb(255, 255, 255)",
+     "borderBottom": "0px none rgb(255, 255, 255)",
+     "borderLeft": "0px none rgb(255, 255, 255)",
+     "overflow": "hidden",
+     "position": "relative",
+     "top": "0px",
+     "left": "0px",
+     "right": "0px",
+     "bottom": "0px",
+     "zIndex": "99",
+     "transition": "0.3s",
+     "textAlign": "center",
+     "cursor": "pointer",
+     "maxWidth": "100%"
+    },
+    "href": "tel:(305) 846-7987"
+   },
+   {
+    "tag": "a",
+    "id": "brxe-kklsnf",
+    "cls": "brxe-button btn-radial-5 bricks-button",
+    "rect": {
+     "x": 893.66,
+     "y": 6805.52,
+     "w": 278.61,
+     "h": 54.59
+    },
+    "text": "Coral Gables (786) 391-0588",
+    "style": {
+     "fontSize": "18px",
+     "fontWeight": "600",
+     "fontFamily": "Lato",
+     "lineHeight": "30.6px",
+     "letterSpacing": "0.5px",
+     "color": "rgb(255, 255, 255)",
+     "backgroundColor": "rgb(118, 97, 72)",
+     "padding": "12px 18px",
+     "width": "278.609px",
+     "height": "54.5938px",
+     "display": "flex",
+     "justifyContent": "center",
+     "alignItems": "center",
+     "gap": "10px",
+     "borderRadius": "40px",
+     "border": "0px none rgb(255, 255, 255)",
+     "borderTop": "0px none rgb(255, 255, 255)",
+     "borderRight": "0px none rgb(255, 255, 255)",
+     "borderBottom": "0px none rgb(255, 255, 255)",
+     "borderLeft": "0px none rgb(255, 255, 255)",
+     "overflow": "hidden",
+     "position": "relative",
+     "top": "0px",
+     "left": "0px",
+     "right": "0px",
+     "bottom": "0px",
+     "zIndex": "99",
+     "transition": "0.3s",
+     "textAlign": "center",
+     "cursor": "pointer",
+     "maxWidth": "100%"
+    },
+    "href": "tel:786 391 0588"
+   },
+   {
+    "tag": "div",
+    "id": "brxe-mnsjan",
+    "cls": "brxe-divider horizontal",
+    "rect": {
+     "x": 1207.5,
+     "y": 6831.81,
+     "w": 55,
+     "h": 2
+    },
+    "style": {
+     "fontSize": "30px",
+     "lineHeight": "51px",
+     "width": "55px",
+     "height": "2px",
+     "display": "flex",
+     "alignItems": "center",
+     "gap": "30px",
+     "maxWidth": "100%"
+    }
+   },
+   {
+    "tag": "div",
+    "cls": "line",
+    "rect": {
+     "x": 1207.5,
+     "y": 6831.81,
+     "w": 55,
+     "h": 2
+    },
+    "text": "",
+    "style": {
+     "fontSize": "30px",
+     "lineHeight": "51px",
+     "width": "55px",
+     "height": "2px",
+     "borderTop": "2px solid rgb(98, 84, 78)",
+     "position": "relative",
+     "top": "0px",
+     "left": "0px",
+     "right": "0px",
+     "bottom": "0px"
+    }
+   }
+  ]
+ }
+}

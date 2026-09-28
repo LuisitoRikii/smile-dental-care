@@ -1,0 +1,106 @@
+/* Advanced Smile Clinic clone — route-scoped foundation.
+   Imported ONLY by src/app/advanced-smile-clinic/layout.tsx, so nothing here
+   can leak into the existing / clone. All selectors are prefixed with `.asc-`. */
+
+.asc-root {
+  /* palette (extracted from computed styles on the live site) */
+  --asc-text: #363636;
+  --asc-text-alt: #333333;
+  --asc-brown: #766148;
+  --asc-brown-dark: #62544e;
+  --asc-brown-accent: #7d4d3e;
+  --asc-tan: #a49984;
+  --asc-beige: #bdaa9c;
+  --asc-sage: #81897e;
+  --asc-sage-2: #858d82;
+  --asc-cream: #eee7e0;
+  --asc-offwhite: #f6f4f2;
+  --asc-yellow: #feed5a;
+  --asc-dark: #263238;
+
+  /* typography */
+  font-family: var(--asc-font-body), "Lato", sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--asc-text);
+  background-color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.asc-root h1,
+.asc-root .asc-h1 {
+  font-family: var(--asc-font-display), "Playfair Display", serif;
+}
+
+.asc-root h2,
+.asc-root h3,
+.asc-root h4,
+.asc-root .asc-h2,
+.asc-root .asc-h3 {
+  font-family: var(--asc-font-head), "Poppins", sans-serif;
+}
+
+.asc-root a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.asc-root img {
+  max-width: 100%;
+}
+
+/* Bricks-style container: 1100px content width, 20/40px gutters */
+.asc-container {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1100px;
+  margin-inline: auto;
+  padding-inline: 40px;
+}
+
+@media (max-width: 991px) {
+  .asc-container {
+    padding-inline: 20px;
+  }
+}
+
+/* ---- shared keyframes (names are site-derived, prefixed to stay unique) ---- */
+
+@keyframes asc-fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes asc-fade-in-left {
+  from { opacity: 0; transform: translate3d(-100%, 0, 0); }
+  to { opacity: 1; transform: none; }
+}
+
+@keyframes asc-fade-in-right {
+  from { opacity: 0; transform: translate3d(100%, 0, 0); }
+  to { opacity: 1; transform: none; }
+}
+
+@keyframes asc-slide-down {
+  0% { transform: translateY(-100%); opacity: 0; }
+  100% { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes asc-bounce-subtle {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes asc-mover-derecha-parpadeo {
+  0%, 100% { transform: translateX(0px); opacity: 1; }
+  50% { transform: translateX(10px); opacity: 0.6; }
+}
+
+.asc-anim-left {
+  animation: asc-fade-in-left 1s both;
+}
+
+.asc-anim-right {
+  animation: asc-fade-in-right 1s both;
+}

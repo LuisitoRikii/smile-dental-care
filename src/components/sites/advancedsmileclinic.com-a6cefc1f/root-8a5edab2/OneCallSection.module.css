@@ -1,0 +1,287 @@
+.ocSection {
+  box-sizing: border-box;
+  width: 100%;
+  display: flow-root;
+  padding-bottom: 100px;
+  background-color: var(--asc-offwhite);
+}
+
+.ocHeadRow {
+  box-sizing: border-box;
+  width: 1100px;
+  max-width: 100%;
+  margin: 140px auto 0;
+  padding: 60px 20px 0;
+  border-top: 2px solid var(--asc-brown-dark);
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.ocLogoCol {
+  box-sizing: border-box;
+  width: 409.953px;
+  min-width: 0;
+  max-width: 100%;
+  flex-shrink: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ocLogo {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  object-fit: fill;
+  object-position: 50% 50%;
+}
+
+.ocHeadline {
+  box-sizing: border-box;
+  width: 610.047px;
+  min-width: 0;
+  max-width: 100%;
+  flex-shrink: 1;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+:global(.asc-root) h2.ocTitle {
+  margin: 0;
+  max-width: 100%;
+  font-family: var(--asc-font-display), "Playfair Display", serif;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--asc-brown);
+}
+
+:global(.asc-root) h2.ocSubtitle {
+  margin: 0;
+  max-width: 100%;
+  font-family: var(--asc-font-head), "Poppins", sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--asc-tan);
+}
+
+.ocTelRow {
+  box-sizing: border-box;
+  width: 1100px;
+  max-width: 100%;
+  margin: 40px auto 0;
+  display: flex;
+  align-items: center;
+}
+
+.ocDivider {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  height: 2px;
+  font-size: 30px;
+  line-height: 51px;
+}
+
+.ocDividerLeft {
+  width: 40%;
+}
+
+.ocDividerRight {
+  width: 5%;
+}
+
+.ocLine {
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  height: 2px;
+  border-top: 2px solid var(--asc-brown-dark);
+  background: transparent;
+}
+
+.ocTels {
+  box-sizing: border-box;
+  width: 55%;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+:global(.asc-root) a.ocTel {
+  box-sizing: border-box;
+  position: relative;
+  z-index: 99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  overflow: hidden;
+  padding: 12px 18px;
+  border: 0;
+  border-radius: 40px;
+  color: #ffffff;
+  font-family: var(--asc-font-body), "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.7;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+:global(.asc-root) a.ocTel::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  background: linear-gradient(45deg, rgb(118, 97, 72), rgb(118, 97, 72));
+  border-radius: 50%;
+  transform: translateX(-50%);
+  transition: 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  z-index: -1;
+  opacity: 0;
+}
+
+:global(.asc-root) a.ocTel:hover::before {
+  width: 120%;
+  height: 250px;
+  bottom: -125px;
+  opacity: 1;
+}
+
+:global(.asc-root) a.ocTel:hover {
+  color: #ffffff;
+}
+
+:global(.asc-root) a.ocTelHialeah {
+  background-color: var(--asc-tan);
+}
+
+:global(.asc-root) a.ocTelCoral {
+  background-color: var(--asc-brown);
+}
+
+:global(.asc-root) a.ocTelCoral::before {
+  background: linear-gradient(45deg, rgb(164, 153, 132), rgb(164, 153, 132));
+}
+
+@media (min-width: 992px) and (max-width: 1080px) {
+  :global(.asc-root) a.ocTel {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 991px) {
+  .ocLogoCol {
+    padding: 40px 20px;
+  }
+
+  :global(.asc-root) h2.ocTitle {
+    font-size: 50px;
+  }
+
+  :global(.asc-root) h2.ocSubtitle {
+    font-size: 30px;
+  }
+
+  .ocDividerRight {
+    width: 10%;
+  }
+
+  .ocTels {
+    width: 50%;
+    flex-direction: column;
+  }
+
+  :global(.asc-root) a.ocTel {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .ocHeadRow {
+    flex-wrap: wrap;
+  }
+
+  .ocLogoCol {
+    width: 100%;
+  }
+
+  .ocLogo {
+    width: 50%;
+  }
+
+  .ocHeadline {
+    width: 100%;
+    align-items: center;
+  }
+
+  :global(.asc-root) h2.ocTitle {
+    font-size: 45px;
+  }
+
+  .ocDividerLeft,
+  .ocDividerRight {
+    width: 20%;
+  }
+
+  .ocTels {
+    width: 60%;
+    padding: 0;
+    align-items: center;
+  }
+
+  :global(.asc-root) a.ocTel {
+    width: 90%;
+  }
+}
+
+@media (max-width: 478px) {
+  .ocLogo {
+    width: 90%;
+  }
+
+  :global(.asc-root) h2.ocTitle {
+    font-size: 35px;
+  }
+
+  :global(.asc-root) h2.ocSubtitle {
+    font-size: 25px;
+  }
+
+  :global(.asc-root) h2.ocTitle,
+  :global(.asc-root) h2.ocSubtitle {
+    text-align: center;
+  }
+
+  .ocDividerLeft,
+  .ocDividerRight {
+    width: 10%;
+  }
+
+  .ocTels {
+    width: 80%;
+    padding: 0 10px;
+  }
+
+  :global(.asc-root) a.ocTel {
+    width: 100%;
+  }
+}

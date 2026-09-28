@@ -1,0 +1,460 @@
+.why {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  min-height: 0;
+  padding: 200px 0 0;
+  background-color: var(--asc-offwhite);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.whyHead {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  padding: 0 0 0 40px;
+  margin: 0 0 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.whyHead .whyEyebrow {
+  margin: 0;
+  max-width: 100%;
+  font-family: var(--asc-font-head), "Poppins", sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 49px;
+  text-align: left;
+  color: rgb(108, 93, 61);
+}
+
+.whyHead .whyTitle {
+  margin: 0;
+  max-width: 100%;
+  font-family: var(--asc-font-display), "Playfair Display", serif;
+  font-size: 70px;
+  font-weight: 600;
+  line-height: 98px;
+  text-align: left;
+  color: var(--asc-brown);
+}
+
+.whyRow {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+
+.whyMobilePhoto {
+  display: none;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  margin: 40px 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.whyMobileImg {
+  box-sizing: border-box;
+  display: block;
+  width: 399px;
+  max-width: 100%;
+  height: auto;
+  border: 12px solid rgba(98, 84, 78, 0.01);
+  border-radius: 40px;
+  box-shadow: rgba(98, 84, 78, 0.25) 0 4px 40px 0;
+}
+
+.whyColLeft,
+.whyColRight {
+  box-sizing: border-box;
+  width: 45%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 4px;
+}
+
+.whyColRight {
+  margin-top: -80px;
+}
+
+.whyCenter {
+  box-sizing: border-box;
+  width: 10%;
+  max-width: 100%;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.whyCenter::after {
+  content: "";
+  width: 450px;
+  height: 550px;
+  background: url(/sites/advancedsmileclinic.com-a6cefc1f/root-8a5edab2/images/why-center.webp)
+    center center / 90% auto no-repeat;
+  transform: translate(-36%, -15%);
+  pointer-events: none;
+  z-index: 99;
+}
+
+.whyCard {
+  box-sizing: border-box;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  width: 100%;
+  max-width: 100%;
+  padding: 40px 140px 40px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 14px;
+  background-color: var(--asc-cream);
+}
+
+.whyCardRight {
+  padding: 40px 40px 40px 140px;
+}
+
+.whyCard::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgb(118, 97, 72), rgb(118, 97, 72));
+  z-index: -1;
+  clip-path: circle(0% at 0% 50%);
+  transition: clip-path 0.8s ease-in-out;
+}
+
+.whyCard:hover::before {
+  clip-path: circle(150% at 50% 50%);
+}
+
+.whyCard .whyCardTitle {
+  margin: 0;
+  max-width: 100%;
+  font-family: var(--asc-font-display), "Playfair Display", serif;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 35px;
+  text-align: left;
+  color: var(--asc-brown-dark);
+  transition: color 0.8s ease-in;
+}
+
+.whyCardBody {
+  width: 100%;
+  max-width: 100%;
+}
+
+.whyCardBody p {
+  margin: 0;
+  font-family: var(--asc-font-body), "Lato", sans-serif;
+  font-size: 16px;
+  line-height: 27.2px;
+  text-align: left;
+  color: var(--asc-brown-dark);
+  transition: color 0.8s ease-in;
+}
+
+.whyCard:hover .whyCardTitle,
+.whyCard:hover .whyCardBody p {
+  color: rgb(255, 255, 255);
+  transition: color 0.4s ease-out;
+}
+
+.whyBtnWrap {
+  box-sizing: border-box;
+  align-self: center;
+  width: 100%;
+  max-width: 100%;
+  padding: 80px 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.whyRadial {
+  box-sizing: border-box;
+  position: relative;
+  z-index: 99;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 0;
+  border-radius: 40px;
+  font-family: var(--asc-font-body), "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.7;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.whyRadial::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  background: linear-gradient(45deg, rgb(118, 97, 72), rgb(118, 97, 72));
+  border-radius: 50%;
+  transform: translateX(-50%);
+  transition: 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  z-index: -1;
+  opacity: 0;
+}
+
+.whyRadial:hover::before {
+  width: 120%;
+  height: 250px;
+  bottom: -125px;
+  opacity: 1;
+}
+
+.whyRadialTan::before {
+  background: linear-gradient(45deg, rgb(164, 153, 132), rgb(164, 153, 132));
+}
+
+.whyBtn {
+  padding: 18px 28px;
+  background-color: var(--asc-sage-2);
+}
+
+.whyTelBtn {
+  padding: 12px 18px;
+}
+
+.whyTelTan {
+  background-color: var(--asc-tan);
+}
+
+.whyTelBrown {
+  background-color: var(--asc-brown);
+}
+
+.whyTelRow {
+  box-sizing: border-box;
+  width: 1100px;
+  max-width: 100%;
+  margin: 40px auto 0;
+  display: flex;
+  align-items: center;
+}
+
+.whyTelLine {
+  box-sizing: border-box;
+  height: 2px;
+  border-top: 2px solid var(--asc-brown-dark);
+}
+
+.whyTelLineWide {
+  width: 440px;
+}
+
+.whyTelLineNarrow {
+  width: 55px;
+}
+
+.whyTelBtns {
+  box-sizing: border-box;
+  width: 605px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+@media (min-width: 2000px) {
+  .whyCenter::after {
+    transform: translate(-30%, -15%);
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1080px) {
+  .whyTelBtn {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 991px) {
+  .whyHead {
+    padding: 0 30px;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+
+  .whyHead .whyEyebrow {
+    font-size: 30px;
+    line-height: 42px;
+    text-align: center;
+  }
+
+  .whyHead .whyTitle {
+    font-size: 60px;
+    line-height: 84px;
+    text-align: center;
+  }
+
+  .whyMobilePhoto {
+    display: flex;
+  }
+
+  .whyRow {
+    flex-direction: column;
+    row-gap: 4px;
+  }
+
+  .whyCenter {
+    display: none;
+  }
+
+  .whyColLeft,
+  .whyColRight {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .whyCard,
+  .whyCardRight {
+    padding: 40px 80px;
+  }
+
+  .whyBtnWrap {
+    padding: 80px 30px 0;
+  }
+
+  .whyTelLineWide {
+    width: 40%;
+  }
+
+  .whyTelBtns {
+    width: 50%;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .whyTelLineNarrow {
+    width: 10%;
+  }
+
+  .whyTelBtn {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .why {
+    padding-top: 140px;
+  }
+
+  .whyHead .whyEyebrow {
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .whyHead .whyTitle {
+    font-size: 45px;
+    line-height: 63px;
+  }
+
+  .whyCard,
+  .whyCardRight {
+    padding: 40px;
+  }
+
+  .whyBtnWrap {
+    padding-top: 40px;
+  }
+
+  .whyBtn {
+    width: 90%;
+  }
+
+  .whyTelLineWide {
+    width: 20%;
+  }
+
+  .whyTelBtns {
+    width: 60%;
+    padding: 0;
+    align-items: center;
+  }
+
+  .whyTelLineNarrow {
+    width: 20%;
+  }
+
+  .whyTelBtn {
+    width: 90%;
+  }
+}
+
+@media (max-width: 478px) {
+  .whyHead {
+    padding: 0 20px;
+  }
+
+  .whyHead .whyEyebrow {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .whyHead .whyTitle {
+    font-size: 35px;
+    line-height: 49px;
+  }
+
+  .whyCard,
+  .whyCardRight {
+    padding: 40px 20px;
+  }
+
+  .whyBtnWrap {
+    padding: 40px 20px 0;
+  }
+
+  .whyBtn {
+    font-size: 16px;
+    padding-inline: 10px;
+  }
+
+  .whyTelLineWide {
+    width: 10%;
+  }
+
+  .whyTelBtns {
+    width: 80%;
+    padding: 0 10px;
+  }
+
+  .whyTelLineNarrow {
+    width: 10%;
+  }
+
+  .whyTelBtn {
+    width: 100%;
+  }
+}

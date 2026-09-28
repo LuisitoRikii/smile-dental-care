@@ -1,0 +1,700 @@
+.siteHeader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 998;
+  width: 100%;
+  background-color: transparent;
+  transition: background-color 0.2s, transform 0.4s;
+}
+
+.siteHeaderSection {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  z-index: 9999;
+}
+
+.siteHeaderInfo {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 14px 20px;
+  background-color: var(--asc-tan);
+  overflow: hidden;
+  transition: all 0.4s ease;
+}
+
+.siteHeaderScrolled .siteHeaderInfo {
+  max-height: 0;
+  opacity: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.siteHeaderInfoSide {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  max-width: 554px;
+}
+
+.siteHeaderInfoRight {
+  align-items: flex-end;
+}
+
+.siteHeaderInfoLink {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  padding: 0;
+  font-family: var(--asc-font-body), "Lato", sans-serif;
+  font-size: 14px;
+  line-height: 23.8px;
+  letter-spacing: 0.5px;
+  color: rgb(255, 255, 255);
+  transition: all;
+}
+
+.siteHeaderInfoPin {
+  flex: none;
+  display: block;
+  width: 18.5px;
+  height: 24px;
+  fill: currentColor;
+}
+
+.siteHeaderMenuRow {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  z-index: 999;
+  background-color: transparent;
+  box-shadow: none;
+  transition: background-color 0.2s, box-shadow 0.2s;
+}
+
+.siteHeaderScrolled .siteHeaderMenuRow {
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 8px;
+  animation: asc-slide-down 0.4s ease forwards;
+}
+
+.siteHeaderSideLeft {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 42%;
+  padding: 12px 0;
+}
+
+.siteHeaderSideRight {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 42%;
+  padding: 12px 0;
+}
+
+.siteHeaderNav {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.siteHeaderNavItem {
+  position: relative;
+  margin-left: 20px;
+  list-style: none;
+}
+
+.siteHeaderNavLink {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  font-family: var(--asc-font-body), "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25.5px;
+  color: rgb(255, 255, 255);
+}
+
+.siteHeaderScrolled .siteHeaderNavLink {
+  color: var(--asc-brown);
+}
+
+.siteHeaderPart2 .siteHeaderNavLink {
+  text-transform: uppercase;
+}
+
+.siteHeaderSubToggle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.siteHeaderSubBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+  width: 15px;
+  height: 15px;
+  margin: 0 0 0 10px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+  transition: transform 0.1s cubic-bezier(0, 0, 0.2, 1);
+}
+
+.siteHeaderChevron {
+  display: block;
+  width: 12px;
+  height: 12px;
+}
+
+.siteHeaderBridgeItem:hover::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  min-height: 60px;
+  z-index: 1;
+}
+
+.siteHeaderSub {
+  position: absolute;
+  top: 25.5px;
+  left: 0;
+  z-index: 998;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: var(--asc-tan);
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.14) 0 4px 20px;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.1s;
+}
+
+.siteHeaderSubOpen {
+  visibility: visible;
+  opacity: 1;
+}
+
+.siteHeaderSubServices {
+  width: 265.625px;
+}
+
+.siteHeaderSubPatient {
+  width: 225.75px;
+}
+
+.siteHeaderSubLocations {
+  width: 150px;
+}
+
+.siteHeaderSubItem {
+  position: relative;
+  border-radius: 10px;
+}
+
+.siteHeaderSubLink {
+  display: block;
+  padding: 0 20px;
+  font-family: var(--asc-font-body), "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 60px;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  white-space: nowrap;
+}
+
+.siteHeaderSubItem:hover > .siteHeaderSubLink,
+.siteHeaderSubItem:hover > .siteHeaderSubToggle {
+  background-color: var(--asc-brown);
+}
+
+.siteHeaderFlyout {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  z-index: 998;
+  min-width: 150px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: var(--asc-tan);
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.14) 0 4px 20px;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.1s;
+}
+
+.siteHeaderFlyoutOpen {
+  visibility: visible;
+  opacity: 1;
+}
+
+.siteHeaderFlyoutCosmetic {
+  width: 194.328px;
+}
+
+.siteHeaderFlyoutOral {
+  width: 227.688px;
+}
+
+.siteHeaderLogoPill {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  width: 213.75px;
+  margin: -90px 0 -57px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 0 0 200px 200px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 4px 40px;
+}
+
+.siteHeaderScrolled .siteHeaderLogoPill {
+  background-color: transparent;
+  border-radius: 0;
+  margin: 0;
+  box-shadow: rgba(0, 0, 0, 0) 0 4px 40px;
+}
+
+.siteHeaderLogoLink {
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  padding: 12px 20px 44px;
+  cursor: pointer;
+}
+
+.siteHeaderScrolled .siteHeaderLogoLink {
+  width: 140px;
+  padding: 14px 0 16px;
+}
+
+.siteHeaderLogoImg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.siteHeaderBook {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 18px;
+  background-color: var(--asc-brown);
+  color: rgb(255, 255, 255);
+  font-family: var(--asc-font-body), "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25.5px;
+  letter-spacing: 0.5px;
+  border-radius: 40px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 4px 20px;
+  overflow: hidden;
+  z-index: 99;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.siteHeaderBook::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  background: linear-gradient(45deg, var(--asc-cream), var(--asc-cream));
+  border-radius: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+  opacity: 0;
+  transition: 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.siteHeaderBook:hover {
+  color: var(--asc-brown-dark);
+}
+
+.siteHeaderBook:hover::before {
+  width: 120%;
+  height: 250px;
+  bottom: -125px;
+  opacity: 1;
+}
+
+.siteHeaderMobile {
+  display: none;
+}
+
+.siteHeaderMobileLogo {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 86px;
+  padding: 10px 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 0 0 45px 0;
+}
+
+.siteHeaderMobileLogoLink {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.siteHeaderMobileLogoImg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.siteHeaderMobileIcons {
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  width: 40%;
+  padding-left: 10px;
+}
+
+.siteHeaderIconWrap {
+  position: relative;
+  display: flex;
+}
+
+.siteHeaderIconBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 42px;
+  height: 42px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background-color: #ffd64f;
+  color: rgb(54, 54, 54);
+  letter-spacing: 0.5px;
+  cursor: pointer;
+}
+
+.siteHeaderIcon {
+  flex: none;
+  display: block;
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+}
+
+.siteHeaderPopup {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  margin-top: 10px;
+  transform: translateX(-50%);
+}
+
+.siteHeaderPopupBtn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  padding: 8px 16px;
+  background-color: var(--asc-brown);
+  color: rgb(255, 255, 255);
+  font-family: var(--asc-font-body), "Lato", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 27.2px;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+}
+
+.siteHeaderHamburgerBlock {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+
+.siteHeaderHamburger {
+  position: relative;
+  z-index: 1000;
+  width: 40px;
+  height: 16px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.siteHeaderScrolled .siteHeaderHamburger {
+  color: var(--asc-brown);
+}
+
+.siteHeaderBar {
+  position: absolute;
+  right: 0;
+  width: 40px;
+  height: 2px;
+  background-color: currentcolor;
+  transition: all 0.3s;
+}
+
+.siteHeaderBarTop {
+  top: 0;
+}
+
+.siteHeaderBarCenter {
+  top: 7px;
+}
+
+.siteHeaderBarBottom {
+  top: 14px;
+}
+
+.siteHeaderHamburgerOpen .siteHeaderBarTop {
+  top: 50%;
+  transform: rotate(45deg);
+}
+
+.siteHeaderHamburgerOpen .siteHeaderBarCenter {
+  opacity: 0;
+}
+
+.siteHeaderHamburgerOpen .siteHeaderBarBottom {
+  top: 50%;
+  transform: rotate(-45deg);
+}
+
+.siteHeaderDrawer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 75%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  visibility: hidden;
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: background-color 0.2s, opacity 0.2s, transform 0.2s,
+    visibility 0.2s;
+  z-index: 999;
+  color: rgb(255, 255, 255);
+}
+
+.siteHeaderDrawer::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(35, 40, 45);
+}
+
+.siteHeaderDrawerOpen {
+  visibility: visible;
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.siteHeaderDrawerList,
+.siteHeaderDrawerSub {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.siteHeaderDrawerItem {
+  list-style: none;
+}
+
+.siteHeaderDrawerToggleRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.siteHeaderDrawerLink {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  flex: 1;
+  padding: 0 15px 0 30px;
+  font-family: var(--asc-font-body), "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 60px;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}
+
+.siteHeaderDrawerBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+  width: 15px;
+  height: 15px;
+  margin-right: 15px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+}
+
+.siteHeaderDrawerSub {
+  display: none;
+}
+
+.siteHeaderDrawerSubOpen {
+  display: block;
+}
+
+.siteHeaderDrawerSubLink {
+  display: block;
+  padding: 0 45px;
+  background-color: rgba(118, 97, 72, 0.7);
+  font-family: var(--asc-font-body), "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}
+
+@media (max-width: 1200px) {
+  .siteHeaderNavLink {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 991px) {
+  .siteHeaderNavLink {
+    font-size: 10px;
+  }
+
+  .siteHeaderNavItem {
+    margin-left: 10px;
+  }
+
+  .siteHeaderSubLink {
+    font-size: 10px;
+  }
+
+  .siteHeaderInfoLink {
+    font-size: 12px;
+    line-height: 17px;
+  }
+
+  .siteHeaderInfoPin {
+    width: 13px;
+    height: 17px;
+  }
+}
+
+@media (max-width: 767px) {
+  .siteHeaderMenuRow {
+    display: none;
+  }
+
+  .siteHeaderInfoLink {
+    font-size: 10px;
+    line-height: 17px;
+  }
+
+  .siteHeaderInfoSide {
+    padding-right: 10px;
+  }
+
+  .siteHeaderInfoRight {
+    padding-right: 0;
+    padding-left: 10px;
+  }
+
+  .siteHeaderInfoPin {
+    width: 10px;
+    height: 14px;
+  }
+
+  .siteHeaderMobile {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .siteHeaderScrolled .siteHeaderMobile {
+    background-color: rgb(255, 255, 255);
+  }
+
+  .siteHeaderDrawer::before {
+    background-color: rgba(164, 153, 132, 0.7);
+  }
+}
+
+@media (max-width: 478px) {
+  .siteHeaderDrawer {
+    width: 95%;
+  }
+}
