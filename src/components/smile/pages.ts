@@ -80,8 +80,8 @@ export const CONTACT_PAGE = {
   form: {
     title: "Comunícate con nosotros.",
     fields: [
-      { label: "Nombre", type: "text" },
-      { label: "Correo electrónico*", type: "email" },
+      { label: "Nombre", type: "text", name: "name" },
+      { label: "Correo electrónico*", type: "email", name: "email", required: true },
     ],
     submit: "Enviar",
     recaptchaBefore: "Este sitio está protegido por reCAPTCHA y aplican las",

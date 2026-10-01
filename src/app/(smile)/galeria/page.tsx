@@ -4,7 +4,6 @@ import { SmileCtaBand } from "@/components/smile/SmileCtaBand";
 import { SmileFooter } from "@/components/smile/SmileFooter";
 import { SmileGallery } from "@/components/smile/SmileGallery";
 import { SmileHeader } from "@/components/smile/SmileHeader";
-import { SmileOverlays } from "@/components/smile/SmileOverlays";
 import { SmilePageHero } from "@/components/smile/SmilePageHero";
 import { IMG } from "@/components/smile/data";
 import { GALLERY_PAGE } from "@/components/smile/pages";
@@ -35,7 +34,6 @@ export default function GalleryPage() {
         <SmileCtaBand />
       </main>
       <SmileFooter />
-      <SmileOverlays />
     </>
   );
 }

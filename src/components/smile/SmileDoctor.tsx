@@ -29,14 +29,14 @@ export function SmileDoctor() {
             </h2>
 
             <p
-              className="sm-reveal mb-[26px] font-[family-name:var(--font-display)] text-[21px] italic leading-[1.4] text-[#8f6e6e] md:text-[24px]"
+              className="sm-reveal mb-[26px] font-[family-name:var(--font-display)] text-[21px] italic leading-[1.4] text-[#3778b0] md:text-[24px]"
               data-reveal="left"
               style={{ transitionDelay: "130ms" }}
             >
               {DOCTOR.lead}
             </p>
 
-            <div className="flex flex-col gap-[18px] border-t border-[#e4e0dd] pt-[26px]">
+            <div className="flex flex-col gap-[18px] border-t border-[#e3ebf3] pt-[26px]">
               {DOCTOR.paragraphs.map((paragraph, index) => (
                 <p
                   key={paragraph.slice(0, 24)}
@@ -58,9 +58,9 @@ export function SmileDoctor() {
           </div>
 
           <div className="relative">
-            <div className="absolute -bottom-[18px] -right-[14px] hidden h-full w-full rounded-[26px] bg-[#efe8e3] sm:block" />
+            <div className="absolute -bottom-[18px] -right-[14px] hidden h-full w-full rounded-[26px] bg-[#eaf2f9] sm:block" />
             <div
-              className="sm-reveal relative overflow-hidden rounded-[26px] shadow-[0_36px_70px_-44px_rgba(35,32,32,0.6)]"
+              className="sm-reveal relative overflow-hidden rounded-[26px] shadow-[0_36px_70px_-44px_rgba(30,38,48,0.6)]"
               data-reveal="right"
               style={{ transitionDelay: "120ms" }}
             >

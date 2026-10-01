@@ -3,7 +3,6 @@ import { Mail, MapPin, Phone } from "lucide-react";
 
 import { SmileFooter } from "@/components/smile/SmileFooter";
 import { SmileHeader } from "@/components/smile/SmileHeader";
-import { SmileOverlays } from "@/components/smile/SmileOverlays";
 import { SmilePageHero } from "@/components/smile/SmilePageHero";
 import { SmileContactForm } from "@/components/smile/SmileContactForm";
 import { SmileReveal } from "@/components/smile/SmileReveal";
@@ -32,12 +31,13 @@ export default function ContactUsPage() {
             <SmileReveal>
               <div className="grid grid-cols-1 gap-[44px] lg:grid-cols-2 lg:gap-[70px]">
                 <div
-                  className="sm-reveal self-start rounded-[26px] border border-[#e4e0dd] bg-[#f7f4f2] p-[34px] md:p-[46px]"
+                  className="sm-reveal self-start rounded-[26px] border border-[#e3ebf3] bg-[#f2f7fb] p-[34px] md:p-[46px]"
                   data-reveal="left"
                 >
                   <SmileContactForm
                     title={CONTACT_PAGE.form.title}
                     fields={CONTACT_PAGE.form.fields}
+                    showNotes
                     submitLabel={CONTACT_PAGE.form.submit}
                   />
                 </div>
@@ -75,26 +75,26 @@ export default function ContactUsPage() {
                           href={SITE.mapsDirections}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="flex gap-[12px] transition-colors hover:text-[#8f6e6e]"
+                          className="flex gap-[12px] transition-colors hover:text-[#3778b0]"
                         >
-                          <MapPin size={18} strokeWidth={1.8} className="mt-[3px] shrink-0 text-[#8f6e6e]" />
+                          <MapPin size={18} strokeWidth={1.8} className="mt-[3px] shrink-0 text-[#3778b0]" />
                           <span>{SITE.address}</span>
                         </a>
                       </li>
                       <li>
                         <a
                           href={SITE.phoneHref}
-                          className="flex gap-[12px] transition-colors hover:text-[#8f6e6e]"
+                          className="flex gap-[12px] transition-colors hover:text-[#3778b0]"
                         >
-                          <Phone size={18} strokeWidth={1.8} className="mt-[3px] shrink-0 text-[#8f6e6e]" />
+                          <Phone size={18} strokeWidth={1.8} className="mt-[3px] shrink-0 text-[#3778b0]" />
                           <span>{SITE.phoneDisplay}</span>
                         </a>
                       </li>
                       <li className="flex min-w-0 gap-[12px]">
-                        <Mail size={18} strokeWidth={1.8} className="mt-[3px] shrink-0 text-[#8f6e6e]" />
+                        <Mail size={18} strokeWidth={1.8} className="mt-[3px] shrink-0 text-[#3778b0]" />
                         <a
                           href={SITE.emailHref}
-                          className="break-all transition-colors hover:text-[#8f6e6e]"
+                          className="break-all transition-colors hover:text-[#3778b0]"
                         >
                           {SITE.email}
                         </a>
@@ -103,7 +103,7 @@ export default function ContactUsPage() {
                   </div>
 
                   <div
-                    className="sm-reveal border-t border-[#e4e0dd] pt-[26px]"
+                    className="sm-reveal border-t border-[#e3ebf3] pt-[26px]"
                     data-reveal="right"
                     style={{ transitionDelay: "230ms" }}
                   >
@@ -114,7 +114,7 @@ export default function ContactUsPage() {
                       {HOUR_ROWS.map((row) => (
                         <li
                           key={row.day}
-                          className="flex items-center justify-between gap-[16px] border-b border-[#e8e2dd] py-[10px] text-[15px] text-[#5e5e5e] last:border-b-0"
+                          className="flex items-center justify-between gap-[16px] border-b border-[#e3ecf4] py-[10px] text-[15px] text-[#5e5e5e] last:border-b-0"
                         >
                           <span className="uppercase tracking-[0.6px]">{row.day}</span>
                           <span className="text-right">{row.value}</span>
@@ -129,7 +129,6 @@ export default function ContactUsPage() {
         </section>
       </main>
       <SmileFooter />
-      <SmileOverlays />
     </>
   );
 }

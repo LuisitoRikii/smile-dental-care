@@ -64,11 +64,11 @@ export function SmileContact() {
         </header>
 
         <div
-          className="sm-reveal grid grid-cols-1 overflow-hidden rounded-[26px] border border-[#e4e0dd] lg:grid-cols-2"
+          className="sm-reveal grid grid-cols-1 overflow-hidden rounded-[26px] border border-[#e3ebf3] lg:grid-cols-2"
           data-reveal="up"
           style={{ transitionDelay: "200ms" }}
         >
-          <div className="relative grid grid-cols-1 content-center bg-[#f7f4f2]">
+          <div className="relative grid grid-cols-1 content-center bg-[#f2f7fb]">
             <div
               className={`row-start-1 col-start-1 p-[34px] transition-all duration-[700ms] ease-[cubic-bezier(0.16,1,0.3,1)] md:p-[46px] ${
                 formOpen
@@ -83,27 +83,27 @@ export function SmileContact() {
 
               <ul className="mb-[30px] flex flex-col gap-[13px] text-[16px] leading-[1.6] text-[#5e5e5e]">
                 <li className="flex gap-[12px]">
-                  <MapPin size={18} strokeWidth={1.8} className="mt-[3px] shrink-0 text-[#8f6e6e]" />
+                  <MapPin size={18} strokeWidth={1.8} className="mt-[3px] shrink-0 text-[#3778b0]" />
                   <span>{SITE.address}</span>
                 </li>
                 <li className="flex gap-[12px]">
-                  <Phone size={18} strokeWidth={1.8} className="mt-[3px] shrink-0 text-[#8f6e6e]" />
-                  <a href={SITE.phoneHref} className="transition-colors hover:text-[#8f6e6e]">
+                  <Phone size={18} strokeWidth={1.8} className="mt-[3px] shrink-0 text-[#3778b0]" />
+                  <a href={SITE.phoneHref} className="transition-colors hover:text-[#3778b0]">
                     {SITE.phoneDisplayAlt}
                   </a>
                 </li>
                 <li className="flex min-w-0 gap-[12px]">
-                  <Mail size={18} strokeWidth={1.8} className="mt-[3px] shrink-0 text-[#8f6e6e]" />
+                  <Mail size={18} strokeWidth={1.8} className="mt-[3px] shrink-0 text-[#3778b0]" />
                   <a
                     href={SITE.emailHref}
-                    className="break-all transition-colors hover:text-[#8f6e6e]"
+                    className="break-all transition-colors hover:text-[#3778b0]"
                   >
                     {SITE.email}
                   </a>
                 </li>
               </ul>
 
-              <div className="mb-[28px] border-t border-[#e0d9d3] pt-[24px]">
+              <div className="mb-[28px] border-t border-[#e0e9f2] pt-[24px]">
                 <div className="mb-[14px] flex items-center justify-between">
                   <h4 className="font-[family-name:var(--font-head)] text-[15px] font-semibold uppercase tracking-[1.8px] text-[#151515]">
                     {CONTACT.hoursTitle}
@@ -113,7 +113,7 @@ export function SmileContact() {
                     aria-label={hoursOpen ? "Ocultar horario" : "Mostrar horario"}
                     aria-expanded={hoursOpen}
                     onClick={() => setHoursOpen((prev) => !prev)}
-                    className="flex h-[30px] w-[30px] items-center justify-center rounded-full border border-[#e0d9d3] text-[#8f6e6e] transition-colors hover:border-[#8f6e6e]"
+                    className="flex h-[30px] w-[30px] items-center justify-center rounded-full border border-[#e0e9f2] text-[#3778b0] transition-colors hover:border-[#3778b0]"
                   >
                     <ChevronDown
                       size={16}
@@ -128,7 +128,7 @@ export function SmileContact() {
                     {HOUR_ROWS.map((row) => (
                       <li
                         key={row.day}
-                        className={`flex items-center justify-between gap-[16px] border-b border-[#e8e2dd] py-[9px] text-[15px] last:border-b-0 ${
+                        className={`flex items-center justify-between gap-[16px] border-b border-[#e3ecf4] py-[9px] text-[15px] last:border-b-0 ${
                           today === row.dow
                             ? "font-semibold text-[#151515]"
                             : "text-[#5e5e5e]"
@@ -142,7 +142,7 @@ export function SmileContact() {
                 ) : (
                   <p className="text-[15px] text-[#5e5e5e]">
                     Hoy ·{" "}
-                    <span className="text-[#8f6e6e]">
+                    <span className="text-[#3778b0]">
                       {today !== null
                         ? (HOUR_ROWS.find((row) => row.dow === today)?.value ??
                           OPEN_HOURS)
@@ -176,7 +176,7 @@ export function SmileContact() {
             </div>
           </div>
 
-          <div className="relative min-h-[360px] bg-[#eee8e3] lg:min-h-[560px]">
+          <div className="relative min-h-[360px] bg-[#eaf2f9] lg:min-h-[560px]">
             <iframe
               src={SITE.mapsEmbed}
               title="Mapa Smile Dental Care"
@@ -187,7 +187,7 @@ export function SmileContact() {
               href={SITE.mapsDirections}
               target="_blank"
               rel="noopener noreferrer"
-              className="absolute left-[16px] top-[16px] inline-flex items-center gap-[9px] rounded-full bg-white px-[16px] py-[10px] font-[family-name:var(--font-head)] text-[11px] font-semibold uppercase tracking-[1.6px] text-[#151515] shadow-[0_8px_24px_-12px_rgba(0,0,0,0.4)] transition-all duration-300 hover:bg-[#8f6e6e] hover:text-white"
+              className="absolute left-[16px] top-[16px] inline-flex items-center gap-[9px] rounded-full bg-white px-[16px] py-[10px] font-[family-name:var(--font-head)] text-[11px] font-semibold uppercase tracking-[1.6px] text-[#151515] shadow-[0_8px_24px_-12px_rgba(0,0,0,0.4)] transition-all duration-300 hover:bg-[#3778b0] hover:text-white"
             >
               <Navigation size={14} strokeWidth={2} />
               {CONTACT.directions}

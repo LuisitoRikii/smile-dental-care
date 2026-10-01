@@ -9,12 +9,12 @@ export function SmileCtaBand({
   title?: string;
 }) {
   return (
-    <section className="relative overflow-hidden bg-[#232020]">
+    <section className="relative overflow-hidden bg-[#1e2630]">
       <div
         className="absolute inset-0"
         style={{
           background:
-            "linear-gradient(105deg, rgba(35,32,32,0.97) 0%, rgba(63,45,45,0.94) 55%, rgba(35,32,32,0.97) 100%)",
+            "linear-gradient(105deg, rgba(30,38,48,0.97) 0%, rgba(40,64,88,0.94) 55%, rgba(30,38,48,0.97) 100%)",
         }}
       />
       <div className="sm-container relative">

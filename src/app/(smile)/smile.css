@@ -3,24 +3,24 @@
    /advanced-smile-clinic. Every selector and @keyframes name is prefixed `sm-`. */
 
 .sm-root {
-  /* identity — Smile Dental Care palette */
-  --sm-rose: #8f6e6e;
-  --sm-rose-2: #826c6c;
-  --sm-rose-deep: #6d5252;
-  --sm-rose-soft: #a98a8a;
+  /* identity — Smile Dental Care palette (pastel blue, from the logo) */
+  --sm-blue: #3778b0;
+  --sm-blue-2: #2f6ea3;
+  --sm-blue-deep: #2a5f96;
+  --sm-blue-soft: #7fb2dc;
   --sm-ink: #151515;
   --sm-ink-2: #1b1b1b;
   --sm-body: #575757;
   --sm-body-2: #5e5e5e;
   --sm-muted: #8a8a8a;
-  --sm-gray: #f3f3f3;
-  --sm-cream: #f7f4f2;
-  --sm-sand: #efe8e3;
-  --sm-line: #e4e0dd;
+  --sm-gray: #f1f6fa;
+  --sm-cream: #f2f7fb; /* pale blue wash */
+  --sm-sand: #eaf2f9; /* soft pastel blue */
+  --sm-line: #e3ebf3;
   --sm-white: #ffffff;
 
-  /* treatment borrowed from Advanced Smile Clinic: warm neutrals + strong ink */
-  --sm-accent-ink: #232020;
+  /* treatment borrowed from Advanced Smile Clinic: cool pastel neutrals + strong ink */
+  --sm-accent-ink: #1e2630;
 
   font-family: var(--font-body, "Open Sans"), arial, sans-serif;
   font-size: 16px;
@@ -105,7 +105,7 @@
   font-weight: 600;
   letter-spacing: 3px;
   text-transform: uppercase;
-  color: var(--sm-rose);
+  color: var(--sm-blue);
 }
 
 .sm-eyebrow::before {
@@ -121,7 +121,7 @@
 }
 
 .sm-eyebrow--light {
-  color: #d9bcbc;
+  color: #b9d7ef;
 }
 
 /* ---------- buttons (radial-circle hover) ----------
@@ -183,28 +183,28 @@
   }
 
   .sm-btn:focus-visible {
-    outline: 2px solid var(--sm-rose);
+    outline: 2px solid var(--sm-blue);
     outline-offset: 3px;
   }
 
   .sm-btn--light {
     background: var(--sm-white);
-    color: var(--sm-rose-deep);
+    color: var(--sm-blue-deep);
   }
   .sm-btn--light::before {
-    background: var(--sm-rose);
+    background: var(--sm-blue);
   }
   .sm-btn--light:hover {
     color: var(--sm-white);
   }
 
   .sm-btn--solid {
-    background: var(--sm-rose);
+    background: var(--sm-blue);
     color: var(--sm-white);
-    box-shadow: 0 10px 26px -14px rgba(109, 82, 82, 0.9);
+    box-shadow: 0 10px 26px -14px rgba(42, 95, 150, 0.9);
   }
   .sm-btn--solid::before {
-    background: var(--sm-rose-deep);
+    background: var(--sm-blue-deep);
   }
   .sm-btn--solid:hover {
     color: var(--sm-white);
@@ -215,7 +215,7 @@
     color: var(--sm-white);
   }
   .sm-btn--dark::before {
-    background: var(--sm-rose);
+    background: var(--sm-blue);
   }
   .sm-btn--dark:hover {
     color: var(--sm-white);
@@ -230,7 +230,7 @@
     background: var(--sm-white);
   }
   .sm-btn--ghost:hover {
-    color: var(--sm-rose-deep);
+    color: var(--sm-blue-deep);
     border-color: var(--sm-white);
   }
 
@@ -269,7 +269,7 @@
   font-weight: 600;
   letter-spacing: 1.6px;
   text-transform: uppercase;
-  color: var(--sm-rose);
+  color: var(--sm-blue);
 }
 
 .sm-link svg,
@@ -466,7 +466,7 @@
 .sm-card:hover {
   transform: translateY(-8px);
   border-color: transparent;
-  box-shadow: 0 30px 60px -34px rgba(35, 32, 32, 0.4);
+  box-shadow: 0 30px 60px -34px rgba(30, 38, 48, 0.4);
 }
 
 /* ---------- reduced motion ---------- */

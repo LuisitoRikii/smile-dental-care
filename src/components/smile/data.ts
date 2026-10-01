@@ -16,9 +16,6 @@ export const SITE = {
     "https://www.google.com/maps/dir/?api=1&destination=25.780214,-80.264785",
   instagram: "https://www.instagram.com/smiledentalcare305/",
   copyright: "Copyright © 2026  Smile Dental Care - Todos los derechos reservados.",
-  poweredBy: "Con tecnología de",
-  poweredByHref:
-    "https://www.godaddy.com/websites/website-builder?isc=pwugc&utm_source=wsb&utm_medium=applications&utm_campaign=es-us_corp_applications_base",
 } as const;
 
 export const IMG = "/sites/smiledentalcare.info-b93df72c/root-8a5edab2/images";
@@ -172,11 +169,12 @@ export const CONTACT = {
   formTrigger: "Comunícate con nosotros.",
   formTitle: "Comunícate con nosotros.",
   fields: [
-    { label: "Nombre", type: "text" },
-    { label: "Correo electrónico*", type: "email" },
-    { label: "Teléfono", type: "tel" },
+    { label: "Nombre", type: "text", name: "name" },
+    { label: "Correo electrónico*", type: "email", name: "email", required: true },
+    { label: "Teléfono", type: "tel", name: "phone" },
   ],
   notesLabel: "Otras notas",
+  notesName: "message",
   attach: "Adjuntar archivos",
   attachCount: "Datos adjuntos (0)",
   recaptchaBefore: "Este sitio está protegido por reCAPTCHA y aplican las",
@@ -187,6 +185,9 @@ export const CONTACT = {
   recaptchaTermsHref: "https://policies.google.com/terms",
   recaptchaTail: "de Google.",
   submit: "Enviar",
+  submitSending: "Enviando…",
+  submitSuccess: "¡Listo! Tu mensaje fue enviado. Te responderemos a la brevedad.",
+  submitError: "No se pudo enviar el mensaje. Inténtalo de nuevo más tarde.",
   cancel: "Cancelar",
   directions: "Consigue las instrucciones",
 } as const;

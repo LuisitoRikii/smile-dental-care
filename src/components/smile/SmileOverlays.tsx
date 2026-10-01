@@ -1,14 +1,39 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useSyncExternalStore } from "react";
 import { MessageCircle } from "lucide-react";
 
 import { COOKIE, CONTACT } from "./data";
 
-const BADGE_SRC = "/sites/smiledentalcare.info-b93df72c/root-8a5edab2/images/trustedsite.svg";
+const COOKIE_KEY = "sdc-cookie-accept";
+
+function subscribe(onStoreChange: () => void) {
+  window.addEventListener("storage", onStoreChange);
+  return () => window.removeEventListener("storage", onStoreChange);
+}
+
+function readAccepted() {
+  try {
+    return window.localStorage.getItem(COOKIE_KEY) === "1";
+  } catch {
+    return false;
+  }
+}
+
+const readServerAccepted = () => true;
 
 export function SmileOverlays() {
-  const [accepted, setAccepted] = useState(false);
+  const accepted = useSyncExternalStore(subscribe, readAccepted, readServerAccepted);
+  const [dismissed, setDismissed] = useState(false);
+
+  const accept = () => {
+    try {
+      window.localStorage.setItem(COOKIE_KEY, "1");
+    } catch {
+      /* storage unavailable (private mode) — just dismiss for this page */
+    }
+    setDismissed(true);
+  };
 
   return (
     <>
@@ -20,16 +45,12 @@ export function SmileOverlays() {
         <MessageCircle size={28} strokeWidth={1.7} />
       </a>
 
-      <img
-        src={BADGE_SRC}
-        alt="TrustedSite"
-        width={92}
-        height={38}
-        className="fixed bottom-[-8px] left-[15px] z-[10003] h-[38px] w-auto"
-      />
-
-      {!accepted ? (
-        <div className="fixed inset-x-0 bottom-0 z-[10000] border-t border-[#e4e0dd] bg-white px-[24px] py-[22px] shadow-[0_-10px_36px_-20px_rgba(0,0,0,0.45)]">
+      {!accepted && !dismissed ? (
+        <div
+          role="region"
+          aria-label={COOKIE.title}
+          className="fixed inset-x-0 bottom-0 z-[10000] border-t border-[#e3ebf3] bg-white px-[24px] py-[22px] shadow-[0_-10px_36px_-20px_rgba(0,0,0,0.45)]"
+        >
           <div className="mx-auto flex max-w-[1200px] flex-col items-start justify-between gap-[16px] lg:flex-row lg:items-center">
             <div className="max-w-[820px]">
               <h2 className="mb-[6px] font-[family-name:var(--font-head)] text-[15px] font-semibold text-[#151515]">
@@ -41,7 +62,7 @@ export function SmileOverlays() {
             </div>
             <button
               type="button"
-              onClick={() => setAccepted(true)}
+              onClick={accept}
               className="sm-btn sm-btn--solid shrink-0"
             >
               {COOKIE.accept}

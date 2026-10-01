@@ -4,7 +4,6 @@ import Image from "next/image";
 import { SmileCtaBand } from "@/components/smile/SmileCtaBand";
 import { SmileFooter } from "@/components/smile/SmileFooter";
 import { SmileHeader } from "@/components/smile/SmileHeader";
-import { SmileOverlays } from "@/components/smile/SmileOverlays";
 import { SmilePageHero } from "@/components/smile/SmilePageHero";
 import { SmileReveal } from "@/components/smile/SmileReveal";
 import { DOCTOR } from "@/components/smile/data";
@@ -36,8 +35,8 @@ export default function StaffPage() {
                   className="sm-reveal relative"
                   data-reveal="left"
                 >
-                  <div className="absolute -bottom-[18px] -right-[14px] hidden h-full w-full rounded-[26px] bg-[#efe8e3] sm:block" />
-                  <div className="relative overflow-hidden rounded-[26px] shadow-[0_36px_70px_-44px_rgba(35,32,32,0.6)]">
+                  <div className="absolute -bottom-[18px] -right-[14px] hidden h-full w-full rounded-[26px] bg-[#eaf2f9] sm:block" />
+                  <div className="relative overflow-hidden rounded-[26px] shadow-[0_36px_70px_-44px_rgba(30,38,48,0.6)]">
                     <Image
                       src={DOCTOR.image}
                       alt={DOCTOR.name}
@@ -60,14 +59,14 @@ export default function StaffPage() {
                     {DOCTOR.name}
                   </h2>
                   <p
-                    className="sm-reveal mb-[26px] font-[family-name:var(--font-display)] text-[21px] italic leading-[1.4] text-[#8f6e6e] md:text-[24px]"
+                    className="sm-reveal mb-[26px] font-[family-name:var(--font-display)] text-[21px] italic leading-[1.4] text-[#3778b0] md:text-[24px]"
                     data-reveal="right"
                     style={{ transitionDelay: "130ms" }}
                   >
                     {DOCTOR.lead}
                   </p>
 
-                  <div className="flex flex-col gap-[18px] border-t border-[#e4e0dd] pt-[26px]">
+                  <div className="flex flex-col gap-[18px] border-t border-[#e3ebf3] pt-[26px]">
                     {DOCTOR.paragraphs.map((paragraph, index) => (
                       <p
                         key={paragraph.slice(0, 24)}
@@ -88,7 +87,6 @@ export default function StaffPage() {
         <SmileCtaBand />
       </main>
       <SmileFooter />
-      <SmileOverlays />
     </>
   );
 }

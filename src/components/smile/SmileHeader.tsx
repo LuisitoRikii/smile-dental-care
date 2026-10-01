@@ -34,7 +34,7 @@ export function SmileHeader() {
   const linkClass = (active: boolean) =>
     [
       "block whitespace-nowrap font-[family-name:var(--font-head)] text-[12.5px] font-semibold uppercase tracking-[1.15px] transition-colors duration-300",
-      scrolled ? "text-[#6d5252] hover:text-[#151515]" : "text-white/95 hover:text-white",
+      scrolled ? "text-[#2a5f96] hover:text-[#151515]" : "text-white/95 hover:text-white",
       active ? "relative" : "",
     ].join(" ");
 
@@ -42,7 +42,7 @@ export function SmileHeader() {
     active ? (
       <span
         className={`absolute -bottom-[7px] left-0 h-[1.5px] w-full ${
-          scrolled ? "bg-[#8f6e6e]" : "bg-white"
+          scrolled ? "bg-[#3778b0]" : "bg-white"
         }`}
       />
     ) : null;
@@ -52,7 +52,7 @@ export function SmileHeader() {
       <header className="fixed inset-x-0 top-0 z-[998]">
         {/* top info bar */}
         <div
-          className="overflow-hidden bg-[#8f6e6e] transition-all duration-[400ms] ease-out"
+          className="overflow-hidden bg-[#3778b0] transition-all duration-[400ms] ease-out"
           style={{
             maxHeight: scrolled ? 0 : 64,
             opacity: scrolled ? 0 : 1,
@@ -160,8 +160,8 @@ export function SmileHeader() {
                   aria-label="Llamar"
                   className={`flex h-[40px] w-[40px] items-center justify-center rounded-full transition-colors ${
                     scrolled
-                      ? "bg-[#8f6e6e] text-white"
-                      : "bg-white/95 text-[#6d5252]"
+                      ? "bg-[#3778b0] text-white"
+                      : "bg-white/95 text-[#2a5f96]"
                   }`}
                 >
                   <Phone size={17} strokeWidth={2.1} />
@@ -173,8 +173,8 @@ export function SmileHeader() {
                   aria-label="Ubicación"
                   className={`hidden h-[40px] w-[40px] items-center justify-center rounded-full transition-colors min-[560px]:flex ${
                     scrolled
-                      ? "bg-[#8f6e6e] text-white"
-                      : "bg-white/95 text-[#6d5252]"
+                      ? "bg-[#3778b0] text-white"
+                      : "bg-white/95 text-[#2a5f96]"
                   }`}
                 >
                   <MapPin size={17} strokeWidth={2.1} />
@@ -184,8 +184,8 @@ export function SmileHeader() {
                   aria-label="Agendar cita"
                   className={`flex h-[40px] w-[40px] items-center justify-center rounded-full transition-colors ${
                     scrolled
-                      ? "bg-[#8f6e6e] text-white"
-                      : "bg-white/95 text-[#6d5252]"
+                      ? "bg-[#3778b0] text-white"
+                      : "bg-white/95 text-[#2a5f96]"
                   }`}
                 >
                   <CalendarDays size={17} strokeWidth={2.1} />
@@ -196,7 +196,7 @@ export function SmileHeader() {
                 aria-expanded={menuOpen}
                 onClick={() => setMenuOpen(true)}
                 className={`ml-[6px] flex h-[44px] w-[44px] items-center justify-center transition-colors ${
-                  scrolled ? "text-[#6d5252]" : "text-white"
+                  scrolled ? "text-[#2a5f96]" : "text-white"
                 }`}
               >
                 <Menu size={30} strokeWidth={1.8} />
@@ -223,7 +223,7 @@ export function SmileHeader() {
           }`}
         />
         <nav
-          className={`absolute inset-y-0 left-0 flex w-[86%] max-w-[380px] flex-col bg-[#6d5252] px-[28px] pt-[26px] shadow-[8px_0_40px_rgba(0,0,0,0.28)] transition-transform duration-[380ms] ease-[cubic-bezier(0.16,1,0.3,1)] ${
+          className={`absolute inset-y-0 left-0 flex w-[86%] max-w-[380px] flex-col bg-[#2a5f96] px-[28px] pt-[26px] shadow-[8px_0_40px_rgba(0,0,0,0.28)] transition-transform duration-[380ms] ease-[cubic-bezier(0.16,1,0.3,1)] ${
             menuOpen ? "translate-x-0" : "-translate-x-full"
           }`}
         >

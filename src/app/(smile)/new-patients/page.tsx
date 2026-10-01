@@ -3,7 +3,6 @@ import type { Metadata } from "next";
 import { SmileCtaBand } from "@/components/smile/SmileCtaBand";
 import { SmileFooter } from "@/components/smile/SmileFooter";
 import { SmileHeader } from "@/components/smile/SmileHeader";
-import { SmileOverlays } from "@/components/smile/SmileOverlays";
 import { SmilePageHero } from "@/components/smile/SmilePageHero";
 import { SmileReveal } from "@/components/smile/SmileReveal";
 import { MISSION } from "@/components/smile/data";
@@ -55,7 +54,7 @@ export default function NewPatientsPage() {
           </div>
         </section>
 
-        <section className="sm-section bg-[#f7f4f2]">
+        <section className="sm-section bg-[#f2f7fb]">
           <div className="sm-container">
             <SmileReveal>
               <header className="mb-[34px] max-w-[760px]">
@@ -81,7 +80,7 @@ export default function NewPatientsPage() {
 
             <SmileReveal>
               <p
-                className="sm-reveal mb-[26px] border-t border-[#e4e0dd] pt-[26px] font-[family-name:var(--font-head)] text-[15px] font-semibold leading-[1.6] text-[#151515]"
+                className="sm-reveal mb-[26px] border-t border-[#e3ebf3] pt-[26px] font-[family-name:var(--font-head)] text-[15px] font-semibold leading-[1.6] text-[#151515]"
                 data-reveal="up"
               >
                 {MISSION.leadHeading}
@@ -91,14 +90,14 @@ export default function NewPatientsPage() {
                 {MISSION.commitments.map((item, index) => (
                   <li
                     key={item}
-                    className="sm-reveal rounded-[22px] border border-[#e4e0dd] bg-white p-[30px] transition-all duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] hover:-translate-y-[6px] hover:shadow-[0_30px_56px_-38px_rgba(35,32,32,0.45)]"
+                    className="sm-reveal rounded-[22px] border border-[#e3ebf3] bg-white p-[30px] transition-all duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] hover:-translate-y-[6px] hover:shadow-[0_30px_56px_-38px_rgba(30,38,48,0.45)]"
                     data-reveal="up"
                     style={{ transitionDelay: `${index * 90}ms` }}
                   >
-                    <span className="mb-[20px] block font-[family-name:var(--font-display)] text-[40px] font-semibold leading-none text-[#e0cfcf]">
+                    <span className="mb-[20px] block font-[family-name:var(--font-display)] text-[40px] font-semibold leading-none text-[#d3e6f7]">
                       0{index + 1}
                     </span>
-                    <p className="text-[16px] leading-[1.7] text-[#3f3b3b]">{item}</p>
+                    <p className="text-[16px] leading-[1.7] text-[#37414d]">{item}</p>
                   </li>
                 ))}
               </ol>
@@ -131,7 +130,6 @@ export default function NewPatientsPage() {
         <SmileCtaBand />
       </main>
       <SmileFooter />
-      <SmileOverlays />
     </>
   );
 }

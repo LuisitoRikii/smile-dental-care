@@ -35,7 +35,7 @@ export function SmilePageHero({
         className="absolute inset-0 -z-10"
         style={{
           background:
-            "linear-gradient(100deg, rgba(14,12,12,0.90) 0%, rgba(48,34,34,0.78) 40%, rgba(72,53,47,0.50) 72%, rgba(32,25,23,0.42) 100%)",
+            "linear-gradient(100deg, rgba(14,12,12,0.90) 0%, rgba(30,50,72,0.78) 40%, rgba(46,72,96,0.50) 72%, rgba(20,36,52,0.42) 100%)",
         }}
       />
       <div

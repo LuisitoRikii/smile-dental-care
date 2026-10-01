@@ -12,7 +12,7 @@ export function SmileDestacados() {
   const ref = useReveal<HTMLElement>();
 
   return (
-    <section ref={ref} className="sm-section bg-[#232020]">
+    <section ref={ref} className="sm-section bg-[#1e2630]">
       <div className="sm-container">
         <header className="mb-[46px] max-w-[760px] md:mb-[58px]">
           <p className="sm-eyebrow sm-eyebrow--light mb-[20px] sm-reveal" data-reveal="up">
@@ -33,11 +33,11 @@ export function SmileDestacados() {
             return (
               <article
                 key={card.title}
-                className="sm-reveal group flex flex-col rounded-[24px] border border-white/12 bg-white/[0.045] p-[32px] transition-all duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] hover:-translate-y-[6px] hover:border-[#8f6e6e]/70 hover:bg-white/[0.08]"
+                className="sm-reveal group flex flex-col rounded-[24px] border border-white/12 bg-white/[0.045] p-[32px] transition-all duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] hover:-translate-y-[6px] hover:border-[#3778b0]/70 hover:bg-white/[0.08]"
                 data-reveal="up"
                 style={{ transitionDelay: `${index * 110}ms` }}
               >
-                <span className="mb-[24px] flex h-[52px] w-[52px] items-center justify-center rounded-full bg-[#8f6e6e] text-white transition-transform duration-500 group-hover:scale-[1.08]">
+                <span className="mb-[24px] flex h-[52px] w-[52px] items-center justify-center rounded-full bg-[#3778b0] text-white transition-transform duration-500 group-hover:scale-[1.08]">
                   <Icon size={22} strokeWidth={1.8} />
                 </span>
 
@@ -52,7 +52,7 @@ export function SmileDestacados() {
                 <Link
                   href={card.href}
                   aria-label={HIGHLIGHTS.eyebrow}
-                  className="mt-auto inline-flex items-center pt-[26px] text-[#e6c9c9] transition-colors duration-300 group-hover:text-white"
+                  className="mt-auto inline-flex items-center pt-[26px] text-[#a9cff0] transition-colors duration-300 group-hover:text-white"
                 >
                   <ArrowRight
                     size={20}

@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
+
+import { SmileOverlays } from "@/components/smile/SmileOverlays";
+
 import "./smile.css";
 
 const poppins = Poppins({
@@ -57,5 +60,10 @@ export const metadata: Metadata = {
 export default function SmileLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
-  return <div className={`sm-root ${poppins.variable}`}>{children}</div>;
+  return (
+    <div className={`sm-root ${poppins.variable}`}>
+      {children}
+      <SmileOverlays />
+    </div>
+  );
 }

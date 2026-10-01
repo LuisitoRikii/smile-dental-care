@@ -46,7 +46,7 @@ export function SmileGallery({ images }: { images: readonly string[] }) {
             type="button"
             onClick={() => setActive(index)}
             aria-label={`Ver imagen ${index + 1}`}
-            className="sm-reveal group relative block overflow-hidden rounded-[24px] bg-[#efe8e3] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#8f6e6e]"
+            className="sm-reveal group relative block overflow-hidden rounded-[24px] bg-[#eaf2f9] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#3778b0]"
             data-reveal="up"
             style={{ transitionDelay: `${(index % 3) * 90}ms` }}
           >

@@ -12,7 +12,7 @@ export function SmileAbout() {
   const ref = useReveal<HTMLElement>();
 
   return (
-    <section ref={ref} className="sm-section bg-[#f7f4f2]">
+    <section ref={ref} className="sm-section bg-[#f2f7fb]">
       <div className="sm-container">
         <header className="mb-[52px] max-w-[880px] md:mb-[64px]">
           <p className="sm-eyebrow sm-reveal mb-[20px]" data-reveal="up">
@@ -30,7 +30,7 @@ export function SmileAbout() {
         <div className="grid grid-cols-1 items-start gap-[44px] lg:grid-cols-[1.02fr_1fr] lg:gap-[70px]">
           <div className="flex flex-col gap-[18px]">
             <div
-              className="sm-reveal overflow-hidden rounded-[26px] bg-white shadow-[0_24px_60px_-40px_rgba(35,32,32,0.5)]"
+              className="sm-reveal overflow-hidden rounded-[26px] bg-white shadow-[0_24px_60px_-40px_rgba(30,38,48,0.5)]"
               data-reveal="left"
             >
               <img
@@ -45,7 +45,7 @@ export function SmileAbout() {
 
             <div className="grid grid-cols-2 gap-[18px]">
               <div
-                className="sm-reveal overflow-hidden rounded-[26px] bg-white shadow-[0_24px_60px_-40px_rgba(35,32,32,0.5)]"
+                className="sm-reveal overflow-hidden rounded-[26px] bg-white shadow-[0_24px_60px_-40px_rgba(30,38,48,0.5)]"
                 data-reveal="left"
                 style={{ transitionDelay: "120ms" }}
               >
@@ -59,7 +59,7 @@ export function SmileAbout() {
                 />
               </div>
               <div
-                className="sm-reveal overflow-hidden rounded-[26px] bg-white shadow-[0_24px_60px_-40px_rgba(35,32,32,0.5)]"
+                className="sm-reveal overflow-hidden rounded-[26px] bg-white shadow-[0_24px_60px_-40px_rgba(30,38,48,0.5)]"
                 data-reveal="left"
                 style={{ transitionDelay: "220ms" }}
               >
@@ -79,12 +79,12 @@ export function SmileAbout() {
             {ABOUT.rows.map((row, index) => (
               <li
                 key={row.title}
-                className="sm-reveal border-t border-[#e0d9d3] py-[30px] first:border-t-0 first:pt-0 last:pb-0"
+                className="sm-reveal border-t border-[#e0e9f2] py-[30px] first:border-t-0 first:pt-0 last:pb-0"
                 data-reveal="right"
                 style={{ transitionDelay: `${index * 110}ms` }}
               >
                 <div className="mb-[14px] flex items-baseline gap-[16px]">
-                  <span className="font-[family-name:var(--font-head)] text-[12px] font-semibold tracking-[2px] text-[#8f6e6e]">
+                  <span className="font-[family-name:var(--font-head)] text-[12px] font-semibold tracking-[2px] text-[#3778b0]">
                     0{index + 1}
                   </span>
                   <h3 className="font-[family-name:var(--font-head)] text-[21px] font-semibold leading-[1.3] text-[#151515] md:text-[24px]">
@@ -100,21 +100,21 @@ export function SmileAbout() {
         </div>
 
         <div
-          className="sm-reveal mt-[56px] flex flex-wrap items-center gap-[14px] border-t border-[#e0d9d3] pt-[34px]"
+          className="sm-reveal mt-[56px] flex flex-wrap items-center gap-[14px] border-t border-[#e0e9f2] pt-[34px]"
           data-reveal="up"
         >
-          <span className="font-[family-name:var(--font-head)] text-[11px] font-semibold uppercase tracking-[2.4px] text-[#8f6e6e]">
+          <span className="font-[family-name:var(--font-head)] text-[11px] font-semibold uppercase tracking-[2.4px] text-[#3778b0]">
             Instalaciones y Equipos
           </span>
           {HIGHLIGHTS.equipment.map((item) => (
             <span
               key={item}
-              className="inline-flex items-center gap-[9px] rounded-full border border-[#e0d9d3] bg-white px-[18px] py-[9px] font-[family-name:var(--font-head)] text-[13px] font-medium text-[#151515]"
+              className="inline-flex items-center gap-[9px] rounded-full border border-[#e0e9f2] bg-white px-[18px] py-[9px] font-[family-name:var(--font-head)] text-[13px] font-medium text-[#151515]"
             >
               {item === "Digital X-rays" ? (
-                <ScanLine size={15} strokeWidth={1.9} className="text-[#8f6e6e]" />
+                <ScanLine size={15} strokeWidth={1.9} className="text-[#3778b0]" />
               ) : (
-                <Cpu size={15} strokeWidth={1.9} className="text-[#8f6e6e]" />
+                <Cpu size={15} strokeWidth={1.9} className="text-[#3778b0]" />
               )}
               {item}
             </span>

@@ -7,7 +7,6 @@ import { SmileFooter } from "@/components/smile/SmileFooter";
 import { SmileHeader } from "@/components/smile/SmileHeader";
 import { SmileHero } from "@/components/smile/SmileHero";
 import { SmileMission } from "@/components/smile/SmileMission";
-import { SmileOverlays } from "@/components/smile/SmileOverlays";
 import { SmileServices } from "@/components/smile/SmileServices";
 import { SmileSocial } from "@/components/smile/SmileSocial";
 import { SmileSubscribe } from "@/components/smile/SmileSubscribe";
@@ -29,7 +28,6 @@ export default function Home() {
         <SmileSubscribe />
       </main>
       <SmileFooter />
-      <SmileOverlays />
     </>
   );
 }

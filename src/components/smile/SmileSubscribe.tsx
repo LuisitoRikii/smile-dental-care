@@ -18,7 +18,7 @@ export function SmileSubscribe() {
   };
 
   return (
-    <section ref={ref} className="relative overflow-hidden bg-[#232020]">
+    <section ref={ref} className="relative overflow-hidden bg-[#1e2630]">
       <img
         src={SUBSCRIBE.image}
         alt=""
@@ -32,7 +32,7 @@ export function SmileSubscribe() {
         className="absolute inset-0"
         style={{
           background:
-            "linear-gradient(105deg, rgba(20,17,17,0.93) 0%, rgba(60,42,42,0.86) 52%, rgba(24,20,20,0.82) 100%)",
+            "linear-gradient(105deg, rgba(20,17,17,0.93) 0%, rgba(38,62,86,0.86) 52%, rgba(24,20,20,0.82) 100%)",
         }}
       />
 

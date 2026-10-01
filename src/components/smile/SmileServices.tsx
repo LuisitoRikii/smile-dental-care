@@ -126,8 +126,8 @@ export function SmileServices() {
           </div>
         </div>
 
-        <div className="mb-[26px] flex items-center justify-between gap-[20px] border-t border-[#e4e0dd] pt-[26px]">
-          <p className="font-[family-name:var(--font-head)] text-[12px] font-semibold uppercase tracking-[2.4px] text-[#8f6e6e]">
+        <div className="mb-[26px] flex items-center justify-between gap-[20px] border-t border-[#e3ebf3] pt-[26px]">
+          <p className="font-[family-name:var(--font-head)] text-[12px] font-semibold uppercase tracking-[2.4px] text-[#3778b0]">
             {SERVICES.listHeading}
           </p>
 
@@ -137,7 +137,7 @@ export function SmileServices() {
               aria-label="Servicios anteriores"
               onClick={() => go(-1)}
               disabled={!canPrev}
-              className="flex h-[46px] w-[46px] items-center justify-center rounded-full border border-[#e4e0dd] text-[#151515] transition-all duration-300 hover:border-[#8f6e6e] hover:bg-[#8f6e6e] hover:text-white disabled:pointer-events-none disabled:opacity-35"
+              className="flex h-[46px] w-[46px] items-center justify-center rounded-full border border-[#e3ebf3] text-[#151515] transition-all duration-300 hover:border-[#3778b0] hover:bg-[#3778b0] hover:text-white disabled:pointer-events-none disabled:opacity-35"
             >
               <ArrowLeft size={18} strokeWidth={1.8} />
             </button>
@@ -146,7 +146,7 @@ export function SmileServices() {
               aria-label="Siguientes servicios"
               onClick={() => go(1)}
               disabled={!canNext}
-              className="flex h-[46px] w-[46px] items-center justify-center rounded-full border border-[#e4e0dd] text-[#151515] transition-all duration-300 hover:border-[#8f6e6e] hover:bg-[#8f6e6e] hover:text-white disabled:pointer-events-none disabled:opacity-35"
+              className="flex h-[46px] w-[46px] items-center justify-center rounded-full border border-[#e3ebf3] text-[#151515] transition-all duration-300 hover:border-[#3778b0] hover:bg-[#3778b0] hover:text-white disabled:pointer-events-none disabled:opacity-35"
             >
               <ArrowRight size={18} strokeWidth={1.8} />
             </button>
@@ -164,15 +164,15 @@ export function SmileServices() {
                       href={item.href}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="group flex h-full min-h-[248px] flex-col rounded-[22px] border border-[#e4e0dd] bg-white p-[26px] transition-all duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] hover:-translate-y-[6px] hover:border-transparent hover:shadow-[0_30px_56px_-34px_rgba(35,32,32,0.45)]"
+                      className="group flex h-full min-h-[248px] flex-col rounded-[22px] border border-[#e3ebf3] bg-white p-[26px] transition-all duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] hover:-translate-y-[6px] hover:border-transparent hover:shadow-[0_30px_56px_-34px_rgba(30,38,48,0.45)]"
                     >
-                      <span className="mb-[20px] flex h-[50px] w-[50px] items-center justify-center rounded-full bg-[#f7f4f2] text-[#8f6e6e] transition-colors duration-300 group-hover:bg-[#8f6e6e] group-hover:text-white">
+                      <span className="mb-[20px] flex h-[50px] w-[50px] items-center justify-center rounded-full bg-[#f2f7fb] text-[#3778b0] transition-colors duration-300 group-hover:bg-[#3778b0] group-hover:text-white">
                         <Icon size={21} strokeWidth={1.7} />
                       </span>
                       <p className="font-[family-name:var(--font-head)] text-[15.5px] font-medium leading-[1.5] text-[#151515]">
                         {item.label}
                       </p>
-                      <span className="mt-auto flex items-center justify-end pt-[20px] text-[#c9c2bd] transition-all duration-300 group-hover:translate-x-[6px] group-hover:text-[#8f6e6e]">
+                      <span className="mt-auto flex items-center justify-end pt-[20px] text-[#b9c8d6] transition-all duration-300 group-hover:translate-x-[6px] group-hover:text-[#3778b0]">
                         <ArrowRight size={18} strokeWidth={1.8} />
                       </span>
                     </a>
@@ -184,7 +184,7 @@ export function SmileServices() {
         </div>
 
         <div
-          className="sm-reveal mt-[56px] grid grid-cols-1 items-stretch gap-0 overflow-hidden rounded-[26px] bg-[#f7f4f2] lg:grid-cols-[minmax(0,42%)_1fr]"
+          className="sm-reveal mt-[56px] grid grid-cols-1 items-stretch gap-0 overflow-hidden rounded-[26px] bg-[#f2f7fb] lg:grid-cols-[minmax(0,42%)_1fr]"
           data-reveal="up"
         >
           <div className="relative min-h-[240px] overflow-hidden lg:min-h-[340px]">

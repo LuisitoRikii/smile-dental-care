@@ -5,7 +5,6 @@ import { Siren } from "lucide-react";
 import { SmileCtaBand } from "@/components/smile/SmileCtaBand";
 import { SmileFooter } from "@/components/smile/SmileFooter";
 import { SmileHeader } from "@/components/smile/SmileHeader";
-import { SmileOverlays } from "@/components/smile/SmileOverlays";
 import { SmilePageHero } from "@/components/smile/SmilePageHero";
 import { SmileReveal } from "@/components/smile/SmileReveal";
 import { SERVICES } from "@/components/smile/data";
@@ -54,7 +53,7 @@ export default function ServicePage() {
                 </div>
 
                 <div
-                  className="sm-reveal overflow-hidden rounded-[26px] shadow-[0_30px_64px_-42px_rgba(35,32,32,0.6)]"
+                  className="sm-reveal overflow-hidden rounded-[26px] shadow-[0_30px_64px_-42px_rgba(30,38,48,0.6)]"
                   data-reveal="right"
                   style={{ transitionDelay: "120ms" }}
                 >
@@ -69,8 +68,8 @@ export default function ServicePage() {
               </div>
             </SmileReveal>
 
-            <div className="mt-[64px] border-t border-[#e4e0dd] pt-[34px]">
-              <p className="mb-[30px] font-[family-name:var(--font-head)] text-[12px] font-semibold uppercase tracking-[2.4px] text-[#8f6e6e]">
+            <div className="mt-[64px] border-t border-[#e3ebf3] pt-[34px]">
+              <p className="mb-[30px] font-[family-name:var(--font-head)] text-[12px] font-semibold uppercase tracking-[2.4px] text-[#3778b0]">
                 {SERVICES.listHeading}
               </p>
 
@@ -82,11 +81,11 @@ export default function ServicePage() {
                         href={item.href}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="sm-reveal group flex h-full items-start gap-[18px] rounded-[20px] border border-[#e4e0dd] bg-white p-[26px] transition-all duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] hover:-translate-y-[5px] hover:border-transparent hover:shadow-[0_30px_56px_-34px_rgba(35,32,32,0.4)]"
+                        className="sm-reveal group flex h-full items-start gap-[18px] rounded-[20px] border border-[#e3ebf3] bg-white p-[26px] transition-all duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] hover:-translate-y-[5px] hover:border-transparent hover:shadow-[0_30px_56px_-34px_rgba(30,38,48,0.4)]"
                         data-reveal="up"
                         style={{ transitionDelay: `${(index % 3) * 80}ms` }}
                       >
-                        <span className="flex h-[34px] w-[34px] shrink-0 items-center justify-center rounded-full bg-[#f7f4f2] font-[family-name:var(--font-display)] text-[14px] font-semibold text-[#8f6e6e] transition-colors duration-300 group-hover:bg-[#8f6e6e] group-hover:text-white">
+                        <span className="flex h-[34px] w-[34px] shrink-0 items-center justify-center rounded-full bg-[#f2f7fb] font-[family-name:var(--font-display)] text-[14px] font-semibold text-[#3778b0] transition-colors duration-300 group-hover:bg-[#3778b0] group-hover:text-white">
                           {String(index + 1).padStart(2, "0")}
                         </span>
                         <span className="font-[family-name:var(--font-head)] text-[15.5px] font-medium leading-[1.55] text-[#151515]">
@@ -101,10 +100,10 @@ export default function ServicePage() {
 
             <SmileReveal>
               <div
-                className="sm-reveal mt-[56px] flex flex-col items-start gap-[24px] rounded-[26px] border border-[#e4e0dd] bg-[#f7f4f2] p-[34px] sm:flex-row sm:gap-[32px] md:p-[48px]"
+                className="sm-reveal mt-[56px] flex flex-col items-start gap-[24px] rounded-[26px] border border-[#e3ebf3] bg-[#f2f7fb] p-[34px] sm:flex-row sm:gap-[32px] md:p-[48px]"
                 data-reveal="up"
               >
-                <span className="flex h-[64px] w-[64px] shrink-0 items-center justify-center rounded-full bg-[#8f6e6e] text-white">
+                <span className="flex h-[64px] w-[64px] shrink-0 items-center justify-center rounded-full bg-[#3778b0] text-white">
                   <Siren size={28} strokeWidth={1.7} />
                 </span>
                 <div>
@@ -123,7 +122,6 @@ export default function ServicePage() {
         <SmileCtaBand />
       </main>
       <SmileFooter />
-      <SmileOverlays />
     </>
   );
 }
